@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Compact Categories System
+ * BRAVESGADGET LLC - Compact Categories System
  * Category blocks with modal display
  */
 

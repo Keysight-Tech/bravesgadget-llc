@@ -1,5 +1,5 @@
 -- ============================================
--- FORDIPS TECH - Products Seed Data (75 products)
+-- BRAVESGADGET LLC - Products Seed Data (75 products)
 -- Run this after supabase-migration.sql
 -- ============================================
 

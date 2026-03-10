@@ -1,5 +1,5 @@
 -- ═══════════════════════════════════════════════════════════════════════════════
--- 🔍 FORDIPS TECH - PRODUCT DISPLAY VERIFICATION SCRIPT
+-- 🔍 BRAVESGADGET LLC - PRODUCT DISPLAY VERIFICATION SCRIPT
 -- ═══════════════════════════════════════════════════════════════════════════════
 --
 -- 🎯 PURPOSE: Verify all 75 products are displaying correctly in the database

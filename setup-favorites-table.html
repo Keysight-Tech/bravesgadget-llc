@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Setup Favorites Table - Fordips Tech</title>
+    <title>Setup Favorites Table - BravesGadget LLC</title>
     <style>
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -138,8 +138,8 @@ CREATE POLICY "Users can delete their own favorites"
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="config.js"></script>
     <script>
-        const SUPABASE_URL = window.FORDIPS_CONFIG?.SUPABASE_CONFIG?.url || 'https://loutcbvftzojsioahtdw.supabase.co';
-        const SUPABASE_ANON_KEY = window.FORDIPS_CONFIG?.SUPABASE_CONFIG?.anonKey || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxvdXRjYnZmdHpvanNpb2FodGR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEyNDc5NjMsImV4cCI6MjA3NjgyMzk2M30.u49fBtuF99IsEAr8iYLo_3SnHAOqTR-Y7WPXnkGVKOs';
+        const SUPABASE_URL = window.BRAVESGADGET_CONFIG?.SUPABASE_CONFIG?.url || 'https://loutcbvftzojsioahtdw.supabase.co';
+        const SUPABASE_ANON_KEY = window.BRAVESGADGET_CONFIG?.SUPABASE_CONFIG?.anonKey || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxvdXRjYnZmdHpvanNpb2FodGR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEyNDc5NjMsImV4cCI6MjA3NjgyMzk2M30.u49fBtuF99IsEAr8iYLo_3SnHAOqTR-Y7WPXnkGVKOs';
 
         const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 

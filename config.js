@@ -1,12 +1,12 @@
 /**
- * FORDIPS TECH - Configuration Management
+ * BRAVESGADGET LLC - Configuration Management
  * Centralized configuration with environment support
  */
 
 // Environment detection
 const ENV = {
     isDevelopment: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1',
-    isProduction: window.location.hostname.includes('github.io') || window.location.hostname.includes('fordipstech.com')
+    isProduction: window.location.hostname.includes('github.io') || window.location.hostname.includes('bravesgadget.com')
 };
 
 // Supabase Configuration
@@ -19,18 +19,18 @@ const SUPABASE_CONFIG = {
 
 // Application Configuration
 const APP_CONFIG = {
-    name: 'Fordips Tech',
+    name: 'BravesGadget LLC',
     version: '1.0.0',
     email: {
         admin: 'brineketum@gmail.com',
-        support: 'support@fordipstech.com'
+        support: 'support@bravesgadget.com'
     },
     phone: {
         us: '(667) 256-3680',
         cameroon: '+237 678 123 456'
     },
     urls: {
-        website: ENV.isProduction ? 'https://keysight-tech.github.io/fordips-tech/' : 'http://localhost:8000',
+        website: ENV.isProduction ? 'https://keysight-tech.github.io/bravesgadget-llc/' : 'http://localhost:8000',
         api: SUPABASE_CONFIG.url
     },
     features: {
@@ -87,7 +87,7 @@ const logger = {
 };
 
 // Export configuration
-window.FORDIPS_CONFIG = {
+window.BRAVESGADGET_CONFIG = {
     ENV,
     SUPABASE_CONFIG,
     APP_CONFIG,

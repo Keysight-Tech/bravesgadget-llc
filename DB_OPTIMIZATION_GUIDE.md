@@ -1,4 +1,4 @@
-# 🚀 Fordips Tech - Database Optimization Guide
+# 🚀 BravesGadget LLC - Database Optimization Guide
 
 ## 📋 Table of Contents
 

@@ -15,7 +15,7 @@ When users click login, signup, add to cart, or checkout buttons, the website fr
 
 1. Go to: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw/sql
 2. Click "New Query"
-3. Open: `D:\Projects\Figma\outputs\websites\fordips-tech\FIX_RLS_POLICIES.sql`
+3. Open: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\FIX_RLS_POLICIES.sql`
 4. Copy ALL → Paste → Click "Run"
 
 ✅ **This fixes the RLS infinite recursion error!**
@@ -24,7 +24,7 @@ When users click login, signup, add to cart, or checkout buttons, the website fr
 
 ### Step 2: Apply JavaScript Fixes
 
-Open `D:\Projects\Figma\outputs\websites\fordips-tech\supabase-integration.js` and make these 3 changes:
+Open `D:\Projects\Figma\outputs\websites\bravesgadget-llc\supabase-integration.js` and make these 3 changes:
 
 #### Fix 1: Replace `checkAuth()` function (around line 37)
 
@@ -99,7 +99,7 @@ async function signIn(email, password) {
 
         return { success: true, user: data.user };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Login error:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Login error:', error);
         return { success: false, error: error.message };
     }
 }
@@ -136,7 +136,7 @@ async function signIn(email, password) {
 
         return { success: true, user: data.user };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Login error:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Login error:', error);
         return { success: false, error: error.message };
     }
 }
@@ -232,8 +232,8 @@ If any of these fail:
 ## Quick Links
 
 - 🔧 Supabase SQL Editor: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw/sql
-- 📝 File to edit: `D:\Projects\Figma\outputs\websites\fordips-tech\supabase-integration.js`
-- 🔍 RLS Fix: `D:\Projects\Figma\outputs\websites\fordips-tech\FIX_RLS_POLICIES.sql`
+- 📝 File to edit: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\supabase-integration.js`
+- 🔍 RLS Fix: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\FIX_RLS_POLICIES.sql`
 
 ---
 

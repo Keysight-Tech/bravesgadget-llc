@@ -1,4 +1,4 @@
-# SEO Implementation Guide for Fordips Tech
+# SEO Implementation Guide for BravesGadget LLC
 
 ## ✅ Completed SEO Improvements
 
@@ -21,30 +21,30 @@ Add these meta tags to the `<head>` section:
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <!-- Primary Meta Tags -->
-<title>Fordips Tech - Premium Electronics Store | Latest iPhones, MacBooks, Samsung & More</title>
-<meta name="title" content="Fordips Tech - Premium Electronics Store | Latest iPhones, MacBooks, Samsung & More">
-<meta name="description" content="Shop the latest iPhones, MacBooks, Samsung Galaxy, Tablets, Smartwatches & Starlink at Fordips Tech. Premium electronics with free worldwide shipping. Locations in USA & Cameroon.">
-<meta name="keywords" content="iPhones, MacBooks, Samsung Galaxy, Tablets, Smartwatches, Starlink, Electronics, Premium Electronics, Fordips Tech, USA, Cameroon">
-<meta name="author" content="Fordips Tech LLC">
+<title>BravesGadget LLC - Premium Electronics Store | Latest iPhones, MacBooks, Samsung & More</title>
+<meta name="title" content="BravesGadget LLC - Premium Electronics Store | Latest iPhones, MacBooks, Samsung & More">
+<meta name="description" content="Shop the latest iPhones, MacBooks, Samsung Galaxy, Tablets, Smartwatches & Starlink at BravesGadget LLC. Premium electronics with free worldwide shipping. Locations in USA & Cameroon.">
+<meta name="keywords" content="iPhones, MacBooks, Samsung Galaxy, Tablets, Smartwatches, Starlink, Electronics, Premium Electronics, BravesGadget LLC, USA, Cameroon">
+<meta name="author" content="BravesGadget LLC">
 <meta name="robots" content="index, follow">
 <meta name="language" content="English">
 <meta name="revisit-after" content="7 days">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://keysight-tech.github.io/fordips-tech/">
-<meta property="og:title" content="Fordips Tech - Premium Electronics Store">
+<meta property="og:url" content="https://keysight-tech.github.io/bravesgadget-llc/">
+<meta property="og:title" content="BravesGadget LLC - Premium Electronics Store">
 <meta property="og:description" content="Shop the latest iPhones, MacBooks, Samsung Galaxy, Tablets & More. Free worldwide shipping. Locations in USA & Cameroon.">
 <meta property="og:image" content="https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/17%20promax.webp">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:site_name" content="Fordips Tech">
+<meta property="og:site_name" content="BravesGadget LLC">
 <meta property="og:locale" content="en_US">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://keysight-tech.github.io/fordips-tech/">
-<meta name="twitter:title" content="Fordips Tech - Premium Electronics Store">
+<meta name="twitter:url" content="https://keysight-tech.github.io/bravesgadget-llc/">
+<meta name="twitter:title" content="BravesGadget LLC - Premium Electronics Store">
 <meta name="twitter:description" content="Shop the latest iPhones, MacBooks, Samsung Galaxy, Tablets & More. Free worldwide shipping.">
 <meta name="twitter:image" content="https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/17%20promax.webp">
 
@@ -52,7 +52,7 @@ Add these meta tags to the `<head>` section:
 <meta name="theme-color" content="#2563eb">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Fordips Tech">
+<meta name="apple-mobile-web-app-title" content="BravesGadget LLC">
 
 <!-- Security Headers (via meta tags) -->
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -64,7 +64,7 @@ Add these meta tags to the `<head>` section:
 <link rel="manifest" href="manifest.json">
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://keysight-tech.github.io/fordips-tech/">
+<link rel="canonical" href="https://keysight-tech.github.io/bravesgadget-llc/">
 
 <!-- Sitemap -->
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
@@ -76,8 +76,8 @@ Add these meta tags to the `<head>` section:
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
 <!-- Favicon (add when available) -->
-<link rel="icon" type="image/png" href="https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/fordips%20logo.png">
-<link rel="apple-touch-icon" href="https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/fordips%20logo.png">
+<link rel="icon" type="image/png" href="https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/bravesgadget%20logo.png">
+<link rel="apple-touch-icon" href="https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/bravesgadget%20logo.png">
 ```
 
 ---
@@ -91,13 +91,13 @@ Add this JSON-LD script before `</head>`:
 {
   "@context": "https://schema.org",
   "@type": "Store",
-  "name": "Fordips Tech",
+  "name": "BravesGadget LLC",
   "description": "Premium Electronics Store - iPhones, MacBooks, Samsung, Tablets & More",
-  "url": "https://keysight-tech.github.io/fordips-tech/",
-  "logo": "https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/fordips%20logo.png",
+  "url": "https://keysight-tech.github.io/bravesgadget-llc/",
+  "logo": "https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/bravesgadget%20logo.png",
   "image": "https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/17%20promax.webp",
   "telephone": "+1-667-256-3680",
-  "email": "support@fordipstech.com",
+  "email": "support@bravesgadget.com",
   "address": [
     {
       "@type": "PostalAddress",
@@ -123,7 +123,7 @@ Add this JSON-LD script before `</head>`:
   },
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61558105979752",
-    "https://tiktok.com/@fordipstechllc-xu2sd",
+    "https://tiktok.com/@bravesgadgetllc-xu2sd",
     "https://youtube.com/@alsinna"
   ],
   "paymentAccepted": ["Credit Card", "PayPal", "MTN Mobile Money", "Orange Money", "Zelle", "Cash App"],
@@ -179,20 +179,20 @@ Add this JSON-LD script before `</head>`:
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Fordips Tech LLC",
-  "alternateName": "Fordips Tech",
-  "url": "https://keysight-tech.github.io/fordips-tech/",
-  "logo": "https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/fordips%20logo.png",
+  "name": "BravesGadget LLC",
+  "alternateName": "BravesGadget LLC",
+  "url": "https://keysight-tech.github.io/bravesgadget-llc/",
+  "logo": "https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/bravesgadget%20logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+1-667-256-3680",
     "contactType": "customer service",
-    "email": "support@fordipstech.com",
+    "email": "support@bravesgadget.com",
     "availableLanguage": ["en", "fr"]
   },
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61558105979752",
-    "https://tiktok.com/@fordipstechllc-xu2sd",
+    "https://tiktok.com/@bravesgadgetllc-xu2sd",
     "https://youtube.com/@alsinna"
   ]
 }

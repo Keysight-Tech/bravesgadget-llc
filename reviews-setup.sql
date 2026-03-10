@@ -1,5 +1,5 @@
 -- =====================================================
--- FORDIPS TECH - Reviews & Ratings System
+-- BRAVESGADGET LLC - Reviews & Ratings System
 -- Run this script in your Supabase SQL Editor
 -- =====================================================
 

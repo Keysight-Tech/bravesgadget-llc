@@ -1,8 +1,8 @@
-# Fordips Tech - Product Search Functionality Guide
+# BravesGadget LLC - Product Search Functionality Guide
 
 ## 🔍 Overview
 
-The Fordips Tech website features a **fully functional, real-time product search system** that allows customers to search for products as they type. The search integrates deeply with Supabase and provides instant results with product images, prices, and stock status.
+The BravesGadget LLC website features a **fully functional, real-time product search system** that allows customers to search for products as they type. The search integrates deeply with Supabase and provides instant results with product images, prices, and stock status.
 
 ---
 
@@ -14,7 +14,7 @@ The Fordips Tech website features a **fully functional, real-time product search
 2. ✅ **Search JavaScript** - Real-time search logic (`search-system.js`)
 3. ✅ **Search Styles** - Complete UI styling (`search-styles.css`)
 4. ✅ **Supabase Function** - Database search RPC (`search_products`)
-5. ✅ **Search Integration** - Connected to `window.fordipsTech.searchProducts()`
+5. ✅ **Search Integration** - Connected to `window.bravesGadget.searchProducts()`
 
 ---
 
@@ -85,7 +85,7 @@ async function searchProducts(query) {
     }
 }
 
-// Exported as: window.fordipsTech.searchProducts
+// Exported as: window.bravesGadget.searchProducts
 ```
 
 #### 3. modern-header.js (lines 85-135)
@@ -227,7 +227,7 @@ $$ LANGUAGE plpgsql STABLE;
    - No database query needed
 
 4. **Fallback to Supabase (If Needed)**
-   - Calls `window.fordipsTech.searchProducts(query)`
+   - Calls `window.bravesGadget.searchProducts(query)`
    - Executes Supabase RPC function
    - Returns database results
 
@@ -370,9 +370,9 @@ window.products = [
 ];
 ```
 
-### 2. Supabase Client (window.fordipsTech)
+### 2. Supabase Client (window.bravesGadget)
 ```javascript
-window.fordipsTech.searchProducts(query)
+window.bravesGadget.searchProducts(query)
 ```
 
 ### 3. Product Filtering (filterBySearch)
@@ -477,7 +477,7 @@ In browser console:
 
 ```javascript
 // Test search function
-await window.fordipsTech.searchProducts('iPhone');
+await window.bravesGadget.searchProducts('iPhone');
 
 // Should return array of products
 // If error, check Supabase configuration
@@ -506,7 +506,7 @@ await window.fordipsTech.searchProducts('iPhone');
 
 **Solutions**:
 1. Ensure `supabase-integration.js` loads before `search-system.js`
-2. Check if `window.fordipsTech` is defined
+2. Check if `window.bravesGadget` is defined
 3. Verify Supabase client initialization
 
 ### Issue: Search is slow

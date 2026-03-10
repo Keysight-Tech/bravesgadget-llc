@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Stripe Payment Integration
+ * BRAVESGADGET LLC - Stripe Payment Integration
  * Real-time payment processing with Stripe
  */
 
@@ -180,7 +180,7 @@ async function handlePaymentSuccess(sessionId) {
 
         if (session.payment_status === 'paid') {
             // Clear cart
-            localStorage.removeItem('fordips_cart');
+            localStorage.removeItem('bravesgadget_cart');
 
             // Show success message
             if (typeof showNotification === 'function') {

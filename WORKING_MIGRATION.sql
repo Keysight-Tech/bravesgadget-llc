@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - WORKING MIGRATION
+ * BRAVESGADGET LLC - WORKING MIGRATION
  * Fixed: Handles non-existent tables during cleanup
  */
 
@@ -217,7 +217,7 @@ DECLARE
     payment_link TEXT;
 BEGIN
     request_id := gen_random_uuid();
-    payment_link := 'https://keysight-tech.github.io/fordips-tech/help-me-pay.html?request=' || request_id::TEXT;
+    payment_link := 'https://keysight-tech.github.io/bravesgadget-llc/help-me-pay.html?request=' || request_id::TEXT;
 
     INSERT INTO help_me_pay_requests (
         id, requester_user_id, requester_name, requester_email, requester_phone,
@@ -411,7 +411,7 @@ BEGIN
     RAISE NOTICE '   Go to: Dashboard → Authentication → Providers';
     RAISE NOTICE '   Enable: Email provider';
     RAISE NOTICE '';
-    RAISE NOTICE '🌐 Your site: https://keysight-tech.github.io/fordips-tech/';
+    RAISE NOTICE '🌐 Your site: https://keysight-tech.github.io/bravesgadget-llc/';
     RAISE NOTICE '═══════════════════════════════════════════════════';
     RAISE NOTICE '';
 END $$;

@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Enhanced Checkout System
+ * BRAVESGADGET LLC - Enhanced Checkout System
  * World-class checkout experience with validation and payment processing
  */
 
@@ -7,7 +7,7 @@
  * Open Checkout Modal
  */
 function openCheckoutModal() {
-    const cart = JSON.parse(localStorage.getItem('fordipsTechCart')) || [];
+    const cart = JSON.parse(localStorage.getItem('bravesGadgetCart')) || [];
 
     if (cart.length === 0) {
         showNotification(typeof t === 'function' ? t('cartEmpty') : 'Your cart is empty!', 'error');
@@ -39,7 +39,7 @@ function openCheckoutModal() {
  * Update checkout totals based on cart and selected shipping
  */
 function updateCheckoutTotals() {
-    const cart = JSON.parse(localStorage.getItem('fordipsTechCart')) || [];
+    const cart = JSON.parse(localStorage.getItem('bravesGadgetCart')) || [];
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
 
     // Get selected shipping option
@@ -344,7 +344,7 @@ async function handleCheckoutFormSubmit(e) {
     }
 
     // Get cart items
-    const cart = JSON.parse(localStorage.getItem('fordipsTechCart')) || [];
+    const cart = JSON.parse(localStorage.getItem('bravesGadgetCart')) || [];
 
     if (cart.length === 0) {
         showNotification('Your cart is empty!', 'error');
@@ -423,7 +423,7 @@ async function handleCheckoutFormSubmit(e) {
 
             if (orderResult.success) {
                 // Clear cart
-                localStorage.removeItem('fordipsTechCart');
+                localStorage.removeItem('bravesGadgetCart');
                 updateCartUI();
 
                 // Close checkout modal

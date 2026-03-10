@@ -1,5 +1,5 @@
 -- =====================================================
--- FORDIPS TECH - Supabase Database Setup
+-- BRAVESGADGET LLC - Supabase Database Setup
 -- Run this script in your Supabase SQL Editor
 -- =====================================================
 

@@ -1,5 +1,5 @@
 -- =====================================================
--- FORDIPS TECH - Product Catalog SQL Insert Script (FIXED)
+-- BRAVESGADGET LLC - Product Catalog SQL Insert Script (FIXED)
 -- Run this script in Supabase SQL Editor
 -- Matches your actual table structure
 -- =====================================================

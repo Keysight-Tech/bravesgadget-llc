@@ -1,18 +1,18 @@
-# Fordips Tech - Complete Testing Guide
+# BravesGadget LLC - Complete Testing Guide
 
 ## 🌐 Website URLs
 
 ### Main Website
-- **GitHub Pages**: https://keysight-tech.github.io/fordips-tech/
-- **Custom Domain**: https://fordipstech.com/ (requires DNS setup)
+- **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/
+- **Custom Domain**: https://bravesgadget.com/ (requires DNS setup)
 
 ### Admin Panel
-- **GitHub Pages**: https://keysight-tech.github.io/fordips-tech/admin.html
-- **Custom Domain**: https://fordipstech.com/admin.html
+- **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
+- **Custom Domain**: https://bravesgadget.com/admin.html
 
 ### User Account Dashboard
-- **GitHub Pages**: https://keysight-tech.github.io/fordips-tech/my-account.html
-- **Custom Domain**: https://fordipstech.com/my-account.html
+- **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/my-account.html
+- **Custom Domain**: https://bravesgadget.com/my-account.html
 
 ---
 
@@ -21,7 +21,7 @@
 ### 1️⃣ Homepage & Navigation
 
 #### Desktop View
-- [ ] Logo displays correctly (FORDIPS TECH)
+- [ ] Logo displays correctly (BRAVESGADGET LLC)
 - [ ] Navigation menu shows: Home, Products, Categories, Locations, Contact
 - [ ] **Account button** visible (icon + "Account" text on desktop)
 - [ ] Favorites button visible (heart icon)
@@ -33,7 +33,7 @@
 #### Mobile View (< 768px)
 - [ ] Hamburger menu icon appears
 - [ ] Click hamburger opens drawer from right
-- [ ] Drawer shows branded header (Fordips Tech logo + close button)
+- [ ] Drawer shows branded header (BravesGadget LLC logo + close button)
 - [ ] Quick Access section shows 6 cards: Home, Shop, About, Reviews, Contact, Account
 - [ ] Quick links have icon containers (48x48px)
 - [ ] Hover on quick link shows teal gradient and lift animation
@@ -44,7 +44,7 @@
 
 #### Hero Section
 - [ ] Slideshow displays products (including silver iPhone 17 Pro Max)
-- [ ] Tagline shows: "It's Either Fordips Tech or No Tech"
+- [ ] Tagline shows: "It's Either BravesGadget LLC or No Tech"
 - [ ] Navigation dots work (8 dots total)
 - [ ] Auto-advance every 5 seconds
 - [ ] Images load properly
@@ -348,9 +348,9 @@
 
 #### Access Admin Panel
 1. [ ] Ensure you're logged in as admin
-2. [ ] Go to https://keysight-tech.github.io/fordips-tech/admin.html
+2. [ ] Go to https://keysight-tech.github.io/bravesgadget-llc/admin.html
 3. [ ] Page loads (no redirect to homepage)
-4. [ ] Header shows "FORDIPS TECH - Admin Panel"
+4. [ ] Header shows "BRAVESGADGET LLC - Admin Panel"
 5. [ ] Shows username in header
 6. [ ] Logout button visible
 

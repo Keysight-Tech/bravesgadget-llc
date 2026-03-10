@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - SUPABASE MIGRATIONS (FIXED)
+ * BRAVESGADGET LLC - SUPABASE MIGRATIONS (FIXED)
  * Database tables and functions for new features
  * Run this in Supabase SQL Editor
  *
@@ -250,7 +250,7 @@ BEGIN
     request_id := gen_random_uuid();
 
     -- Create payment link (update domain to your actual domain)
-    payment_link := 'https://keysight-tech.github.io/fordips-tech/help-me-pay.html?request=' || request_id::TEXT;
+    payment_link := 'https://keysight-tech.github.io/bravesgadget-llc/help-me-pay.html?request=' || request_id::TEXT;
 
     -- Insert request
     INSERT INTO help_me_pay_requests (
@@ -443,5 +443,5 @@ BEGIN
     RAISE NOTICE '📊 Tables created: notifications, help_me_pay_requests';
     RAISE NOTICE '⚙️  Functions created: 8 database functions';
     RAISE NOTICE '🔒 Row Level Security enabled on all tables';
-    RAISE NOTICE '🚀 Your Fordips Tech platform is ready!';
+    RAISE NOTICE '🚀 Your BravesGadget LLC platform is ready!';
 END $$;

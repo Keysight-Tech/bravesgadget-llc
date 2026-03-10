@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - SUPABASE MIGRATIONS
+ * BRAVESGADGET LLC - SUPABASE MIGRATIONS
  * Database tables and functions for new features
  * Run this in Supabase SQL Editor
  */
@@ -223,7 +223,7 @@ BEGIN
     request_id := gen_random_uuid();
 
     -- Create payment link
-    payment_link := 'https://fordipstech.com/help-me-pay.html?request=' || request_id::TEXT;
+    payment_link := 'https://bravesgadget.com/help-me-pay.html?request=' || request_id::TEXT;
 
     -- Insert request
     INSERT INTO help_me_pay_requests (

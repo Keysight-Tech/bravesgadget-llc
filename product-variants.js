@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Product Variants & Enhanced Product Details
+ * BRAVESGADGET LLC - Product Variants & Enhanced Product Details
  * Handles product variants, image galleries, and detailed product views
  */
 

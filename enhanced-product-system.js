@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Enhanced World-Class Product System
+ * BRAVESGADGET LLC - Enhanced World-Class Product System
  * Complete e-commerce product experience like Amazon
  */
 
@@ -382,7 +382,7 @@ function openBasicProductView(product) {
                         </div>
 
                         <div class="product-description">
-                            <p>${product.description || 'High-quality premium product from Fordips Tech.'}</p>
+                            <p>${product.description || 'High-quality premium product from BravesGadget LLC.'}</p>
                         </div>
 
                         <div class="product-actions">

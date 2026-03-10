@@ -61,7 +61,7 @@ A comprehensive, modern admin profile system with deep Supabase integration desi
 
 1. **Open Supabase Dashboard**
    - Go to: https://app.supabase.com
-   - Select your Fordips Tech project
+   - Select your BravesGadget LLC project
 
 2. **Run Database Script**
    - Go to SQL Editor (left sidebar)
@@ -550,7 +550,7 @@ LIMIT 10;
 - **Permissions**: Full access
 
 **Access URL:**
-- https://keysight-tech.github.io/fordips-tech/admin.html
+- https://keysight-tech.github.io/bravesgadget-llc/admin.html
 
 ---
 

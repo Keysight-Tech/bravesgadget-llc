@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Order Tracking UI
+ * BRAVESGADGET LLC - Order Tracking UI
  * Customer-facing order tracking interface
  */
 
@@ -311,8 +311,8 @@ async function loadMyOrders(customerEmail) {
  * Get current user
  */
 async function getCurrentUser() {
-    if (window.fordipsTech && window.fordipsTech.getCurrentUser) {
-        return await window.fordipsTech.getCurrentUser();
+    if (window.bravesGadget && window.bravesGadget.getCurrentUser) {
+        return await window.bravesGadget.getCurrentUser();
     }
     return null;
 }

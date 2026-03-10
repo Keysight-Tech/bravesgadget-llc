@@ -1,10 +1,10 @@
 /**
- * FORDIPS TECH - Service Worker
+ * BRAVESGADGET LLC - Service Worker
  * PWA Support with offline caching
  */
 
-const CACHE_NAME = 'fordips-tech-v1.0.0';
-const RUNTIME_CACHE = 'fordips-runtime';
+const CACHE_NAME = 'bravesgadget-llc-v1.0.0';
+const RUNTIME_CACHE = 'bravesgadget-runtime';
 
 // Assets to cache on install (using relative paths for flexibility)
 const STATIC_ASSETS = [

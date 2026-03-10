@@ -1,5 +1,5 @@
 -- =====================================================
--- FORDIPS TECH - Product Catalog SQL Insert Script
+-- BRAVESGADGET LLC - Product Catalog SQL Insert Script
 -- Run this script in Supabase SQL Editor
 -- =====================================================
 

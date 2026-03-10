@@ -60,7 +60,7 @@ async function signIn(email, password) {
 
         return { success: true, user: data.user };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Login error:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Login error:', error);
         return { success: false, error: error.message };
     }
 }
@@ -110,7 +110,7 @@ async function loadUserCart() {
 
         updateCartDisplay();
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error loading cart:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading cart:', error);
         console.warn('⚠️ Using local cart instead of database cart');
         // Don't throw - allow user to continue with local cart
     }

@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Admin Notification System
+ * BRAVESGADGET LLC - Admin Notification System
  * AWS-style toast notifications and alerts
  */
 
@@ -216,9 +216,9 @@ function startNotificationPolling() {
     // Poll every 30 seconds
     notificationPollingInterval = setInterval(async () => {
         try {
-            if (typeof window.fordipsTech === 'undefined') return;
+            if (typeof window.bravesGadget === 'undefined') return;
 
-            const contacts = await window.fordipsTech.getAllContactSubmissions();
+            const contacts = await window.bravesGadget.getAllContactSubmissions();
             const newContacts = contacts.filter(c => c.status === 'new' || !c.status);
 
             if (newContacts.length > 0) {
@@ -226,10 +226,10 @@ function startNotificationPolling() {
 
                 // Show desktop notification if permitted
                 if ('Notification' in window && Notification.permission === 'granted') {
-                    new Notification('Fordips Tech Admin', {
+                    new Notification('BravesGadget LLC Admin', {
                         body: `You have ${newContacts.length} new contact submission(s)`,
-                        icon: 'https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/fordips%20logo.png',
-                        badge: 'https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/fordips%20logo.png'
+                        icon: 'https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/bravesgadget%20logo.png',
+                        badge: 'https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/bravesgadget%20logo.png'
                     });
                 }
             }

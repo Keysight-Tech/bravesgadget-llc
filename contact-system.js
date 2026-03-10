@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Contact Form System with Admin Notifications
+ * BRAVESGADGET LLC - Contact Form System with Admin Notifications
  * Handles contact form submissions, storage, and notifications
  */
 
@@ -76,7 +76,7 @@ async function sendContactNotifications(contactMessage) {
                 Sent at: ${new Date(contactMessage.created_at).toLocaleString()}
                 IP Address: ${contactMessage.ip_address || 'Unknown'}
 
-                View all messages: https://fordipstech.com/admin/contacts
+                View all messages: https://bravesgadget.com/admin/contacts
             `,
             status: 'pending'
         };
@@ -87,11 +87,11 @@ async function sendContactNotifications(contactMessage) {
             contact_message_id: contactMessage.id,
             recipient_email: contactMessage.email,
             notification_type: 'customer_confirmation',
-            subject: 'We received your message - Fordips Tech',
+            subject: 'We received your message - BravesGadget LLC',
             message: `
                 Dear ${contactMessage.name},
 
-                Thank you for contacting Fordips Tech! We have received your message and will get back to you as soon as possible.
+                Thank you for contacting BravesGadget LLC! We have received your message and will get back to you as soon as possible.
 
                 Here's a copy of your message:
 
@@ -104,9 +104,9 @@ async function sendContactNotifications(contactMessage) {
                 Our team typically responds within 24 hours during business days.
 
                 Best regards,
-                Fordips Tech Support Team
+                BravesGadget LLC Support Team
 
-                Email: support@fordipstech.com
+                Email: support@bravesgadget.com
                 Phone: (667) 256-3680
             `,
             status: 'pending'
@@ -158,13 +158,13 @@ async function getUserIP() {
  */
 function saveContactToLocalStorage(contactData) {
     try {
-        const messages = JSON.parse(localStorage.getItem('fordips_contact_messages') || '[]');
+        const messages = JSON.parse(localStorage.getItem('bravesgadget_contact_messages') || '[]');
         const newMessage = {
             ...contactData,
             id: 'MSG-' + Date.now()
         };
         messages.push(newMessage);
-        localStorage.setItem('fordips_contact_messages', JSON.stringify(messages));
+        localStorage.setItem('bravesgadget_contact_messages', JSON.stringify(messages));
 
         // Show notification about admin
         if (typeof showNotification === 'function') {
@@ -210,7 +210,7 @@ async function loadContactMessages(status = null) {
             return data || [];
         } else {
             // Fallback to localStorage
-            const messages = JSON.parse(localStorage.getItem('fordips_contact_messages') || '[]');
+            const messages = JSON.parse(localStorage.getItem('bravesgadget_contact_messages') || '[]');
             return status ? messages.filter(m => m.status === status) : messages;
         }
     } catch (error) {
@@ -254,7 +254,7 @@ async function getUnreadContactCount() {
             if (error) throw error;
             return count || 0;
         } else {
-            const messages = JSON.parse(localStorage.getItem('fordips_contact_messages') || '[]');
+            const messages = JSON.parse(localStorage.getItem('bravesgadget_contact_messages') || '[]');
             return messages.filter(m => m.status === 'new').length;
         }
     } catch (error) {

@@ -1,15 +1,15 @@
-# Fordips Tech - Complete Deployment Guide
+# BravesGadget LLC - Complete Deployment Guide
 
 ## Project Status
 
-Your Fordips Tech e-commerce website is ready to deploy!
+Your BravesGadget LLC e-commerce website is ready to deploy!
 
 **Supabase Configuration**: ✅ Already configured
 - URL: https://loutcbvftzojsioahtdw.supabase.co
 - Anon Key: Configured in `supabase-integration.js`
 
 **GitHub Repository**: ✅ Created
-- Repository: https://github.com/Keysight-Tech/fordips-tech
+- Repository: https://github.com/Keysight-Tech/bravesgadget-llc
 - Status: Ready for code push
 
 ---
@@ -38,7 +38,7 @@ Your Fordips Tech e-commerce website is ready to deploy!
 Since you already have a local git repository initialized, push your code:
 
 ```bash
-cd D:/Projects/Figma/outputs/websites/fordips-tech
+cd D:/Projects/Figma/outputs/websites/bravesgadget-llc
 
 # Push to GitHub
 git push -u origin main
@@ -49,18 +49,18 @@ If you get authentication errors, you have two options:
 **Option A: Use GitHub Desktop**
 1. Download GitHub Desktop: https://desktop.github.com/
 2. File → Add Local Repository
-3. Select: `D:\Projects\Figma\outputs\websites\fordips-tech`
+3. Select: `D:\Projects\Figma\outputs\websites\bravesgadget-llc`
 4. Click "Publish repository"
 
 **Option B: Manual Upload**
-1. Go to: https://github.com/Keysight-Tech/fordips-tech
+1. Go to: https://github.com/Keysight-Tech/bravesgadget-llc
 2. Click "uploading an existing file"
-3. Drag and drop all files from `D:\Projects\Figma\outputs\websites\fordips-tech`
+3. Drag and drop all files from `D:\Projects\Figma\outputs\websites\bravesgadget-llc`
 4. Click "Commit changes"
 
 ### Step 3: Enable GitHub Pages
 
-1. Go to your repository: https://github.com/Keysight-Tech/fordips-tech
+1. Go to your repository: https://github.com/Keysight-Tech/bravesgadget-llc
 
 2. Click **Settings** (top right)
 
@@ -74,7 +74,7 @@ If you get authentication errors, you have two options:
 
 6. Wait 2-3 minutes, then your site will be live at:
    ```
-   https://keysight-tech.github.io/fordips-tech/
+   https://keysight-tech.github.io/bravesgadget-llc/
    ```
 
 ---
@@ -86,7 +86,7 @@ If you get authentication errors, you have two options:
 1. Go to https://netlify.com
 2. Sign up/login with GitHub
 3. Click "Add new site" → "Deploy manually"
-4. Drag and drop your entire `fordips-tech` folder
+4. Drag and drop your entire `bravesgadget-llc` folder
 5. Your site will be live in 30 seconds!
 6. You'll get a free URL like: `https://your-site-name.netlify.app`
 
@@ -95,16 +95,16 @@ If you get authentication errors, you have two options:
 1. Go to https://vercel.com
 2. Sign up/login with GitHub
 3. Click "New Project"
-4. Import from `Keysight-Tech/fordips-tech`
+4. Import from `Keysight-Tech/bravesgadget-llc`
 5. Click "Deploy"
-6. Live in 1 minute at: `https://fordips-tech.vercel.app`
+6. Live in 1 minute at: `https://bravesgadget-llc.vercel.app`
 
 ### Option 3: Cloudflare Pages (Free SSL + CDN)
 
 1. Go to https://pages.cloudflare.com
 2. Sign up/login
 3. Create a project from GitHub
-4. Select `Keysight-Tech/fordips-tech`
+4. Select `Keysight-Tech/bravesgadget-llc`
 5. Deploy with one click
 6. Get free SSL and global CDN
 
@@ -136,7 +136,7 @@ Visit these pages on your live site:
 
 ### 3. Configure Domain (Optional)
 
-If you have a custom domain (e.g., fordipstech.com):
+If you have a custom domain (e.g., bravesgadget.com):
 
 **For GitHub Pages:**
 1. In repository Settings → Pages
@@ -260,17 +260,17 @@ After deployment, consider these improvements:
 ### Documentation:
 - Supabase Docs: https://supabase.com/docs
 - GitHub Pages: https://docs.github.com/pages
-- Your Project Files: `D:\Projects\Figma\outputs\websites\fordips-tech`
+- Your Project Files: `D:\Projects\Figma\outputs\websites\bravesgadget-llc`
 
 ### Quick Access Links:
 - Supabase Dashboard: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw
-- GitHub Repo: https://github.com/Keysight-Tech/fordips-tech
-- Local Files: `D:\Projects\Figma\outputs\websites\fordips-tech`
+- GitHub Repo: https://github.com/Keysight-Tech/bravesgadget-llc
+- Local Files: `D:\Projects\Figma\outputs\websites\bravesgadget-llc`
 
 ### Your Credentials:
 - Supabase URL: https://loutcbvftzojsioahtdw.supabase.co
-- Repository: Keysight-Tech/fordips-tech
-- Local Path: D:/Projects/Figma/outputs/websites/fordips-tech
+- Repository: Keysight-Tech/bravesgadget-llc
+- Local Path: D:/Projects/Figma/outputs/websites/bravesgadget-llc
 
 ---
 
@@ -298,7 +298,7 @@ Once deployed, you'll have:
 - ✅ Newsletter system
 
 **Your website will be live at:**
-- GitHub Pages: `https://keysight-tech.github.io/fordips-tech/`
+- GitHub Pages: `https://keysight-tech.github.io/bravesgadget-llc/`
 - Or your custom domain!
 
 Good luck with your deployment! 🚀

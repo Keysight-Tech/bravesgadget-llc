@@ -1,6 +1,6 @@
 # Contact Form System with Admin Notifications
 
-Complete contact form system for Fordips Tech with automatic admin notifications and message storage.
+Complete contact form system for BravesGadget LLC with automatic admin notifications and message storage.
 
 ## Features
 
@@ -30,7 +30,7 @@ Complete contact form system for Fordips Tech with automatic admin notifications
 ### 1. Run SQL Setup in Supabase
 
 1. Go to your Supabase Dashboard: https://app.supabase.com
-2. Select your Fordips Tech project
+2. Select your BravesGadget LLC project
 3. Navigate to **SQL Editor**
 4. Create a new query
 5. Copy and paste the contents of `contact-setup.sql`
@@ -302,7 +302,7 @@ To build an admin dashboard for managing messages:
 ## Support
 
 For issues or questions:
-- Email: support@fordipstech.com
+- Email: support@bravesgadget.com
 - Check browser console for errors
 - Verify Supabase connection
 - Review SQL execution logs

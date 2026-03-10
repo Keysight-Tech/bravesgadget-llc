@@ -1,9 +1,9 @@
 /**
- * FORDIPS TECH - ADMIN AI ASSISTANT
+ * BRAVESGADGET LLC - ADMIN AI ASSISTANT
  * AI-powered admin panel assistant for managing e-commerce operations
  */
 
-class FordipsAdminAI {
+class BravesGadgetAdminAI {
     constructor() {
         this.conversationHistory = [];
         this.adminContext = {
@@ -15,7 +15,7 @@ class FordipsAdminAI {
     }
 
     init() {
-        window.FORDIPS_CONFIG?.logger.log('🤖 Admin AI Assistant initializing...');
+        window.BRAVESGADGET_CONFIG?.logger.log('🤖 Admin AI Assistant initializing...');
         this.createChatWidget();
         this.setupEventListeners();
         this.loadConversationHistory();
@@ -158,7 +158,7 @@ class FordipsAdminAI {
             type: 'assistant',
             content: `👋 **Welcome, Admin!**
 
-I'm your AI assistant for managing Fordips Tech. I can help you with:
+I'm your AI assistant for managing BravesGadget LLC. I can help you with:
 
 • 📦 **Product Management** - Add, edit, search products
 • 🛒 **Order Management** - Track, update order status
@@ -275,7 +275,7 @@ How can I help you today?`,
             return this.handleFallback(message);
 
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Error processing admin message:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error processing admin message:', error);
             return this.sendAssistantMessage('Sorry, I encountered an error. Please try again or contact support.');
         }
     }
@@ -761,7 +761,7 @@ ${stats.recentOrders.map(order => `• Order #${order.order_number} - $${order.t
                 this.conversationHistory.forEach(msg => this.renderMessage(msg));
             }
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Error loading admin conversation:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error loading admin conversation:', error);
         }
     }
 
@@ -770,7 +770,7 @@ ${stats.recentOrders.map(order => `• Order #${order.order_number} - $${order.t
             const toSave = this.conversationHistory.slice(-10);
             localStorage.setItem('adminAiConversation', JSON.stringify(toSave));
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Error saving admin conversation:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error saving admin conversation:', error);
         }
     }
 }
@@ -779,7 +779,7 @@ ${stats.recentOrders.map(order => `• Order #${order.order_number} - $${order.t
 document.addEventListener('DOMContentLoaded', () => {
     // Wait for admin panel data to load
     setTimeout(() => {
-        window.adminAI = new FordipsAdminAI();
-        window.FORDIPS_CONFIG?.logger.log('✅ Admin AI Assistant ready');
+        window.adminAI = new BravesGadgetAdminAI();
+        window.BRAVESGADGET_CONFIG?.logger.log('✅ Admin AI Assistant ready');
     }, 1000);
 });

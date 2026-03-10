@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Utility Functions
+ * BRAVESGADGET LLC - Utility Functions
  * Common utilities for security, validation, and helpers
  */
 
@@ -168,12 +168,12 @@ class ErrorHandler {
         this.errors.push(errorLog);
 
         // Log to console in development
-        if (window.FORDIPS_CONFIG?.logger) {
-            window.FORDIPS_CONFIG.logger.error('Application Error:', errorLog);
+        if (window.BRAVESGADGET_CONFIG?.logger) {
+            window.BRAVESGADGET_CONFIG.logger.error('Application Error:', errorLog);
         }
 
         // In production, send to error tracking service (e.g., Sentry)
-        if (window.FORDIPS_CONFIG?.ENV.isProduction) {
+        if (window.BRAVESGADGET_CONFIG?.ENV.isProduction) {
             this.sendToErrorTracking(errorLog);
         }
     }
@@ -212,7 +212,7 @@ const storage = {
             const item = localStorage.getItem(key);
             return item ? JSON.parse(item) : defaultValue;
         } catch (e) {
-            window.FORDIPS_CONFIG?.logger.error('Storage get error:', e);
+            window.BRAVESGADGET_CONFIG?.logger.error('Storage get error:', e);
             return defaultValue;
         }
     },
@@ -225,7 +225,7 @@ const storage = {
             localStorage.setItem(key, JSON.stringify(value));
             return true;
         } catch (e) {
-            window.FORDIPS_CONFIG?.logger.error('Storage set error:', e);
+            window.BRAVESGADGET_CONFIG?.logger.error('Storage set error:', e);
             return false;
         }
     },
@@ -238,7 +238,7 @@ const storage = {
             localStorage.removeItem(key);
             return true;
         } catch (e) {
-            window.FORDIPS_CONFIG?.logger.error('Storage remove error:', e);
+            window.BRAVESGADGET_CONFIG?.logger.error('Storage remove error:', e);
             return false;
         }
     },
@@ -251,7 +251,7 @@ const storage = {
             localStorage.clear();
             return true;
         } catch (e) {
-            window.FORDIPS_CONFIG?.logger.error('Storage clear error:', e);
+            window.BRAVESGADGET_CONFIG?.logger.error('Storage clear error:', e);
             return false;
         }
     }
@@ -353,7 +353,7 @@ function sleep(ms) {
 const errorHandler = new ErrorHandler();
 
 // Export utilities
-window.FordipsUtils = {
+window.BravesGadgetUtils = {
     sanitize,
     validate,
     errorHandler,
@@ -367,4 +367,4 @@ window.FordipsUtils = {
     sleep
 };
 
-window.FORDIPS_CONFIG?.logger.info('Utilities loaded');
+window.BRAVESGADGET_CONFIG?.logger.info('Utilities loaded');

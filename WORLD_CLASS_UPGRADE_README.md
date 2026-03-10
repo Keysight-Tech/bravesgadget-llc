@@ -1,4 +1,4 @@
-# 🚀 FORDIPS TECH - WORLD-CLASS UPGRADE COMPLETE
+# 🚀 BRAVESGADGET LLC - WORLD-CLASS UPGRADE COMPLETE
 
 **Project Status**: ✅ Phases 1-2 Complete | Ready for Implementation
 **Generated**: October 23, 2025
@@ -8,7 +8,7 @@
 
 ## 🎯 EXECUTIVE SUMMARY
 
-Your **Fordips Tech** e-commerce site has been transformed with **8 new files** containing:
+Your **BravesGadget LLC** e-commerce site has been transformed with **8 new files** containing:
 - ✅ **Enterprise-level security**
 - ✅ **Comprehensive SEO optimization**
 - ✅ **PWA support** (installable app)
@@ -136,8 +136,8 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...';
 
 **Replace** with:
 ```javascript
-const SUPABASE_URL = window.FORDIPS_CONFIG.SUPABASE_CONFIG.url;
-const SUPABASE_ANON_KEY = window.FORDIPS_CONFIG.SUPABASE_CONFIG.anonKey;
+const SUPABASE_URL = window.BRAVESGADGET_CONFIG.SUPABASE_CONFIG.url;
+const SUPABASE_ANON_KEY = window.BRAVESGADGET_CONFIG.SUPABASE_CONFIG.anonKey;
 ```
 
 **Find** all `console.log` statements:
@@ -147,7 +147,7 @@ console.log('✅ Products loaded');
 
 **Replace** with:
 ```javascript
-window.FORDIPS_CONFIG?.logger.log('✅ Products loaded');
+window.BRAVESGADGET_CONFIG?.logger.log('✅ Products loaded');
 ```
 
 ### **Step 3: Test & Deploy** (30 minutes)
@@ -307,34 +307,34 @@ After deployment, test these:
 ### **Configuration** (`config.js`):
 ```javascript
 // Access configuration anywhere
-window.FORDIPS_CONFIG.APP_CONFIG.email.support;
-window.FORDIPS_CONFIG.APP_CONFIG.phone.us;
-window.FORDIPS_CONFIG.logger.info('Message');
-window.FORDIPS_CONFIG.ENV.isProduction; // true on GitHub Pages
+window.BRAVESGADGET_CONFIG.APP_CONFIG.email.support;
+window.BRAVESGADGET_CONFIG.APP_CONFIG.phone.us;
+window.BRAVESGADGET_CONFIG.logger.info('Message');
+window.BRAVESGADGET_CONFIG.ENV.isProduction; // true on GitHub Pages
 ```
 
 ### **Utilities** (`utils.js`):
 ```javascript
 // Sanitize user input
-FordipsUtils.sanitize.html('<script>alert("xss")</script>');
+BravesGadgetUtils.sanitize.html('<script>alert("xss")</script>');
 // Returns: &lt;script&gt;alert("xss")&lt;/script&gt;
 
 // Validate email
-FordipsUtils.validate.email('user@example.com'); // true
-FordipsUtils.validate.email('invalid'); // false
+BravesGadgetUtils.validate.email('user@example.com'); // true
+BravesGadgetUtils.validate.email('invalid'); // false
 
 // Safe storage
-FordipsUtils.storage.set('cart', cartData);
-FordipsUtils.storage.get('cart', []); // Returns [] if not found
+BravesGadgetUtils.storage.set('cart', cartData);
+BravesGadgetUtils.storage.get('cart', []); // Returns [] if not found
 
 // Format currency
-FordipsUtils.formatCurrency(999, 'USD'); // "$999.00"
+BravesGadgetUtils.formatCurrency(999, 'USD'); // "$999.00"
 
 // Format date
-FordipsUtils.formatDate(new Date()); // "Oct 23, 2025"
+BravesGadgetUtils.formatDate(new Date()); // "Oct 23, 2025"
 
 // Debounce search
-const debouncedSearch = FordipsUtils.debounce(searchFunction, 300);
+const debouncedSearch = BravesGadgetUtils.debounce(searchFunction, 300);
 ```
 
 ---
@@ -344,7 +344,7 @@ const debouncedSearch = FordipsUtils.debounce(searchFunction, 300);
 ### **Issue: Config not loaded**
 ```javascript
 // In browser console, check:
-window.FORDIPS_CONFIG
+window.BRAVESGADGET_CONFIG
 // Should show: {ENV, SUPABASE_CONFIG, APP_CONFIG, ...}
 
 // If undefined, ensure config.js loads BEFORE other scripts
@@ -364,7 +364,7 @@ window.FORDIPS_CONFIG
 ### **Issue: Sitemap not found**
 ```
 # Ensure sitemap.xml is in root:
-https://keysight-tech.github.io/fordips-tech/sitemap.xml
+https://keysight-tech.github.io/bravesgadget-llc/sitemap.xml
 
 # Should return XML, not 404
 ```
@@ -498,10 +498,10 @@ Follow the **3-step Quick Start** above, and in **2 hours** you'll have a world-
 ---
 
 *Built with 💙 by Claude Code*
-*Fordips Tech - From Premium Electronics to World-Class Platform*
+*BravesGadget LLC - From Premium Electronics to World-Class Platform*
 
 **Status**: ✅ Ready for Implementation
 **Next**: Follow the 3-Step Quick Start Above
 **Timeline**: 2 hours to world-class
 
-🎯 **Let's make Fordips Tech the #1 electronics destination!** 🎯
+🎯 **Let's make BravesGadget LLC the #1 electronics destination!** 🎯

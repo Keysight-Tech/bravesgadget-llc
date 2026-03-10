@@ -1,5 +1,5 @@
 -- =====================================================
--- FORDIPS TECH - Complete Order Tracking System
+-- BRAVESGADGET LLC - Complete Order Tracking System
 -- End-to-End Order Management with Notifications
 -- Run this script in your Supabase SQL Editor
 -- =====================================================

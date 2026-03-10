@@ -31,7 +31,7 @@ This guide will help you set up:
 2. Customize the template:
 
 ```html
-<h2>Welcome to Fordips Tech!</h2>
+<h2>Welcome to BravesGadget LLC!</h2>
 
 <p>Hi {{ .Email }},</p>
 
@@ -45,7 +45,7 @@ This guide will help you set up:
 <p>If you didn't create an account with us, please ignore this email.</p>
 
 <p>Best regards,<br>
-Fordips Tech Team</p>
+BravesGadget LLC Team</p>
 ```
 
 3. Click **Save**
@@ -77,7 +77,7 @@ Fordips Tech Team</p>
 <p>If you didn't request this, please ignore this email.</p>
 
 <p>Best regards,<br>
-Fordips Tech Team</p>
+BravesGadget LLC Team</p>
 ```
 
 3. Click **Save**
@@ -201,7 +201,7 @@ serve(async (req) => {
       'Authorization': `Bearer ${RESEND_API_KEY}`
     },
     body: JSON.stringify({
-      from: 'Fordips Tech <orders@fordipstech.com>',
+      from: 'BravesGadget LLC <orders@bravesgadget.com>',
       to: [to],
       subject: subject,
       html: `
@@ -220,9 +220,9 @@ serve(async (req) => {
 
         <p>We'll send you another email when your order ships.</p>
 
-        <p>Track your order: <a href="https://keysight-tech.github.io/fordips-tech/my-account.html">View Order Status</a></p>
+        <p>Track your order: <a href="https://keysight-tech.github.io/bravesgadget-llc/my-account.html">View Order Status</a></p>
 
-        <p>Best regards,<br>Fordips Tech Team</p>
+        <p>Best regards,<br>BravesGadget LLC Team</p>
       `
     })
   })
@@ -272,10 +272,10 @@ If you want a simpler approach without Edge Functions:
    Order Number: {{order_number}}
    Total: ${{total_amount}}
 
-   View your order: https://keysight-tech.github.io/fordips-tech/my-account.html
+   View your order: https://keysight-tech.github.io/bravesgadget-llc/my-account.html
 
    Best regards,
-   Fordips Tech
+   BravesGadget LLC
    ```
 
 ---
@@ -284,7 +284,7 @@ If you want a simpler approach without Edge Functions:
 
 ### Test User Signup Emails
 
-1. Go to your website: https://keysight-tech.github.io/fordips-tech/
+1. Go to your website: https://keysight-tech.github.io/bravesgadget-llc/
 
 2. Click "My Account" → "Sign Up"
 
@@ -324,7 +324,7 @@ If you want to use your own email server:
    - **Username**: your-email@gmail.com
    - **Password**: Your app password
    - **Sender Email**: noreply@yourdomain.com
-   - **Sender Name**: Fordips Tech
+   - **Sender Name**: BravesGadget LLC
 
 4. Click **Save**
 
@@ -337,9 +337,9 @@ If you want to use your own email server:
    - ✅ Enable email change confirmations
    - ✅ Secure email change
 
-3. Set **Site URL**: `https://keysight-tech.github.io/fordips-tech/`
+3. Set **Site URL**: `https://keysight-tech.github.io/bravesgadget-llc/`
 
-4. Set **Redirect URLs**: `https://keysight-tech.github.io/fordips-tech/**`
+4. Set **Redirect URLs**: `https://keysight-tech.github.io/bravesgadget-llc/**`
 
 ---
 
@@ -389,9 +389,9 @@ Your website already has:
 
 ## Quick Links
 
-- **Live Website**: https://keysight-tech.github.io/fordips-tech/
-- **My Account Page**: https://keysight-tech.github.io/fordips-tech/my-account.html
-- **Admin Panel**: https://keysight-tech.github.io/fordips-tech/admin.html
+- **Live Website**: https://keysight-tech.github.io/bravesgadget-llc/
+- **My Account Page**: https://keysight-tech.github.io/bravesgadget-llc/my-account.html
+- **Admin Panel**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
 - **Supabase Dashboard**: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw
 
 ---

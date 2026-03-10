@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Intelligent Location Detection System
+ * BRAVESGADGET LLC - Intelligent Location Detection System
  * Automatically detects user location and adjusts currency, shipping, and content
  */
 

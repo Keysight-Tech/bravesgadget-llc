@@ -1,12 +1,12 @@
 /**
- * FORDIPS TECH - Multi-Language Support
+ * BRAVESGADGET LLC - Multi-Language Support
  * English, French & Pidgin English Translations
  */
 
 const translations = {
     en: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Home',
@@ -119,10 +119,10 @@ const translations = {
 
         // About
         aboutBadge: 'About Us',
-        aboutTitle: 'Welcome to Fordips Tech LLC',
-        aboutTagline: "It's Either Fordips Tech or No Tech",
+        aboutTitle: 'Welcome to BravesGadget LLC',
+        aboutTagline: "It's Either BravesGadget LLC or No Tech",
         aboutStoryHeading: 'Our Story',
-        aboutStoryPara1: 'Founded in 2020, Fordips Tech LLC has been dedicated to bringing the latest technology to customers worldwide. What started as a passion for innovation has grown into a trusted name in premium electronics.',
+        aboutStoryPara1: 'Founded in 2020, BravesGadget LLC has been dedicated to bringing the latest technology to customers worldwide. What started as a passion for innovation has grown into a trusted name in premium electronics.',
         aboutStoryPara2: 'We believe that everyone deserves access to world-class technology, which is why we carefully curate our selection to include only authentic, high-quality products from leading brands like Apple, Samsung, and more.',
         aboutValuesHeading: 'Our Values',
         statCustomers: 'Happy Customers',
@@ -332,7 +332,7 @@ const translations = {
         desc_m5_chip: "Supercharged by the M5 chip",
 
         // AI Chat Assistant Translations
-        aiChatTitle: "Fordips AI Assistant",
+        aiChatTitle: "BravesGadget AI Assistant",
         aiChatStatus: "Online - Ready to help!",
         aiChatPlaceholder: "Search products or ask me anything...",
         aiChatSend: "Send",
@@ -340,7 +340,7 @@ const translations = {
         qaBestDeals: "💰 Best Deals",
         qaPopular: "⭐ Popular",
         qaTrackOrder: "📦 Track Order",
-        aiWelcomeGreeting: "👋 **Welcome to Fordips Tech!**",
+        aiWelcomeGreeting: "👋 **Welcome to BravesGadget LLC!**",
         aiWelcomeIntro: "I'm your personal AI shopping assistant, here to make your experience amazing!",
         aiWelcomeCanHelp: "**I can help you with:**",
         aiWelcomeProducts: "📱 **Products** - iPhones, Samsung, Google Pixel, MacBooks, iPads",
@@ -352,7 +352,7 @@ const translations = {
         aiWelcomeSupport: "❓ **Support** - Any questions or issues",
         aiWelcomeAsk: "**Just ask me anything!** I'm here 24/7 to help you find exactly what you need.",
         aiWelcomeQuestion: "What can I help you with today?",
-        aiGreetingResponse: "Hello! 👋 Welcome to Fordips Tech! I'm your personal shopping assistant. How can I help you find the perfect electronics today?",
+        aiGreetingResponse: "Hello! 👋 Welcome to BravesGadget LLC! I'm your personal shopping assistant. How can I help you find the perfect electronics today?",
         aiCartEmpty: "Your cart is currently empty. Would you like me to help you find some great products?",
         aiCartHasItems: "🛒 Your cart has {count} item(s)",
         aiCheckoutReady: "Ready to checkout?",
@@ -366,7 +366,7 @@ const translations = {
 
     ar: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'الرئيسية',
@@ -479,10 +479,10 @@ const translations = {
 
         // About
         aboutBadge: 'من نحن',
-        aboutTitle: 'مرحباً بك في Fordips Tech LLC',
-        aboutTagline: "إما Fordips Tech أو لا تقنية",
+        aboutTitle: 'مرحباً بك في BravesGadget LLC',
+        aboutTagline: "إما BravesGadget LLC أو لا تقنية",
         aboutStoryHeading: 'قصتنا',
-        aboutStoryPara1: 'تأسست شركة Fordips Tech LLC في عام 2020، وقد كرست جهودها لتقديم أحدث التقنيات للعملاء في جميع أنحاء العالم. ما بدأ كشغف بالابتكار نما ليصبح اسماً موثوقاً في الإلكترونيات المتميزة.',
+        aboutStoryPara1: 'تأسست شركة BravesGadget LLC في عام 2020، وقد كرست جهودها لتقديم أحدث التقنيات للعملاء في جميع أنحاء العالم. ما بدأ كشغف بالابتكار نما ليصبح اسماً موثوقاً في الإلكترونيات المتميزة.',
         aboutStoryPara2: 'نؤمن بأن الجميع يستحق الوصول إلى تكنولوجيا عالمية المستوى، ولهذا السبب نختار بعناية مجموعتنا لتشمل فقط المنتجات الأصلية عالية الجودة من العلامات التجارية الرائدة مثل Apple وSamsung وغيرها.',
         aboutValuesHeading: 'قيمنا',
         statCustomers: 'عملاء سعداء',
@@ -694,7 +694,7 @@ const translations = {
 
     zh: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: '首页',
@@ -807,10 +807,10 @@ const translations = {
 
         // About
         aboutBadge: '关于我们',
-        aboutTitle: '欢迎来到 Fordips Tech LLC',
-        aboutTagline: "要么选择 Fordips Tech，要么没有科技",
+        aboutTitle: '欢迎来到 BravesGadget LLC',
+        aboutTagline: "要么选择 BravesGadget LLC，要么没有科技",
         aboutStoryHeading: '我们的故事',
-        aboutStoryPara1: 'Fordips Tech LLC 成立于 2020 年，致力于为全球客户带来最新技术。从对创新的热情开始，现已发展成为高端电子产品领域的可信赖品牌。',
+        aboutStoryPara1: 'BravesGadget LLC 成立于 2020 年，致力于为全球客户带来最新技术。从对创新的热情开始，现已发展成为高端电子产品领域的可信赖品牌。',
         aboutStoryPara2: '我们相信每个人都应该享受世界一流的技术，因此我们精心挑选产品，仅包括来自 Apple、Samsung 等领先品牌的正品高质量产品。',
         aboutValuesHeading: '我们的价值观',
         statCustomers: '满意客户',
@@ -1022,7 +1022,7 @@ const translations = {
 
     fr: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Accueil',
@@ -1135,10 +1135,10 @@ const translations = {
 
         // About
         aboutBadge: 'À propos de nous',
-        aboutTitle: 'Bienvenue chez Fordips Tech LLC',
-        aboutTagline: "C'est soit Fordips Tech soit pas de technologie",
+        aboutTitle: 'Bienvenue chez BravesGadget LLC',
+        aboutTagline: "C'est soit BravesGadget LLC soit pas de technologie",
         aboutStoryHeading: 'Notre histoire',
-        aboutStoryPara1: 'Fondée en 2020, Fordips Tech LLC s\'est consacrée à apporter les dernières technologies aux clients du monde entier. Ce qui a commencé comme une passion pour l\'innovation est devenu un nom de confiance dans l\'électronique haut de gamme.',
+        aboutStoryPara1: 'Fondée en 2020, BravesGadget LLC s\'est consacrée à apporter les dernières technologies aux clients du monde entier. Ce qui a commencé comme une passion pour l\'innovation est devenu un nom de confiance dans l\'électronique haut de gamme.',
         aboutStoryPara2: 'Nous croyons que tout le monde mérite un accès à une technologie de classe mondiale, c\'est pourquoi nous sélectionnons soigneusement notre sélection pour n\'inclure que des produits authentiques et de haute qualité des grandes marques comme Apple, Samsung et plus encore.',
         aboutValuesHeading: 'Nos valeurs',
         statCustomers: 'Clients satisfaits',
@@ -1350,7 +1350,7 @@ const translations = {
 
     es: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Inicio',
@@ -1463,10 +1463,10 @@ const translations = {
 
         // About
         aboutBadge: 'Acerca de nosotros',
-        aboutTitle: 'Bienvenido a Fordips Tech LLC',
-        aboutTagline: "O es Fordips Tech o no hay tecnología",
+        aboutTitle: 'Bienvenido a BravesGadget LLC',
+        aboutTagline: "O es BravesGadget LLC o no hay tecnología",
         aboutStoryHeading: 'Nuestra historia',
-        aboutStoryPara1: 'Fundada en 2020, Fordips Tech LLC se ha dedicado a llevar la última tecnología a clientes de todo el mundo. Lo que comenzó como una pasión por la innovación se ha convertido en un nombre de confianza en electrónica premium.',
+        aboutStoryPara1: 'Fundada en 2020, BravesGadget LLC se ha dedicado a llevar la última tecnología a clientes de todo el mundo. Lo que comenzó como una pasión por la innovación se ha convertido en un nombre de confianza en electrónica premium.',
         aboutStoryPara2: 'Creemos que todos merecen acceso a tecnología de clase mundial, por eso seleccionamos cuidadosamente nuestra selección para incluir solo productos auténticos y de alta calidad de marcas líderes como Apple, Samsung y más.',
         aboutValuesHeading: 'Nuestros valores',
         statCustomers: 'Clientes satisfechos',
@@ -1678,7 +1678,7 @@ const translations = {
 
     hi: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'होम',
@@ -1791,10 +1791,10 @@ const translations = {
 
         // About
         aboutBadge: 'हमारे बारे में',
-        aboutTitle: 'Fordips Tech LLC में आपका स्वागत है',
-        aboutTagline: "या तो Fordips Tech या कोई तकनीक नहीं",
+        aboutTitle: 'BravesGadget LLC में आपका स्वागत है',
+        aboutTagline: "या तो BravesGadget LLC या कोई तकनीक नहीं",
         aboutStoryHeading: 'हमारी कहानी',
-        aboutStoryPara1: '2020 में स्थापित, Fordips Tech LLC दुनिया भर के ग्राहकों को नवीनतम तकनीक लाने के लिए समर्पित रहा है। जो नवाचार के प्रति जुनून के रूप में शुरू हुआ, वह प्रीमियम इलेक्ट्रॉनिक्स में एक विश्वसनीय नाम बन गया है।',
+        aboutStoryPara1: '2020 में स्थापित, BravesGadget LLC दुनिया भर के ग्राहकों को नवीनतम तकनीक लाने के लिए समर्पित रहा है। जो नवाचार के प्रति जुनून के रूप में शुरू हुआ, वह प्रीमियम इलेक्ट्रॉनिक्स में एक विश्वसनीय नाम बन गया है।',
         aboutStoryPara2: 'हम मानते हैं कि हर कोई विश्व-स्तरीय तकनीक तक पहुंच का हकदार है, यही कारण है कि हम सावधानीपूर्वक अपने चयन को केवल Apple, Samsung और अधिक जैसे प्रमुख ब्रांडों के प्रामाणिक, उच्च-गुणवत्ता वाले उत्पादों को शामिल करने के लिए तैयार करते हैं।',
         aboutValuesHeading: 'हमारे मूल्य',
         statCustomers: 'खुश ग्राहक',
@@ -2006,7 +2006,7 @@ const translations = {
 
     pcm: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Home',
@@ -2119,10 +2119,10 @@ const translations = {
 
         // About
         aboutBadge: 'About We',
-        aboutTitle: 'Welcome To Fordips Tech LLC',
-        aboutTagline: "Na Fordips Tech Or No Tech At All",
+        aboutTitle: 'Welcome To BravesGadget LLC',
+        aboutTagline: "Na BravesGadget LLC Or No Tech At All",
         aboutStoryHeading: 'Our Story',
-        aboutStoryPara1: 'Since 2020, Fordips Tech LLC don dey bring latest technology give people for all over the world. Wetin start as love for new thing don become trusted name for premium electronics.',
+        aboutStoryPara1: 'Since 2020, BravesGadget LLC don dey bring latest technology give people for all over the world. Wetin start as love for new thing don become trusted name for premium electronics.',
         aboutStoryPara2: 'We believe say everybody deserve to get world-class technology, na why we dey carefully choose only original, high-quality products from top brands like Apple, Samsung, and others.',
         aboutValuesHeading: 'Wetin We Believe',
         statCustomers: 'Happy Customers',
@@ -2334,7 +2334,7 @@ const translations = {
 
     ewo: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Ndabo',
@@ -2447,10 +2447,10 @@ const translations = {
 
         // About
         aboutBadge: 'Yà Bisó',
-        aboutTitle: 'Miyɛmbɛ ná Fordips Tech LLC',
-        aboutTagline: "Fordips Tech o tɛ́ technologie esí",
+        aboutTitle: 'Miyɛmbɛ ná BravesGadget LLC',
+        aboutTagline: "BravesGadget LLC o tɛ́ technologie esí",
         aboutStoryHeading: 'Nsɔ́ŋ bisó',
-        aboutStoryPara1: 'Mɛ̀ yɛ́n àká 2020, Fordips Tech LLC à kɛ̀ yà tóm technologie esúsú ná ba sóm si ábé. Nkàn wo à  bíà nsuan ya innovation à òbúl dzin ya nímɛ́n ná bi électronique premium.',
+        aboutStoryPara1: 'Mɛ̀ yɛ́n àká 2020, BravesGadget LLC à kɛ̀ yà tóm technologie esúsú ná ba sóm si ábé. Nkàn wo à  bíà nsuan ya innovation à òbúl dzin ya nímɛ́n ná bi électronique premium.',
         aboutStoryPara2: 'Bísó bínga yá mɔ́t zán à kɔ̀b tóm technologie ya nkɔ́g, na nya mɛ kúlá yà biloko bi originaux, bi qualité si ásu, bi Apple, Samsung nɛ́ bísusu.',
         aboutValuesHeading: 'Bi valeur bisó',
         statCustomers: 'Ba Sóm Ba Nímɛ́n',
@@ -2594,7 +2594,7 @@ const translations = {
 
     nso: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Ndzə̀',
@@ -2707,10 +2707,10 @@ const translations = {
 
         // About
         aboutBadge: 'Ghà Wìi',
-        aboutTitle: 'Njìnə̀ á Fordips Tech LLC',
-        aboutTagline: "Fordips Tech à kèe technology kàsí",
+        aboutTitle: 'Njìnə̀ á BravesGadget LLC',
+        aboutTagline: "BravesGadget LLC à kèe technology kàsí",
         aboutStoryHeading: 'Tàari wìi',
-        aboutStoryPara1: 'Mìi dúù àká 2020, Fordips Tech LLC à dòŋ kɨ́ sìi technology yi sùú á mà mànsòò si yvíínsə̀. Vɨ̀ wo à bíà ghà kɨlàŋ innovation à kòmə̀ rìin ri kibàŋ à bi électronique premium.',
+        aboutStoryPara1: 'Mìi dúù àká 2020, BravesGadget LLC à dòŋ kɨ́ sìi technology yi sùú á mà mànsòò si yvíínsə̀. Vɨ̀ wo à bíà ghà kɨlàŋ innovation à kòmə̀ rìin ri kibàŋ à bi électronique premium.',
         aboutStoryPara2: 'Wìi bǝŋə̀ yá mòo zàŋ à kɔ̀ tóm technology yi kibàŋ, nyə ghà mìi sèrə̀ wiri wi original, wi qualité si ntàŋ, wi Apple, Samsung nə̀ wiri wisúù.',
         aboutValuesHeading: 'Wiri wi kibàŋ wìi',
         statCustomers: 'Mànsòò Ma Kibàŋ',
@@ -2852,7 +2852,7 @@ const translations = {
         FREE: "BÙÙ",
 
         // AI Chat Assistant Translations
-        aiChatTitle: "Fordips AI Wiyciyir",
+        aiChatTitle: "BravesGadget AI Wiyciyir",
         aiChatStatus: "Yi din internet - Yi kir a wiy!",
         aiChatPlaceholder: "Lar visen to yu mbar...",
         aiChatSend: "Nshir",
@@ -2860,7 +2860,7 @@ const translations = {
         qaBestDeals: "💰 Visen Bom",
         qaPopular: "⭐ Bi lu lu",
         qaTrackOrder: "📦 Jighir Order",
-        aiWelcomeGreeting: "👋 **Yi mbinon ngon Fordips Tech!**",
+        aiWelcomeGreeting: "👋 **Yi mbinon ngon BravesGadget LLC!**",
         aiWelcomeIntro: "Mun li wiyciyir wov nsong visen, mun yi an ka yi kibay wov ki bom bom!",
         aiWelcomeCanHelp: "**Mun nga wiy wov:**",
         aiWelcomeProducts: "📱 **Visen** - iPhone, Samsung, Google Pixel, MacBook, iPad",
@@ -2872,7 +2872,7 @@ const translations = {
         aiWelcomeSupport: "❓ **Wiy** - Mbar to nshar",
         aiWelcomeAsk: "**Yu mbar kurum!** Mun yi an 24/7 ka wiy wov lar visen wov zal.",
         aiWelcomeQuestion: "Ki mun nga wiy wov ngon?",
-        aiGreetingResponse: "Kii! 👋 Yi mbinon ngon Fordips Tech! Mun li wiyciyir wov nsong visen. Ki mun nga wiy wov lar visen électronique bom ngon?",
+        aiGreetingResponse: "Kii! 👋 Yi mbinon ngon BravesGadget LLC! Mun li wiyciyir wov nsong visen. Ki mun nga wiy wov lar visen électronique bom ngon?",
         aiCartEmpty: "Kong wov yi sifa ngon. Wov zal mun a wiy wov lar visen bom?",
         aiCartHasItems: "🛒 Kong wov yi visen {count}",
         aiCheckoutReady: "Wov kir a fay?",
@@ -2886,7 +2886,7 @@ const translations = {
 
     bas: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Mbɔg',
@@ -2999,10 +2999,10 @@ const translations = {
 
         // About
         aboutBadge: 'Yɛn Bés',
-        aboutTitle: 'Miyɛ́mbɛ́ ú Fordips Tech LLC',
-        aboutTagline: "Fordips Tech ò kɛ́ technology ii",
+        aboutTitle: 'Miyɛ́mbɛ́ ú BravesGadget LLC',
+        aboutTagline: "BravesGadget LLC ò kɛ́ technology ii",
         aboutStoryHeading: 'Nsɔ́ŋ bisés',
-        aboutStoryPara1: 'Bés dúù àka 2020, Fordips Tech LLC à dòŋ kɛ tɔm technology i nsúú ú bá sɔmba si byáp. Vɨ̀ wo à bíà ghà kɛ́ɛ̀ làŋ innovation à kòmə̀ likwá li njɛm ú bi électronique premium.',
+        aboutStoryPara1: 'Bés dúù àka 2020, BravesGadget LLC à dòŋ kɛ tɔm technology i nsúú ú bá sɔmba si byáp. Vɨ̀ wo à bíà ghà kɛ́ɛ̀ làŋ innovation à kòmə̀ likwá li njɛm ú bi électronique premium.',
         aboutStoryPara2: 'Bés bɛ́nɛ́ yá mòt zàŋ à kɔ̀ tóm technology i njɛm, nyə ghà bés sèrə̀ bikɛt bi original, bi qualité si ntàŋ, bi Apple, Samsung nɛ́ bisúù.',
         aboutValuesHeading: 'Bikɛt bi njɛm bisés',
         statCustomers: 'Bá Sɔmba Ba Njɛm',
@@ -3144,7 +3144,7 @@ const translations = {
         FREE: "BULU",
 
         // AI Chat Assistant Translations
-        aiChatTitle: "Fordips AI Nlɛp Bato",
+        aiChatTitle: "BravesGadget AI Nlɛp Bato",
         aiChatStatus: "I si internet - I yɛ́ŋɛ nlɛp!",
         aiChatPlaceholder: "Tɔk bihaŋ kɛ u njɛm mi lip...",
         aiChatSend: "Tɔk",
@@ -3152,7 +3152,7 @@ const translations = {
         qaBestDeals: "💰 Bihaŋ Bimbɛ́m",
         qaPopular: "⭐ Bi Nu",
         qaTrackOrder: "📦 Ɔɔt Lɛndɛ",
-        aiWelcomeGreeting: "👋 **U yɛ́m bi Fordips Tech!**",
+        aiWelcomeGreeting: "👋 **U yɛ́m bi BravesGadget LLC!**",
         aiWelcomeIntro: "Mɛ ne nlɛp wɔ́ ɔ̌ kak yau bihaŋ, mɛ yɛ́ŋɛ an i kob hop wɔ́ i mbɛm!",
         aiWelcomeCanHelp: "**Mɛ nga lɛp wɔ:**",
         aiWelcomeProducts: "📱 **Bihaŋ** - iPhone, Samsung, Google Pixel, MacBook, iPad",
@@ -3164,7 +3164,7 @@ const translations = {
         aiWelcomeSupport: "❓ **Nlɛp** - Njɛm kɛ bi njuŋ",
         aiWelcomeAsk: "**Njɛm mi lip hɛp!** Mɛ yɛ́ŋɛ an 24/7 i lɛp wɔ tɔk ki u zɔ́ŋɔ́.",
         aiWelcomeQuestion: "Ki mɛ nga lɛp wɔ non?",
-        aiGreetingResponse: "Mbɔlɔ! 👋 U yɛ́m bi Fordips Tech! Mɛ ne nlɛp wɔ́ ɔ̌ yau bihaŋ. Ki mɛ nga lɛp wɔ tɔk bihaŋ bi électronique bimbɛ́m non?",
+        aiGreetingResponse: "Mbɔlɔ! 👋 U yɛ́m bi BravesGadget LLC! Mɛ ne nlɛp wɔ́ ɔ̌ yau bihaŋ. Ki mɛ nga lɛp wɔ tɔk bihaŋ bi électronique bimbɛ́m non?",
         aiCartEmpty: "Kɔndɛ wɔ́ i si bihaŋ non. U zɔ́ŋɔ́ mɛ a lɛp wɔ tɔk bihaŋ bimbɛ́m?",
         aiCartHasItems: "🛒 Kɔndɛ wɔ́ i ne bihaŋ {count}",
         aiCheckoutReady: "U yɛ́ŋɛ jɔm?",
@@ -3178,7 +3178,7 @@ const translations = {
 
     bkw: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Mwámbá',
@@ -3291,10 +3291,10 @@ const translations = {
 
         // About
         aboutBadge: 'Yɛ́n Bésó',
-        aboutTitle: 'Lóngóní ú Fordips Tech LLC',
-        aboutTagline: "Fordips Tech ò kɛ́ technology ii",
+        aboutTitle: 'Lóngóní ú BravesGadget LLC',
+        aboutTagline: "BravesGadget LLC ò kɛ́ technology ii",
         aboutStoryHeading: 'Nsɔ́ng bisésó',
-        aboutStoryPara1: 'Bésó dúù àka 2020, Fordips Tech LLC à dòng kɛ tómá technology i súsú ú bá sómá si byáp. Vɨ́ wo à bíà ghà kɛ́ làngò innovation à kòmə̀ lísínà lí njɛ́m ú bi électronique premium.',
+        aboutStoryPara1: 'Bésó dúù àka 2020, BravesGadget LLC à dòng kɛ tómá technology i súsú ú bá sómá si byáp. Vɨ́ wo à bíà ghà kɛ́ làngò innovation à kòmə̀ lísínà lí njɛ́m ú bi électronique premium.',
         aboutStoryPara2: 'Bésó bɛ́nɛ́ yá mòt zàng à kɔ̀ tóm technology i njɛ́m, nyə ghà bésó sèrə̀ lwálò lwá original, lwá qualité si ntàng, lwá Apple, Samsung nɛ́ bisúù.',
         aboutValuesHeading: 'Lwálò lwá njɛ́m bisésó',
         statCustomers: 'Bá Sómá Ba Njɛ́m',
@@ -3436,7 +3436,7 @@ const translations = {
         FREE: "BULU",
 
         // AI Chat Assistant Translations
-        aiChatTitle: "Fordips AI Ekɔlɛ Bato",
+        aiChatTitle: "BravesGadget AI Ekɔlɛ Bato",
         aiChatStatus: "E di internet - E lɛŋɛ ekɔlɛ!",
         aiChatPlaceholder: "Lɔba bisɔŋ to u mbalɛ mi...",
         aiChatSend: "Tɔma",
@@ -3444,7 +3444,7 @@ const translations = {
         qaBestDeals: "💰 Bisɔŋ Bimbɛa",
         qaPopular: "⭐ Bi Taa",
         qaTrackOrder: "📦 Wona Etɔŋɔ",
-        aiWelcomeGreeting: "👋 **O yɛmɛ bi Fordips Tech!**",
+        aiWelcomeGreeting: "👋 **O yɛmɛ bi BravesGadget LLC!**",
         aiWelcomeIntro: "Mɛ nde ekɔlɛ wɔ́ ɔ somba bisɔŋ, mɛ lɛŋɛ ane o kɔba matá ma wɔ́ ma mbɛa!",
         aiWelcomeCanHelp: "**Mɛ nga kɔlɛ wɔ:**",
         aiWelcomeProducts: "📱 **Bisɔŋ** - iPhone, Samsung, Google Pixel, MacBook, iPad",
@@ -3456,7 +3456,7 @@ const translations = {
         aiWelcomeSupport: "❓ **Ekɔlɛ** - Mbalɛ na bi njuŋa",
         aiWelcomeAsk: "**Mbalɛ mi bosɔ!** Mɛ lɛŋɛ ane 24/7 o kɔlɛ wɔ lɔba ki u lɔŋɔ.",
         aiWelcomeQuestion: "Ki mɛ nga kɔlɛ wɔ non?",
-        aiGreetingResponse: "Mbɔlɔ! 👋 O yɛmɛ bi Fordips Tech! Mɛ nde ekɔlɛ wɔ́ ɔ somba bisɔŋ. Ki mɛ nga kɔlɛ wɔ lɔba bisɔŋ bi électronique bimbɛa non?",
+        aiGreetingResponse: "Mbɔlɔ! 👋 O yɛmɛ bi BravesGadget LLC! Mɛ nde ekɔlɛ wɔ́ ɔ somba bisɔŋ. Ki mɛ nga kɔlɛ wɔ lɔba bisɔŋ bi électronique bimbɛa non?",
         aiCartEmpty: "Ekɔndɛ wɔ́ e si bisɔŋ non. U lɔŋɔ mɛ a kɔlɛ wɔ lɔba bisɔŋ bimbɛa?",
         aiCartHasItems: "🛒 Ekɔndɛ wɔ́ e ne bisɔŋ {count}",
         aiCheckoutReady: "U lɛŋɛ efua?",
@@ -3470,7 +3470,7 @@ const translations = {
 
     mny: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Ndáb',
@@ -3583,10 +3583,10 @@ const translations = {
 
         // About
         aboutBadge: 'Yɛ́n Bɛ́sɛ̀',
-        aboutTitle: 'Njɛ̀mbɛ́ ú Fordips Tech LLC',
-        aboutTagline: "Fordips Tech ò kɛ́ technology ii",
+        aboutTitle: 'Njɛ̀mbɛ́ ú BravesGadget LLC',
+        aboutTagline: "BravesGadget LLC ò kɛ́ technology ii",
         aboutStoryHeading: 'Nsɔ́ng bìsɛ́sɛ̀',
-        aboutStoryPara1: 'Bɛ́sɛ̀ dúù àka 2020, Fordips Tech LLC à dòŋ kɛ tɔ́m technology i súsú ú bá sɔ́m si byáp. Vɨ́ wo à bíà ghà kɛ́ làng innovation à kòmə̀ rín rí njɛ́m ú bi électronique premium.',
+        aboutStoryPara1: 'Bɛ́sɛ̀ dúù àka 2020, BravesGadget LLC à dòŋ kɛ tɔ́m technology i súsú ú bá sɔ́m si byáp. Vɨ́ wo à bíà ghà kɛ́ làng innovation à kòmə̀ rín rí njɛ́m ú bi électronique premium.',
         aboutStoryPara2: 'Bɛ́sɛ̀ bɛ́nɛ́ yá mòt zàŋ à kɔ̀ tóm technology i njɛ́m, nyə ghà bɛ́sɛ̀ sèrə̀ bìkɛ̀t bì original, bì qualité si ntàŋ, bì Apple, Samsung nɛ́ bisúù.',
         aboutValuesHeading: 'Bìkɛ̀t bì njɛ́m bìsɛ́sɛ̀',
         statCustomers: 'Bá Sɔ́m Ba Njɛ́m',
@@ -3728,7 +3728,7 @@ const translations = {
         FREE: "BULU",
 
         // AI Chat Assistant Translations
-        aiChatTitle: "Fordips AI Bəkɛrɛ Bato",
+        aiChatTitle: "BravesGadget AI Bəkɛrɛ Bato",
         aiChatStatus: "Ə ɣɔk internet - Ə chɛk bəkɛrɛ!",
         aiChatPlaceholder: "Kɛt bisɔŋ to u tərɛ mi...",
         aiChatSend: "Tɔk",
@@ -3736,7 +3736,7 @@ const translations = {
         qaBestDeals: "💰 Bisɔŋ Bəjwɔk",
         qaPopular: "⭐ Bi Tan",
         qaTrackOrder: "📦 Yɔp Ndɔŋ",
-        aiWelcomeGreeting: "👋 **Chɔp bi Fordips Tech!**",
+        aiWelcomeGreeting: "👋 **Chɔp bi BravesGadget LLC!**",
         aiWelcomeIntro: "Mə ne bəkɛrɛ wɔ ɔ̌ sɔk bisɔŋ, mə ɣɔk ane ə kɔk mbák ma wɔ ma jwɔk!",
         aiWelcomeCanHelp: "**Mə nga kɛrɛ wɔ:**",
         aiWelcomeProducts: "📱 **Bisɔŋ** - iPhone, Samsung, Google Pixel, MacBook, iPad",
@@ -3748,7 +3748,7 @@ const translations = {
         aiWelcomeSupport: "❓ **Bəkɛrɛ** - Tərɛ na bi njuŋ",
         aiWelcomeAsk: "**Tərɛ mi mbot!** Mə ɣɔk ane 24/7 ə kɛrɛ wɔ kɛt ki u lɔŋ.",
         aiWelcomeQuestion: "Ki mə nga kɛrɛ wɔ non?",
-        aiGreetingResponse: "Mbɔrɔ! 👋 Chɔp bi Fordips Tech! Mə ne bəkɛrɛ wɔ ɔ̌ sɔk bisɔŋ. Ki mə nga kɛrɛ wɔ kɛt bisɔŋ bi électronique bəjwɔk non?",
+        aiGreetingResponse: "Mbɔrɔ! 👋 Chɔp bi BravesGadget LLC! Mə ne bəkɛrɛ wɔ ɔ̌ sɔk bisɔŋ. Ki mə nga kɛrɛ wɔ kɛt bisɔŋ bi électronique bəjwɔk non?",
         aiCartEmpty: "Əkɔt wɔ ə si bisɔŋ non. U lɔŋ mə a kɛrɛ wɔ kɛt bisɔŋ bəjwɔk?",
         aiCartHasItems: "🛒 Əkɔt wɔ ə ne bisɔŋ {count}",
         aiCheckoutReady: "U chɛk əfɛk?",
@@ -3762,7 +3762,7 @@ const translations = {
 
     bks: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Ndàp',
@@ -3875,10 +3875,10 @@ const translations = {
 
         // About
         aboutBadge: 'Yɛ́n Bɛ́sɛ̀',
-        aboutTitle: 'Njɛ̀mbɛ́ ú Fordips Tech LLC',
-        aboutTagline: "Fordips Tech ò kɛ́ technology ii",
+        aboutTitle: 'Njɛ̀mbɛ́ ú BravesGadget LLC',
+        aboutTagline: "BravesGadget LLC ò kɛ́ technology ii",
         aboutStoryHeading: 'Nsɔ́ŋ bìsɛ́sɛ̀',
-        aboutStoryPara1: 'Bɛ́sɛ̀ dúù àka 2020, Fordips Tech LLC à dòŋ kɛ tɔ́m technology ì súsú ú bá sɔ́mbá si byáp. Vɨ́ wo à bíà ghà kɛ́ làŋ innovation à kòmə̀ lìkwá lì njɛ́m ú bì électronique premium.',
+        aboutStoryPara1: 'Bɛ́sɛ̀ dúù àka 2020, BravesGadget LLC à dòŋ kɛ tɔ́m technology ì súsú ú bá sɔ́mbá si byáp. Vɨ́ wo à bíà ghà kɛ́ làŋ innovation à kòmə̀ lìkwá lì njɛ́m ú bì électronique premium.',
         aboutStoryPara2: 'Bɛ́sɛ̀ bɛ́nɛ́ yá mòt zàŋ à kɔ̀ tóm technology ì njɛ́m, nyə ghà bɛ́sɛ̀ sèrə̀ bìkɛ̀t bì original, bì qualité si ntàŋ, bì Apple, Samsung nɛ́ bisúù.',
         aboutValuesHeading: 'Bìkɛ̀t bì njɛ́m bìsɛ́sɛ̀',
         statCustomers: 'Bá Sɔ́mbá Ba Njɛ́m',
@@ -4020,7 +4020,7 @@ const translations = {
         FREE: "BULU",
 
         // AI Chat Assistant Translations
-        aiChatTitle: "Fordips AI Nlɛp Bɔbɔ",
+        aiChatTitle: "BravesGadget AI Nlɛp Bɔbɔ",
         aiChatStatus: "I yé internet - I ɔŋɔ́ nlɛp!",
         aiChatPlaceholder: "Tɔk bisɔŋ kɛ u njɛm mi...",
         aiChatSend: "Tɔk",
@@ -4028,7 +4028,7 @@ const translations = {
         qaBestDeals: "💰 Bisɔŋ Bimbɛ́",
         qaPopular: "⭐ Bi Wú",
         qaTrackOrder: "📦 Ɔɔl Ndɔŋ",
-        aiWelcomeGreeting: "👋 **U yɛm bi Fordips Tech!**",
+        aiWelcomeGreeting: "👋 **U yɛm bi BravesGadget LLC!**",
         aiWelcomeIntro: "Mɛ ne nlɛp wɔ́ ɔ̌ sɔŋ bisɔŋ, mɛ yé ane i kob hop wɔ́ i mbɛ́!",
         aiWelcomeCanHelp: "**Mɛ nga lɛp wɔ:**",
         aiWelcomeProducts: "📱 **Bisɔŋ** - iPhone, Samsung, Google Pixel, MacBook, iPad",
@@ -4040,7 +4040,7 @@ const translations = {
         aiWelcomeSupport: "❓ **Nlɛp** - Njɛm kɛ bi njuŋ",
         aiWelcomeAsk: "**Njɛm mi nyɔk!** Mɛ yé ane 24/7 i lɛp wɔ tɔk ki u zɔ́ŋ.",
         aiWelcomeQuestion: "Ki mɛ nga lɛp wɔ non?",
-        aiGreetingResponse: "Mbɔlɔ! 👋 U yɛm bi Fordips Tech! Mɛ ne nlɛp wɔ́ ɔ̌ sɔŋ bisɔŋ. Ki mɛ nga lɛp wɔ tɔk bisɔŋ bi électronique bimbɛ́ non?",
+        aiGreetingResponse: "Mbɔlɔ! 👋 U yɛm bi BravesGadget LLC! Mɛ ne nlɛp wɔ́ ɔ̌ sɔŋ bisɔŋ. Ki mɛ nga lɛp wɔ tɔk bisɔŋ bi électronique bimbɛ́ non?",
         aiCartEmpty: "Kɔndɛ wɔ́ i si bisɔŋ non. U zɔ́ŋ mɛ a lɛp wɔ tɔk bisɔŋ bimbɛ́?",
         aiCartHasItems: "🛒 Kɔndɛ wɔ́ i ne bisɔŋ {count}",
         aiCheckoutReady: "U ɔŋɔ́ fua?",
@@ -4054,7 +4054,7 @@ const translations = {
 
     de: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Startseite',
@@ -4167,10 +4167,10 @@ const translations = {
 
         // About
         aboutBadge: 'Über uns',
-        aboutTitle: 'Willkommen bei Fordips Tech LLC',
-        aboutTagline: 'Entweder Fordips Tech oder keine Tech',
+        aboutTitle: 'Willkommen bei BravesGadget LLC',
+        aboutTagline: 'Entweder BravesGadget LLC oder keine Tech',
         aboutStoryHeading: 'Unsere Geschichte',
-        aboutStoryPara1: 'Gegründet im Jahr 2020, widmet sich Fordips Tech LLC der Bereitstellung der neuesten Technologie für Kunden weltweit. Was als Leidenschaft für Innovation begann, ist zu einem vertrauenswürdigen Namen in Premium-Elektronik gewachsen.',
+        aboutStoryPara1: 'Gegründet im Jahr 2020, widmet sich BravesGadget LLC der Bereitstellung der neuesten Technologie für Kunden weltweit. Was als Leidenschaft für Innovation begann, ist zu einem vertrauenswürdigen Namen in Premium-Elektronik gewachsen.',
         aboutStoryPara2: 'Wir glauben, dass jeder Zugang zu erstklassiger Technologie verdient, weshalb wir unsere Auswahl sorgfältig kuratieren, um nur authentische, hochwertige Produkte von führenden Marken wie Apple, Samsung und mehr einzuschließen.',
         aboutValuesHeading: 'Unsere Werte',
         statCustomers: 'Zufriedene Kunden',
@@ -4380,7 +4380,7 @@ const translations = {
         desc_m5_chip: "Angetrieben vom M5 Chip",
 
         // AI Chat Assistant Translations
-        aiChatTitle: "Fordips KI-Assistent",
+        aiChatTitle: "BravesGadget KI-Assistent",
         aiChatStatus: "Online - Bereit zu helfen!",
         aiChatPlaceholder: "Produkte suchen oder mich etwas fragen...",
         aiChatSend: "Senden",
@@ -4388,7 +4388,7 @@ const translations = {
         qaBestDeals: "💰 Beste Angebote",
         qaPopular: "⭐ Beliebt",
         qaTrackOrder: "📦 Bestellung Verfolgen",
-        aiWelcomeGreeting: "👋 **Willkommen bei Fordips Tech!**",
+        aiWelcomeGreeting: "👋 **Willkommen bei BravesGadget LLC!**",
         aiWelcomeIntro: "Ich bin Ihr persönlicher KI-Shopping-Assistent, hier um Ihr Erlebnis großartig zu machen!",
         aiWelcomeCanHelp: "**Ich kann Ihnen helfen mit:**",
         aiWelcomeProducts: "📱 **Produkte** - iPhones, Samsung, Google Pixel, MacBooks, iPads",
@@ -4400,7 +4400,7 @@ const translations = {
         aiWelcomeSupport: "❓ **Support** - Alle Fragen oder Probleme",
         aiWelcomeAsk: "**Fragen Sie mich einfach!** Ich bin 24/7 hier, um Ihnen zu helfen, genau das zu finden, was Sie brauchen.",
         aiWelcomeQuestion: "Womit kann ich Ihnen heute helfen?",
-        aiGreetingResponse: "Hallo! 👋 Willkommen bei Fordips Tech! Ich bin Ihr persönlicher Shopping-Assistent. Wie kann ich Ihnen helfen, heute die perfekte Elektronik zu finden?",
+        aiGreetingResponse: "Hallo! 👋 Willkommen bei BravesGadget LLC! Ich bin Ihr persönlicher Shopping-Assistent. Wie kann ich Ihnen helfen, heute die perfekte Elektronik zu finden?",
         aiCartEmpty: "Ihr Warenkorb ist derzeit leer. Möchten Sie, dass ich Ihnen helfe, tolle Produkte zu finden?",
         aiCartHasItems: "🛒 Ihr Warenkorb hat {count} Artikel",
         aiCheckoutReady: "Bereit zur Kasse zu gehen?",
@@ -4414,7 +4414,7 @@ const translations = {
 
     it: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Home',
@@ -4527,10 +4527,10 @@ const translations = {
 
         // About
         aboutBadge: 'Chi siamo',
-        aboutTitle: 'Benvenuto in Fordips Tech LLC',
-        aboutTagline: 'O Fordips Tech o niente tech',
+        aboutTitle: 'Benvenuto in BravesGadget LLC',
+        aboutTagline: 'O BravesGadget LLC o niente tech',
         aboutStoryHeading: 'La nostra storia',
-        aboutStoryPara1: 'Fondata nel 2020, Fordips Tech LLC si dedica a portare la tecnologia più recente ai clienti di tutto il mondo. Ciò che è iniziato come una passione per l\'innovazione è cresciuto fino a diventare un nome affidabile nell\'elettronica premium.',
+        aboutStoryPara1: 'Fondata nel 2020, BravesGadget LLC si dedica a portare la tecnologia più recente ai clienti di tutto il mondo. Ciò che è iniziato come una passione per l\'innovazione è cresciuto fino a diventare un nome affidabile nell\'elettronica premium.',
         aboutStoryPara2: 'Crediamo che tutti meritino l\'accesso alla tecnologia di classe mondiale, motivo per cui curiamo attentamente la nostra selezione per includere solo prodotti autentici e di alta qualità di marchi leader come Apple, Samsung e altri.',
         aboutValuesHeading: 'I nostri valori',
         statCustomers: 'Clienti soddisfatti',
@@ -4672,7 +4672,7 @@ const translations = {
         FREE: "GRATIS",
 
         // AI Chat Assistant Translations
-        aiChatTitle: "Assistente IA Fordips",
+        aiChatTitle: "Assistente IA BravesGadget",
         aiChatStatus: "Online - Pronto ad aiutare!",
         aiChatPlaceholder: "Cerca prodotti o chiedimi qualsiasi cosa...",
         aiChatSend: "Invia",
@@ -4680,7 +4680,7 @@ const translations = {
         qaBestDeals: "💰 Migliori Offerte",
         qaPopular: "⭐ Popolare",
         qaTrackOrder: "📦 Traccia Ordine",
-        aiWelcomeGreeting: "👋 **Benvenuto su Fordips Tech!**",
+        aiWelcomeGreeting: "👋 **Benvenuto su BravesGadget LLC!**",
         aiWelcomeIntro: "Sono il tuo assistente personale per lo shopping con IA, qui per rendere la tua esperienza fantastica!",
         aiWelcomeCanHelp: "**Posso aiutarti con:**",
         aiWelcomeProducts: "📱 **Prodotti** - iPhone, Samsung, Google Pixel, MacBook, iPad",
@@ -4692,7 +4692,7 @@ const translations = {
         aiWelcomeSupport: "❓ **Supporto** - Qualsiasi domanda o problema",
         aiWelcomeAsk: "**Chiedimi qualsiasi cosa!** Sono qui 24/7 per aiutarti a trovare esattamente ciò di cui hai bisogno.",
         aiWelcomeQuestion: "Come posso aiutarti oggi?",
-        aiGreetingResponse: "Ciao! 👋 Benvenuto su Fordips Tech! Sono il tuo assistente personale per lo shopping. Come posso aiutarti a trovare l'elettronica perfetta oggi?",
+        aiGreetingResponse: "Ciao! 👋 Benvenuto su BravesGadget LLC! Sono il tuo assistente personale per lo shopping. Come posso aiutarti a trovare l'elettronica perfetta oggi?",
         aiCartEmpty: "Il tuo carrello è attualmente vuoto. Vuoi che ti aiuti a trovare degli ottimi prodotti?",
         aiCartHasItems: "🛒 Il tuo carrello ha {count} articolo/i",
         aiCheckoutReady: "Pronto per il checkout?",
@@ -4706,7 +4706,7 @@ const translations = {
 
     zu: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Ikhaya',
@@ -4819,10 +4819,10 @@ const translations = {
 
         // About
         aboutBadge: 'Mayelana Nathi',
-        aboutTitle: 'Siyakwamukela ku-Fordips Tech LLC',
-        aboutTagline: 'Kungukuthi i-Fordips Tech noma ayikho i-Tech',
+        aboutTitle: 'Siyakwamukela ku-BravesGadget LLC',
+        aboutTagline: 'Kungukuthi i-BravesGadget LLC noma ayikho i-Tech',
         aboutStoryHeading: 'Indaba Yethu',
-        aboutStoryPara1: 'Yasungulwa ngo-2020, i-Fordips Tech LLC izinikele ekuletheni ubuchwepheshe bakamuva kumakhasimende emhlabeni wonke. Okwaqala njengothando ngokuklama sekukhule kwaba igama elithembekile kwizinto zikagesi eziphakeme.',
+        aboutStoryPara1: 'Yasungulwa ngo-2020, i-BravesGadget LLC izinikele ekuletheni ubuchwepheshe bakamuva kumakhasimende emhlabeni wonke. Okwaqala njengothando ngokuklama sekukhule kwaba igama elithembekile kwizinto zikagesi eziphakeme.',
         aboutStoryPara2: 'Sikholelwa ukuthi wonke umuntu ufanele ukufinyelela kubuchwepheshe bezinga lomhlaba, yingakho sikhethela ngokucophelela ukukhetha kwethu ukuze sihlanganise kuphela imikhiqizo engokoqobo, esezingeni eliphezulu yamabhulogi ahamba phambili njenge-Apple, Samsung, nokunye.',
         aboutValuesHeading: 'Izindinganiso Zethu',
         statCustomers: 'Amakhasimende Anenjabulo',
@@ -4964,7 +4964,7 @@ const translations = {
         FREE: "MAHHALA",
 
         // AI Chat Assistant Translations
-        aiChatTitle: "Umsizi we-AI ka-Fordips",
+        aiChatTitle: "Umsizi we-AI ka-BravesGadget",
         aiChatStatus: "Ku-inthanethi - Kulungele ukusiza!",
         aiChatPlaceholder: "Sesha imikhiqizo noma ungibuze noma yini...",
         aiChatSend: "Thumela",
@@ -4972,7 +4972,7 @@ const translations = {
         qaBestDeals: "💰 Amathuba Amahle",
         qaPopular: "⭐ Okudumile",
         qaTrackOrder: "📦 Landelela I-oda",
-        aiWelcomeGreeting: "👋 **Siyakwamukela ku-Fordips Tech!**",
+        aiWelcomeGreeting: "👋 **Siyakwamukela ku-BravesGadget LLC!**",
         aiWelcomeIntro: "Ngingumsizi wakho womuntu siqu wokuthenga nge-AI, ngilapha ukwenza isipiliyoni sakho sibe sihle!",
         aiWelcomeCanHelp: "**Ngingakusiza ngalokhu:**",
         aiWelcomeProducts: "📱 **Imikhiqizo** - Ama-iPhone, Samsung, Google Pixel, MacBook, iPad",
@@ -4984,7 +4984,7 @@ const translations = {
         aiWelcomeSupport: "❓ **Usizo** - Noma yimiphi imibuzo noma izinkinga",
         aiWelcomeAsk: "**Vele ungibuze noma yini!** Ngilapha 24/7 ukukusiza uthole ncamashi lokho okudingayo.",
         aiWelcomeQuestion: "Yini engingakusiza ngayo namuhla?",
-        aiGreetingResponse: "Sawubona! 👋 Siyakwamukela ku-Fordips Tech! Ngingumsizi wakho wokuthenga. Ngingakusiza kanjani ukuthola izinto zikagesi eziphelele namuhla?",
+        aiGreetingResponse: "Sawubona! 👋 Siyakwamukela ku-BravesGadget LLC! Ngingumsizi wakho wokuthenga. Ngingakusiza kanjani ukuthola izinto zikagesi eziphelele namuhla?",
         aiCartEmpty: "Ithulukazi lakho alinamkhiqizo manje. Ungathanda ukuthi ngikusize uthole imikhiqizo emihle?",
         aiCartHasItems: "🛒 Ithulukazi lakho linezinto ezingu-{count}",
         aiCheckoutReady: "Ukulungele ukukhokha?",
@@ -4998,7 +4998,7 @@ const translations = {
 
     pt: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Início',
@@ -5060,7 +5060,7 @@ const translations = {
         footerQuickLinkPrivacy: 'Política de Privacidade',
         footerQuickLinkTerms: 'Termos de Serviço',
         footerContactTitle: 'CONTATO',
-        footerCopyright: '2025 FORDIPS TECH LLC. Todos os direitos reservados.',
+        footerCopyright: '2025 BRAVESGADGET LLC. Todos os direitos reservados.',
 
         // Locations
         locationsTitle: 'Nossas Localizações',
@@ -5253,7 +5253,7 @@ const translations = {
 
     ja: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'ホーム',
@@ -5315,7 +5315,7 @@ const translations = {
         footerQuickLinkPrivacy: 'プライバシーポリシー',
         footerQuickLinkTerms: '利用規約',
         footerContactTitle: 'お問い合わせ',
-        footerCopyright: '2025 FORDIPS TECH LLC. All rights reserved.',
+        footerCopyright: '2025 BRAVESGADGET LLC. All rights reserved.',
 
         // Locations
         locationsTitle: '店舗情報',
@@ -5508,7 +5508,7 @@ const translations = {
 
     ko: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: '홈',
@@ -5570,7 +5570,7 @@ const translations = {
         footerQuickLinkPrivacy: '개인정보처리방침',
         footerQuickLinkTerms: '이용약관',
         footerContactTitle: '문의',
-        footerCopyright: '2025 FORDIPS TECH LLC. All rights reserved.',
+        footerCopyright: '2025 BRAVESGADGET LLC. All rights reserved.',
 
         // Locations
         locationsTitle: '매장 위치',
@@ -5781,7 +5781,7 @@ const translations = {
 
     ru: {
         // Brand
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
 
         // Navigation
         navHome: 'Главная',
@@ -5843,7 +5843,7 @@ const translations = {
         footerQuickLinkPrivacy: 'Политика конфиденциальности',
         footerQuickLinkTerms: 'Условия использования',
         footerContactTitle: 'КОНТАКТЫ',
-        footerCopyright: '2025 FORDIPS TECH LLC. Все права защищены.',
+        footerCopyright: '2025 BRAVESGADGET LLC. Все права защищены.',
 
         // Locations
         locationsTitle: 'Наши магазины',
@@ -6036,7 +6036,7 @@ const translations = {
 
     // Indonesian (ID)
     id: {
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
         navHome: 'Beranda',
         navProducts: 'Produk',
         navCategories: 'Kategori',
@@ -6118,7 +6118,7 @@ const translations = {
         updateCart: 'Perbarui Keranjang',
         clearCart: 'Kosongkan Keranjang',
         footerTagline: 'Ritel teknologi masa depan Anda',
-        footerDescription: 'Di Fordips Tech, kami memberikan teknologi terbaru untuk meningkatkan gaya hidup digital Anda.',
+        footerDescription: 'Di BravesGadget LLC, kami memberikan teknologi terbaru untuk meningkatkan gaya hidup digital Anda.',
         quickLinks: 'Tautan Cepat',
         customerService: 'Layanan Pelanggan',
         myAccount: 'Akun Saya',
@@ -6311,7 +6311,7 @@ const translations = {
 
     // Swahili (SW)
     sw: {
-        brandName: 'FORDIPS TECH',
+        brandName: 'BRAVESGADGET LLC',
         navHome: 'Nyumbani',
         navProducts: 'Bidhaa',
         navCategories: 'Jamii',
@@ -6393,7 +6393,7 @@ const translations = {
         updateCart: 'Sasisha Kikapu',
         clearCart: 'Futa Kikapu',
         footerTagline: 'Duka lako la teknolojia la baadaye',
-        footerDescription: 'Katika Fordips Tech, tunaleta teknolojia ya hivi punde ili kuinua maisha yako ya kidijitali.',
+        footerDescription: 'Katika BravesGadget LLC, tunaleta teknolojia ya hivi punde ili kuinua maisha yako ya kidijitali.',
         quickLinks: 'Viungo vya Haraka',
         customerService: 'Huduma kwa Wateja',
         myAccount: 'Akaunti Yangu',
@@ -6575,7 +6575,7 @@ function translatePage(lang) {
     document.documentElement.setAttribute('lang', lang);
 
     // Save preference
-    localStorage.setItem('fordipsTechLang', lang);
+    localStorage.setItem('bravesGadgetLang', lang);
     console.log('💾 Saved language preference:', lang);
 
     console.log('✅ Translation complete!');
@@ -6588,9 +6588,9 @@ function t(key) {
 
 // Initialize language
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('🚀 Fordips Tech Translation System Initializing...');
+    console.log('🚀 BravesGadget LLC Translation System Initializing...');
 
-    const savedLang = localStorage.getItem('fordipsTechLang') || 'en';
+    const savedLang = localStorage.getItem('bravesGadgetLang') || 'en';
     console.log('📖 Retrieved saved language from localStorage:', savedLang);
 
     // Translate page to saved language

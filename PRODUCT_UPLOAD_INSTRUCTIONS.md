@@ -1,4 +1,4 @@
-# 📦 Product Upload Instructions - Fordips Tech
+# 📦 Product Upload Instructions - BravesGadget LLC
 
 ## Overview
 This guide explains how to upload the latest tech products (Apple, Samsung, Cameras, Windows PCs, and Accessories) to your Supabase database.
@@ -71,7 +71,7 @@ The upload utility adds **87 latest products** across multiple categories:
 
 ## 📋 Prerequisites
 
-1. **Admin Access**: You must have admin privileges in the Fordips Tech system
+1. **Admin Access**: You must have admin privileges in the BravesGadget LLC system
 2. **Browser**: Modern web browser (Chrome, Firefox, Safari, or Edge)
 3. **Authentication**: Be logged in as an admin user
 4. **Internet Connection**: Active connection to Supabase
@@ -80,7 +80,7 @@ The upload utility adds **87 latest products** across multiple categories:
 
 ### Step 1: Open the Upload Utility
 
-1. Navigate to your Fordips Tech website folder
+1. Navigate to your BravesGadget LLC website folder
 2. Open `upload-latest-products.html` in your web browser
 3. You can also access it by visiting: `https://your-domain.com/upload-latest-products.html`
 
@@ -258,7 +258,7 @@ If you encounter issues:
 
 ## 🎉 Completion
 
-Once all steps are complete, your Fordips Tech store will have 87 cutting-edge products across all major categories ready for customers to browse and purchase!
+Once all steps are complete, your BravesGadget LLC store will have 87 cutting-edge products across all major categories ready for customers to browse and purchase!
 
 ---
 

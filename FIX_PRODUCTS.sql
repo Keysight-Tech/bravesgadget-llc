@@ -1,5 +1,5 @@
 -- ============================================
--- FORDIPS TECH - DIAGNOSTIC & FIX SCRIPT
+-- BRAVESGADGET LLC - DIAGNOSTIC & FIX SCRIPT
 -- Run this in Supabase SQL Editor to diagnose and fix product issues
 -- ============================================
 

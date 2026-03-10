@@ -27,7 +27,7 @@ The admin panel cannot check if you're an admin due to the RLS infinite recursio
 
 3. **Open this file on your computer**:
    ```
-   D:\Projects\Figma\outputs\websites\fordips-tech\FIX_RLS_POLICIES.sql
+   D:\Projects\Figma\outputs\websites\bravesgadget-llc\FIX_RLS_POLICIES.sql
    ```
 
 4. **Copy ALL contents** (Ctrl+A, Ctrl+C)
@@ -43,7 +43,7 @@ The admin panel cannot check if you're an admin due to the RLS infinite recursio
 ## Step 1: Create Your Account
 
 1. **Go to the MAIN website** (NOT the admin panel):
-   https://keysight-tech.github.io/fordips-tech/
+   https://keysight-tech.github.io/bravesgadget-llc/
 
 2. **Click "Account" button** (top right)
 
@@ -113,7 +113,7 @@ The admin panel cannot check if you're an admin due to the RLS infinite recursio
 
 **IMPORTANT**: You must login to the MAIN site first, NOT the admin panel!
 
-1. **Go to**: https://keysight-tech.github.io/fordips-tech/
+1. **Go to**: https://keysight-tech.github.io/bravesgadget-llc/
 
 2. **Click "Account"** (top right)
 
@@ -135,7 +135,7 @@ The admin panel cannot check if you're an admin due to the RLS infinite recursio
 
 Now you can access the admin panel:
 
-1. **Go to**: https://keysight-tech.github.io/fordips-tech/admin.html
+1. **Go to**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
 
 2. **You should see**: Admin Dashboard with stats
 
@@ -172,7 +172,7 @@ Now you can access the admin panel:
 
 6. **Click "Save Product"**
 
-7. **Check your website**: https://keysight-tech.github.io/fordips-tech/
+7. **Check your website**: https://keysight-tech.github.io/bravesgadget-llc/
    - Product should appear!
 
 ✅ **Product uploaded successfully!**
@@ -186,7 +186,7 @@ Now you can access the admin panel:
 **Cause**: You're not logged in
 
 **Fix**:
-1. Go to main site: https://keysight-tech.github.io/fordips-tech/
+1. Go to main site: https://keysight-tech.github.io/bravesgadget-llc/
 2. Click "Account" → Login
 3. Then go to admin panel
 
@@ -269,7 +269,7 @@ If all checked, you should be able to:
 Try this to verify everything works:
 
 1. Login to main site ✅
-2. Go to admin panel: https://keysight-tech.github.io/fordips-tech/admin.html
+2. Go to admin panel: https://keysight-tech.github.io/bravesgadget-llc/admin.html
 3. Click "Products" tab
 4. Click "+ Add New Product"
 5. Fill in test product:
@@ -304,8 +304,8 @@ Share the error messages from browser console if you need more help!
 ---
 
 **Quick Links:**
-- 🌐 Main Site: https://keysight-tech.github.io/fordips-tech/
-- 👨‍💼 Admin Panel: https://keysight-tech.github.io/fordips-tech/admin.html
+- 🌐 Main Site: https://keysight-tech.github.io/bravesgadget-llc/
+- 👨‍💼 Admin Panel: https://keysight-tech.github.io/bravesgadget-llc/admin.html
 - 🔧 Supabase Dashboard: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw
 - 📊 Table Editor: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw/editor
 - 💾 SQL Editor: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw/sql

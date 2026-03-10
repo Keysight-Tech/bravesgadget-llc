@@ -1,5 +1,5 @@
 -- ============================================
--- FORDIPS TECH - Complete Database Schema
+-- BRAVESGADGET LLC - Complete Database Schema
 -- Run this in your Supabase SQL Editor
 -- ============================================
 
@@ -287,7 +287,7 @@ ON CONFLICT (slug) DO NOTHING;
 
 DO $$
 BEGIN
-    RAISE NOTICE 'Fordips Tech database schema created successfully!';
+    RAISE NOTICE 'BravesGadget LLC database schema created successfully!';
     RAISE NOTICE 'Next steps:';
     RAISE NOTICE '1. Run the seed-products.sql file to insert all products';
     RAISE NOTICE '2. Create your first admin user in Supabase Auth';

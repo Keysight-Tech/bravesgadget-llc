@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - BULLETPROOF MIGRATION
+ * BRAVESGADGET LLC - BULLETPROOF MIGRATION
  * This version adds extra safety checks and better error messages
  * Run this in Supabase SQL Editor
  */
@@ -337,7 +337,7 @@ DECLARE
     payment_link TEXT;
 BEGIN
     request_id := gen_random_uuid();
-    payment_link := 'https://keysight-tech.github.io/fordips-tech/help-me-pay.html?request=' || request_id::TEXT;
+    payment_link := 'https://keysight-tech.github.io/bravesgadget-llc/help-me-pay.html?request=' || request_id::TEXT;
 
     INSERT INTO help_me_pay_requests (
         id, requester_user_id, requester_name, requester_email, requester_phone,

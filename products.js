@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Complete Products Database
+ * BRAVESGADGET LLC - Complete Products Database
  * Premium Electronics Catalog
  */
 
@@ -838,7 +838,7 @@ if (document.readyState === 'loading') {
         setTimeout(() => {
             const productsGrid = document.getElementById('productsGrid');
             if (productsGrid && productsGrid.children.length === 0) {
-                window.FORDIPS_CONFIG?.logger.log('🟡 Auto-initializing static products (Supabase fallback)');
+                window.BRAVESGADGET_CONFIG?.logger.log('🟡 Auto-initializing static products (Supabase fallback)');
                 initializeProductsWithFilters();
             }
         }, 100);

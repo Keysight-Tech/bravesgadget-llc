@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload Latest Products - Fordips Tech</title>
+    <title>Upload Latest Products - BravesGadget LLC</title>
     <style>
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -822,7 +822,7 @@
                 try {
                     log(`Uploading ${i + 1}/${latestProducts.length}: ${product.name}...`, 'info');
 
-                    const result = await window.fordipsTech.addProduct(product);
+                    const result = await window.bravesGadget.addProduct(product);
 
                     if (result.success) {
                         uploadedCount++;

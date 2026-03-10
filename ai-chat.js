@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════════════════
- * FORDIPS TECH - ADVANCED AI CHAT ASSISTANT
+ * BRAVESGADGET LLC - ADVANCED AI CHAT ASSISTANT
  * ═══════════════════════════════════════════════════════════════════════════
  *
  * Intelligent shopping assistant trained to handle all customer needs
@@ -29,9 +29,9 @@
  * accurate responses to solve customer problems and improve their experience.
  */
 
-class FordipsTechAI {
+class BravesGadgetTechAI {
     constructor() {
-        console.log('🤖 FordipsTechAI: Constructor called');
+        console.log('🤖 BravesGadgetTechAI: Constructor called');
 
         this.conversationHistory = [];
         this.isOpen = false;
@@ -54,7 +54,7 @@ class FordipsTechAI {
      * Get the user's selected language from localStorage
      */
     getUserLanguage() {
-        return localStorage.getItem('fordipsTechLang') || 'en';
+        return localStorage.getItem('bravesGadgetLang') || 'en';
     }
 
     /**
@@ -74,7 +74,7 @@ class FordipsTechAI {
      */
     getFallbackText(key) {
         const fallbacks = {
-            'aiChatTitle': 'Fordips AI Assistant',
+            'aiChatTitle': 'BravesGadget AI Assistant',
             'aiChatStatus': 'Online - Ready to help!',
             'aiChatPlaceholder': 'Search products or ask me anything...',
             'aiChatSend': 'Send',
@@ -82,10 +82,10 @@ class FordipsTechAI {
             'qaBestDeals': '💰 Best Deals',
             'qaPopular': '⭐ Popular',
             'qaTrackOrder': '📦 Track Order',
-            'aiWelcomeGreeting': '👋 **Welcome to Fordips Tech!**',
+            'aiWelcomeGreeting': '👋 **Welcome to BravesGadget LLC!**',
             'aiWelcomeIntro': 'I\'m your personal AI shopping assistant, here to make your experience amazing!',
             'aiWelcomeCanHelp': '**I can help you with:**',
-            'aiGreetingResponse': 'Hello! 👋 Welcome to Fordips Tech! I\'m your personal shopping assistant.',
+            'aiGreetingResponse': 'Hello! 👋 Welcome to BravesGadget LLC! I\'m your personal shopping assistant.',
             'aiCartEmpty': 'Your cart is currently empty. Let me help you find something great!',
             'aiCartHasItems': '🛒 Your cart has {count} item(s)',
             'aiCheckoutReady': 'Ready to checkout?',
@@ -112,7 +112,7 @@ class FordipsTechAI {
         }, 3000);
 
         console.log('✅ AI Chat Assistant initialized');
-        window.FORDIPS_CONFIG?.logger.log('✅ AI Chat Assistant initialized');
+        window.BRAVESGADGET_CONFIG?.logger.log('✅ AI Chat Assistant initialized');
     }
 
 
@@ -621,7 +621,7 @@ ${this.t('aiWelcomeQuestion')}`,
         // Farewell
         if (this.matchesIntent(lowerMessage, ['bye', 'goodbye', 'see you', 'later'])) {
             return {
-                message: "Goodbye! 👋 Thank you for visiting Fordips Tech. Come back soon for amazing deals! Have a great day!",
+                message: "Goodbye! 👋 Thank you for visiting BravesGadget LLC. Come back soon for amazing deals! Have a great day!",
                 actions: this.getSuggestedActions(['browse', 'deals'])
             };
         }
@@ -893,7 +893,7 @@ What would you like help with?`,
     }
 
     handleCartInquiry() {
-        const cart = JSON.parse(localStorage.getItem('fordipsTechCart')) || [];
+        const cart = JSON.parse(localStorage.getItem('bravesGadgetCart')) || [];
 
         if (cart.length === 0) {
             return {
@@ -1017,7 +1017,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
     }
 
     handleCheckoutInquiry() {
-        const cart = JSON.parse(localStorage.getItem('fordipsTechCart')) || [];
+        const cart = JSON.parse(localStorage.getItem('bravesGadgetCart')) || [];
 
         if (cart.length === 0) {
             return {
@@ -1049,7 +1049,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleOrderCancellation() {
         return {
-            message: `To cancel an order:\n\n📧 **If not shipped yet:**\n• Email: support@fordipstech.com\n• Call: (667) 256-3680 (USA)\n• Include your order number\n\n⚠️ **If already shipped:**\n• You can refuse delivery\n• Or initiate a return once received\n\nWe typically ship within 24 hours, so please contact us quickly!\n\nNeed help with anything else?`,
+            message: `To cancel an order:\n\n📧 **If not shipped yet:**\n• Email: support@bravesgadget.com\n• Call: (667) 256-3680 (USA)\n• Include your order number\n\n⚠️ **If already shipped:**\n• You can refuse delivery\n• Or initiate a return once received\n\nWe typically ship within 24 hours, so please contact us quickly!\n\nNeed help with anything else?`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '📦 Track Order', action: 'track-order' }
@@ -1111,7 +1111,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleWarrantyInquiry() {
         return {
-            message: `🛡️ **Warranty & Return Policy:**\n\n**Manufacturer Warranty:**\n• All products include original manufacturer warranty\n• Apple: 1 year limited warranty\n• Samsung: 1 year limited warranty\n• Other brands: As specified by manufacturer\n\n**Our Guarantee:**\n✅ 30-day return policy\n✅ Products must be unused and in original packaging\n✅ Full refund if defective on arrival\n✅ Free return shipping for defective items\n\n**How to Return:**\n1. Email support@fordipstech.com within 30 days\n2. Include order number and reason\n3. We'll provide return instructions\n\nQuestions about a specific product warranty?`,
+            message: `🛡️ **Warranty & Return Policy:**\n\n**Manufacturer Warranty:**\n• All products include original manufacturer warranty\n• Apple: 1 year limited warranty\n• Samsung: 1 year limited warranty\n• Other brands: As specified by manufacturer\n\n**Our Guarantee:**\n✅ 30-day return policy\n✅ Products must be unused and in original packaging\n✅ Full refund if defective on arrival\n✅ Free return shipping for defective items\n\n**How to Return:**\n1. Email support@bravesgadget.com within 30 days\n2. Include order number and reason\n3. We'll provide return instructions\n\nQuestions about a specific product warranty?`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '🛍️ Browse Products', action: 'browse' }
@@ -1145,7 +1145,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleRefundInquiry() {
         return {
-            message: `💰 **Refund Policy:**\n\n**When You Get a Refund:**\n✅ Product defective on arrival\n✅ Wrong item shipped\n✅ Item not as described\n✅ Return within 30 days (unused)\n\n**Refund Process:**\n1. Contact us: support@fordipstech.com\n2. Provide order number and reason\n3. Return the item (we cover shipping for defects)\n4. Refund processed within 5-7 business days\n\n**Refund Method:**\n• Returned to original payment method\n• Mobile Money refunds: within 24 hours\n• Credit card refunds: 5-7 business days\n\nNeed to request a refund?`,
+            message: `💰 **Refund Policy:**\n\n**When You Get a Refund:**\n✅ Product defective on arrival\n✅ Wrong item shipped\n✅ Item not as described\n✅ Return within 30 days (unused)\n\n**Refund Process:**\n1. Contact us: support@bravesgadget.com\n2. Provide order number and reason\n3. Return the item (we cover shipping for defects)\n4. Refund processed within 5-7 business days\n\n**Refund Method:**\n• Returned to original payment method\n• Mobile Money refunds: within 24 hours\n• Credit card refunds: 5-7 business days\n\nNeed to request a refund?`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '📦 Track Order', action: 'track-order' }
@@ -1172,7 +1172,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleBusinessHours() {
         return {
-            message: `🕐 **Business Hours:**\n\n**Online Store:**\n🌐 Open 24/7 - Shop anytime!\n\n**Customer Support:**\n📞 Monday - Saturday\n🕐 9:00 AM - 6:00 PM EST (USA)\n🕐 3:00 PM - 12:00 AM WAT (Cameroon)\n\n**Sunday:**\n📧 Email only: support@fordipstech.com\n\n**Response Times:**\n• Live Chat: Instant (during hours)\n• Email: Within 24 hours\n• Phone: Immediate (during hours)\n\nNeed help now?`,
+            message: `🕐 **Business Hours:**\n\n**Online Store:**\n🌐 Open 24/7 - Shop anytime!\n\n**Customer Support:**\n📞 Monday - Saturday\n🕐 9:00 AM - 6:00 PM EST (USA)\n🕐 3:00 PM - 12:00 AM WAT (Cameroon)\n\n**Sunday:**\n📧 Email only: support@bravesgadget.com\n\n**Response Times:**\n• Live Chat: Instant (during hours)\n• Email: Within 24 hours\n• Phone: Immediate (during hours)\n\nNeed help now?`,
             actions: [
                 { label: '📞 Contact Us', action: 'contact' },
                 { label: '🛍️ Browse Products', action: 'browse' }
@@ -1182,7 +1182,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleTechnicalSupport() {
         return {
-            message: `🔧 **Technical Support:**\n\nI'm sorry you're experiencing issues! Let's fix it:\n\n**Common Issues:**\n1️⃣ **Can't add to cart** - Try refreshing the page\n2️⃣ **Checkout not working** - Clear browser cache\n3️⃣ **Payment failed** - Check card details or try different method\n4️⃣ **Images not loading** - Check internet connection\n\n**Need More Help?**\n📧 Email: support@fordipstech.com\n📞 Call: (667) 256-3680 (USA)\n📞 Call: +237 678 123 456 (Cameroon)\n\nPlease describe your issue and I'll help you solve it!`,
+            message: `🔧 **Technical Support:**\n\nI'm sorry you're experiencing issues! Let's fix it:\n\n**Common Issues:**\n1️⃣ **Can't add to cart** - Try refreshing the page\n2️⃣ **Checkout not working** - Clear browser cache\n3️⃣ **Payment failed** - Check card details or try different method\n4️⃣ **Images not loading** - Check internet connection\n\n**Need More Help?**\n📧 Email: support@bravesgadget.com\n📞 Call: (667) 256-3680 (USA)\n📞 Call: +237 678 123 456 (Cameroon)\n\nPlease describe your issue and I'll help you solve it!`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '🔄 Refresh Page', action: 'refresh' }
@@ -1192,7 +1192,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleComplaint() {
         return {
-            message: `😔 **We're Sorry!**\n\nYour satisfaction is our priority. I want to help resolve your concern immediately.\n\n**How to Report:**\n📧 Email: support@fordipstech.com\n📞 Phone: (667) 256-3680 (USA)\n📞 Phone: +237 678 123 456 (Cameroon)\n\n**Please Include:**\n• Your order number (if applicable)\n• Description of the issue\n• Any photos (if relevant)\n\n**We Promise:**\n✅ Response within 24 hours\n✅ Fair resolution\n✅ Your satisfaction guaranteed\n\nWhat specific issue would you like to report?`,
+            message: `😔 **We're Sorry!**\n\nYour satisfaction is our priority. I want to help resolve your concern immediately.\n\n**How to Report:**\n📧 Email: support@bravesgadget.com\n📞 Phone: (667) 256-3680 (USA)\n📞 Phone: +237 678 123 456 (Cameroon)\n\n**Please Include:**\n• Your order number (if applicable)\n• Description of the issue\n• Any photos (if relevant)\n\n**We Promise:**\n✅ Response within 24 hours\n✅ Fair resolution\n✅ Your satisfaction guaranteed\n\nWhat specific issue would you like to report?`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '📦 Check My Order', action: 'track-order' }
@@ -1343,7 +1343,7 @@ Buea, South West Region
 📞 +237 678 123 456
 
 🌐 **Online Store:** Open 24/7
-📧 Email: support@fordipstech.com
+📧 Email: support@bravesgadget.com
 
 We offer FREE worldwide shipping! 🚚`,
             actions: [
@@ -1356,18 +1356,18 @@ We offer FREE worldwide shipping! 🚚`,
 
     handleContactInquiry() {
         return {
-            message: `📞 **Contact Fordips Tech:**
+            message: `📞 **Contact BravesGadget LLC:**
 
 **Phone:**
 • USA: (667) 256-3680
 • Cameroon: +237 678 123 456
 
 **Email:**
-• support@fordipstech.com
+• support@bravesgadget.com
 
 **Social Media:**
-• Facebook: Fordips Tech
-• TikTok: @fordipstechllc
+• Facebook: BravesGadget LLC
+• TikTok: @bravesgadgetllc
 • YouTube: @alsinna
 
 **Business Hours:**
@@ -1439,7 +1439,7 @@ How else can I help you today?`,
                 break;
 
             default:
-                window.FORDIPS_CONFIG?.logger.log('Unknown action:', action);
+                window.BRAVESGADGET_CONFIG?.logger.log('Unknown action:', action);
         }
     }
 
@@ -1575,27 +1575,27 @@ How else can I help you today?`,
         });
 
         // Update cart context
-        this.userContext.cart = JSON.parse(localStorage.getItem('fordipsTechCart')) || [];
+        this.userContext.cart = JSON.parse(localStorage.getItem('bravesGadgetCart')) || [];
     }
 
     saveConversationHistory() {
         try {
-            FordipsUtils.storage.set('aiChatHistory', this.conversationHistory);
+            BravesGadgetUtils.storage.set('aiChatHistory', this.conversationHistory);
         } catch (e) {
-            window.FORDIPS_CONFIG?.logger.error('Error saving chat history:', e);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error saving chat history:', e);
         }
     }
 
     loadConversationHistory() {
         try {
-            const history = FordipsUtils.storage.get('aiChatHistory', []);
+            const history = BravesGadgetUtils.storage.get('aiChatHistory', []);
             // Only load recent history (last 10 messages)
             this.conversationHistory = history.slice(-10);
 
             // Render loaded messages
             this.conversationHistory.forEach(msg => this.renderMessage(msg));
         } catch (e) {
-            window.FORDIPS_CONFIG?.logger.error('Error loading chat history:', e);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error loading chat history:', e);
         }
     }
 }
@@ -1607,7 +1607,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Wait for utils, config, and translations to load
     const initAIChat = () => {
         const hasTranslations = typeof window.t === 'function';
-        const hasUtils = typeof window.FordipsUtils !== 'undefined';
+        const hasUtils = typeof window.BravesGadgetUtils !== 'undefined';
 
         console.log('🤖 AI Chat: Checking dependencies...', {
             hasTranslations,
@@ -1616,7 +1616,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (hasTranslations && hasUtils) {
             console.log('🤖 AI Chat: Dependencies ready! Initializing...');
-            window.fordipsAI = new FordipsTechAI();
+            window.bravesGadgetAI = new BravesGadgetTechAI();
             console.log('✅ AI Chat: Initialized successfully!');
         } else {
             console.log('⏳ AI Chat: Dependencies not ready, retrying in 100ms...');
@@ -1628,4 +1628,4 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(initAIChat, 500);
 });
 
-window.FORDIPS_CONFIG?.logger.log('✅ AI Chat module loaded');
+window.BRAVESGADGET_CONFIG?.logger.log('✅ AI Chat module loaded');

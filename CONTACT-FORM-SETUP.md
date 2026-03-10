@@ -1,4 +1,4 @@
-# Contact Form Setup Guide - Fordips Tech
+# Contact Form Setup Guide - BravesGadget LLC
 
 ## ✅ System Status: READY TO USE
 
@@ -48,7 +48,7 @@ When users click "Send Message":
 ### Step 1: Create Tables in Supabase
 
 1. Open **Supabase Dashboard**: https://app.supabase.com
-2. Select your **Fordips Tech project**
+2. Select your **BravesGadget LLC project**
 3. Go to **SQL Editor** (left sidebar)
 4. Click **"+ New query"**
 5. Open the file: `contact-setup.sql`
@@ -129,7 +129,7 @@ All contact form submissions will create notifications for this email address.
 ## 🔍 How to View Messages (Admin)
 
 ### Option 1: Admin Panel (Recommended)
-1. Go to: https://keysight-tech.github.io/fordips-tech/admin.html
+1. Go to: https://keysight-tech.github.io/bravesgadget-llc/admin.html
 2. Log in with admin account
 3. Click **"Contact Submissions"** tab
 4. View all messages, mark as read/replied
@@ -204,7 +204,7 @@ Admin can view in admin panel
 
 ### Contact Form Location:
 - **Section:** "Get In Touch"
-- **URL:** https://keysight-tech.github.io/fordips-tech/#contact
+- **URL:** https://keysight-tech.github.io/bravesgadget-llc/#contact
 - **Position:** Near bottom of homepage, before newsletter section
 
 ### Form Fields:
@@ -258,7 +258,7 @@ Admin can view in admin panel
 ## 🚀 Testing the Contact Form
 
 ### Test Submission:
-1. Go to: https://keysight-tech.github.io/fordips-tech/#contact
+1. Go to: https://keysight-tech.github.io/bravesgadget-llc/#contact
 2. Fill in the form:
    - **Name:** Test User
    - **Email:** test@example.com
@@ -381,8 +381,8 @@ FROM contact_messages;
 Your contact form is **fully functional** and production-ready!
 
 **Admin Email:** brineketum@gmail.com
-**Website URL:** https://keysight-tech.github.io/fordips-tech/
-**Contact Form:** https://keysight-tech.github.io/fordips-tech/#contact
-**Admin Panel:** https://keysight-tech.github.io/fordips-tech/admin.html
+**Website URL:** https://keysight-tech.github.io/bravesgadget-llc/
+**Contact Form:** https://keysight-tech.github.io/bravesgadget-llc/#contact
+**Admin Panel:** https://keysight-tech.github.io/bravesgadget-llc/admin.html
 
 All messages will be stored in Supabase and admin notifications will be created automatically! 🚀

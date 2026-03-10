@@ -1,5 +1,5 @@
 -- ============================================
--- FORDIPS TECH - SEARCH FUNCTION VERIFICATION & SETUP
+-- BRAVESGADGET LLC - SEARCH FUNCTION VERIFICATION & SETUP
 -- This script ensures the search_products function exists and is working
 -- ============================================
 

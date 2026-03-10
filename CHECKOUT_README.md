@@ -199,13 +199,13 @@ Update `sendOrderNotifications()` function to call your email service.
 Check these for debugging:
 ```javascript
 // View saved orders (localStorage fallback)
-JSON.parse(localStorage.getItem('fordips_orders'))
+JSON.parse(localStorage.getItem('bravesgadget_orders'))
 
 // View notifications
-JSON.parse(localStorage.getItem('fordips_notifications'))
+JSON.parse(localStorage.getItem('bravesgadget_notifications'))
 
 // View cart
-JSON.parse(localStorage.getItem('fordips_cart'))
+JSON.parse(localStorage.getItem('bravesgadget_cart'))
 ```
 
 ## Support

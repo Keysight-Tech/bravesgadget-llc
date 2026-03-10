@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - HELP ME PAY MODAL SYSTEM
+ * BRAVESGADGET LLC - HELP ME PAY MODAL SYSTEM
  * Complete modal-based Help Me Pay functionality with order tracking
  */
 
@@ -266,7 +266,7 @@ Click here to view and pay: ${orderRequest.paymentLink}
 This link expires in 48 hours.
 
 Thank you!
-FORDIPS TECH
+BRAVESGADGET LLC
         `;
 
         console.log('Email/SMS would be sent with content:', emailContent);

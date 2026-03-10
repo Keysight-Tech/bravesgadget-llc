@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Admin Profile System
+ * BRAVESGADGET LLC - Admin Profile System
  * Deep Supabase integration for admin profile management
  */
 
@@ -22,7 +22,7 @@ const AdminProfile = {
      */
     async loadAdminData() {
         try {
-            this.currentUser = await window.fordipsTech.getCurrentUser();
+            this.currentUser = await window.bravesGadget.getCurrentUser();
 
             if (!this.currentUser) {
                 window.location.href = 'index.html';

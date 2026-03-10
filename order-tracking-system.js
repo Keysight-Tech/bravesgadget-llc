@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Complete Order Tracking System
+ * BRAVESGADGET LLC - Complete Order Tracking System
  * End-to-End Order Management with Customer & Admin Notifications
  */
 
@@ -121,7 +121,7 @@ async function createOrderWithTracking(orderData, cartItems) {
         };
 
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error creating order:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error creating order:', error);
         return createOrderLocalStorage(orderData, cartItems);
     }
 }
@@ -150,10 +150,10 @@ async function createCustomerOrderTracking(order, itemsCount) {
                 status: order.status,
                 total_amount: order.total_amount,
                 items_count: itemsCount,
-                tracking_url: `https://fordipstech.com/track/${order.order_number}`
+                tracking_url: `https://bravesgadget.com/track/${order.order_number}`
             });
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error creating tracking entry:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error creating tracking entry:', error);
     }
 }
 
@@ -224,7 +224,7 @@ async function updateOrderStatus(orderId, newStatus, changedBy, changedByName, n
         };
 
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error updating order status:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error updating order status:', error);
         return { success: false, error: error.message };
     }
 }
@@ -245,7 +245,7 @@ async function recordStatusChange(orderId, oldStatus, newStatus, changedBy, chan
                 notes: notes
             });
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error recording status change:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error recording status change:', error);
     }
 }
 
@@ -299,7 +299,7 @@ async function sendOrderNotifications(order, items, notificationType) {
 
         if (error) throw error;
 
-        window.FORDIPS_CONFIG?.logger.log(`✅ Notifications sent for order ${order.order_number}`);
+        window.BRAVESGADGET_CONFIG?.logger.log(`✅ Notifications sent for order ${order.order_number}`);
 
         // Show user notification
         if (typeof showNotification === 'function' && notificationType !== 'order_placed') {
@@ -312,7 +312,7 @@ async function sendOrderNotifications(order, items, notificationType) {
         return { success: true };
 
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error sending order notifications:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error sending order notifications:', error);
         return { success: false, error: error.message };
     }
 }
@@ -370,14 +370,14 @@ SHIPPING ADDRESS:
 ${order.shipping_address}
 ${order.shipping_city}, ${order.shipping_zip}
 
-Track your order: https://fordipstech.com/track/${order.order_number}
+Track your order: https://bravesgadget.com/track/${order.order_number}
 
-Need help? Contact us at support@fordipstech.com or call (667) 256-3680
+Need help? Contact us at support@bravesgadget.com or call (667) 256-3680
 
-Thank you for shopping with Fordips Tech!
+Thank you for shopping with BravesGadget LLC!
 
 Best regards,
-Fordips Tech Team
+BravesGadget LLC Team
     `.trim();
 }
 
@@ -436,7 +436,7 @@ ${status === 'shipped' ? '✅ Monitor delivery status' : ''}
 Order placed: ${new Date(order.created_at).toLocaleString()}
 Last updated: ${new Date(order.last_status_update).toLocaleString()}
 
-Manage order: https://fordipstech.com/admin/orders/${order.id}
+Manage order: https://bravesgadget.com/admin/orders/${order.id}
     `.trim();
 }
 
@@ -464,7 +464,7 @@ async function getOrderTracking(orderNumber) {
         };
 
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error getting order tracking:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error getting order tracking:', error);
         return { success: false, error: error.message };
     }
 }
@@ -489,7 +489,7 @@ async function getCustomerOrders(customerEmail) {
         };
 
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error getting customer orders:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error getting customer orders:', error);
         return { success: false, error: error.message };
     }
 }
@@ -510,7 +510,7 @@ async function getAdminDashboard() {
         };
 
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error getting admin dashboard:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error getting admin dashboard:', error);
         return { success: false, error: error.message };
     }
 }
@@ -519,7 +519,7 @@ async function getAdminDashboard() {
  * LocalStorage fallback functions
  */
 function createOrderLocalStorage(orderData, cartItems) {
-    const orders = JSON.parse(localStorage.getItem('fordips_orders') || '[]');
+    const orders = JSON.parse(localStorage.getItem('bravesgadget_orders') || '[]');
     const orderNumber = generateOrderNumber();
     const total = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
 
@@ -536,7 +536,7 @@ function createOrderLocalStorage(orderData, cartItems) {
     };
 
     orders.push(order);
-    localStorage.setItem('fordips_orders', JSON.stringify(orders));
+    localStorage.setItem('bravesgadget_orders', JSON.stringify(orders));
 
     return {
         success: true,
@@ -547,7 +547,7 @@ function createOrderLocalStorage(orderData, cartItems) {
 }
 
 function getOrderTrackingLocalStorage(orderNumber) {
-    const orders = JSON.parse(localStorage.getItem('fordips_orders') || '[]');
+    const orders = JSON.parse(localStorage.getItem('bravesgadget_orders') || '[]');
     const order = orders.find(o => o.order_number === orderNumber);
 
     if (!order) {
@@ -558,7 +558,7 @@ function getOrderTrackingLocalStorage(orderNumber) {
 }
 
 function getCustomerOrdersLocalStorage(customerEmail) {
-    const orders = JSON.parse(localStorage.getItem('fordips_orders') || '[]');
+    const orders = JSON.parse(localStorage.getItem('bravesgadget_orders') || '[]');
     const customerOrders = orders.filter(o => o.customer_email === customerEmail);
 
     return {
@@ -577,4 +577,4 @@ window.orderTracking = {
     ORDER_STATUSES
 };
 
-window.FORDIPS_CONFIG?.logger.log('✅ Order Tracking System loaded');
+window.BRAVESGADGET_CONFIG?.logger.log('✅ Order Tracking System loaded');

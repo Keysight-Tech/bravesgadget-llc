@@ -1,4 +1,4 @@
-# Complete Order Tracking System - Fordips Tech
+# Complete Order Tracking System - BravesGadget LLC
 
 ## 📦 End-to-End Order Management with Real-Time Tracking & Notifications
 
@@ -54,7 +54,7 @@ pending → confirmed → processing → shipped → out_for_delivery → delive
 ### 1. Run SQL Setup in Supabase
 
 1. Go to [Supabase Dashboard](https://app.supabase.com)
-2. Select your Fordips Tech project
+2. Select your BravesGadget LLC project
 3. Navigate to **SQL Editor**
 4. Create a new query
 5. Copy and paste the contents of `order-tracking-setup.sql`
@@ -257,7 +257,7 @@ Tracking Number: FT-20241023-123456
 Carrier: FedEx
 Estimated Delivery: October 25, 2024
 
-Track your order: https://fordipstech.com/track/FT2024102312345
+Track your order: https://bravesgadget.com/track/FT2024102312345
 ```
 
 **To Admin:**
@@ -276,7 +276,7 @@ Total Amount: $1,299.00
 
 ⚠️ ACTION REQUIRED: New order - Please confirm and process
 
-Manage order: https://fordipstech.com/admin/orders/[order-id]
+Manage order: https://bravesgadget.com/admin/orders/[order-id]
 ```
 
 ---
@@ -481,7 +481,7 @@ Add SMS alerts for critical updates:
 ## 📞 Support
 
 For issues or questions:
-- **Email:** support@fordipstech.com
+- **Email:** support@bravesgadget.com
 - **Phone:** (667) 256-3680
 - **Admin:** brineketum@gmail.com
 

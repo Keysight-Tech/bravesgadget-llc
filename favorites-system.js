@@ -1,14 +1,14 @@
 /**
- * FORDIPS TECH - Favorites System
+ * BRAVESGADGET LLC - Favorites System
  * Save and manage favorite products with Supabase integration
  */
 
 // User identifier - use email if logged in, otherwise generate unique ID
-let userIdentifier = localStorage.getItem('fordipsTechUserIdentifier');
+let userIdentifier = localStorage.getItem('bravesGadgetUserIdentifier');
 
 if (!userIdentifier) {
     userIdentifier = 'guest_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-    localStorage.setItem('fordipsTechUserIdentifier', userIdentifier);
+    localStorage.setItem('bravesGadgetUserIdentifier', userIdentifier);
 }
 
 // In-memory cache of favorites for quick access
@@ -63,7 +63,7 @@ async function loadFavoritesFromDatabase() {
  * Fallback: Load favorites from localStorage
  */
 function loadFavoritesFromLocalStorage() {
-    const stored = localStorage.getItem('fordipsTechFavorites');
+    const stored = localStorage.getItem('bravesGadgetFavorites');
     if (stored) {
         try {
             const favorites = JSON.parse(stored);
@@ -78,7 +78,7 @@ function loadFavoritesFromLocalStorage() {
  * Save favorites to localStorage (backup)
  */
 function saveFavoritesToLocalStorage() {
-    localStorage.setItem('fordipsTechFavorites', JSON.stringify([...favoritesCache]));
+    localStorage.setItem('bravesGadgetFavorites', JSON.stringify([...favoritesCache]));
 }
 
 /**

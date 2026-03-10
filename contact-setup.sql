@@ -1,5 +1,5 @@
 -- =====================================================
--- FORDIPS TECH - Contact Messages System
+-- BRAVESGADGET LLC - Contact Messages System
 -- Run this script in your Supabase SQL Editor
 -- =====================================================
 

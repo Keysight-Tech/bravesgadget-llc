@@ -1,5 +1,5 @@
 -- ═══════════════════════════════════════════════════════════════════════════════
--- 🚀 FORDIPS TECH - WORLD-CLASS DATABASE PERFORMANCE OPTIMIZATION
+-- 🚀 BRAVESGADGET LLC - WORLD-CLASS DATABASE PERFORMANCE OPTIMIZATION
 -- ═══════════════════════════════════════════════════════════════════════════════
 --
 -- 🎯 PURPOSE: Dramatically improve query performance by creating materialized views,
@@ -25,7 +25,7 @@
 --    4. Update frontend code to use views (optional but recommended)
 --    5. Keep ROLLBACK section for safety
 --
--- 👨‍💻 Created by: World-Class DBA for Fordips Tech
+-- 👨‍💻 Created by: World-Class DBA for BravesGadget LLC
 -- 📅 Date: 2025-10-24
 -- ═══════════════════════════════════════════════════════════════════════════════
 

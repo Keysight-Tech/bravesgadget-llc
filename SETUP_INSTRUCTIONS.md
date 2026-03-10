@@ -1,8 +1,8 @@
-# Fordips Tech - Complete Setup Instructions
+# BravesGadget LLC - Complete Setup Instructions
 
 ## Overview
 
-This document provides step-by-step instructions to set up and deploy your Fordips Tech e-commerce website with Supabase backend integration.
+This document provides step-by-step instructions to set up and deploy your BravesGadget LLC e-commerce website with Supabase backend integration.
 
 ---
 
@@ -22,7 +22,7 @@ This document provides step-by-step instructions to set up and deploy your Fordi
 2. Sign in or create a free account
 3. Click "New Project"
 4. Fill in the project details:
-   - **Project Name**: Fordips Tech
+   - **Project Name**: BravesGadget LLC
    - **Database Password**: Choose a strong password (save this!)
    - **Region**: Choose closest to your location
    - **Pricing Plan**: Free (or select paid if needed)
@@ -37,7 +37,7 @@ This document provides step-by-step instructions to set up and deploy your Fordi
 4. Copy the entire contents
 5. Paste into the Supabase SQL Editor
 6. Click "Run" or press `Ctrl+Enter`
-7. You should see a success message: "Fordips Tech database schema created successfully!"
+7. You should see a success message: "BravesGadget LLC database schema created successfully!"
 
 ### Step 3: Seed the Products Database
 
@@ -259,7 +259,7 @@ All tables have Row Level Security (RLS) enabled with appropriate policies:
 ## File Structure
 
 ```
-fordips-tech/
+bravesgadget-llc/
 ├── index.html                    # Main website
 ├── admin.html                    # Admin panel
 ├── admin.js                      # Admin panel functionality
@@ -329,7 +329,7 @@ If you encounter any issues:
 
 ## Congratulations!
 
-Your Fordips Tech e-commerce website is now fully set up and ready to use! 🎉
+Your BravesGadget LLC e-commerce website is now fully set up and ready to use! 🎉
 
 The website includes:
 - 75 pre-loaded products

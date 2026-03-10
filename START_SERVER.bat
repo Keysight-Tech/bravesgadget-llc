@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo FORDIPS TECH - Local Development Server
+echo BRAVESGADGET LLC - Local Development Server
 echo ========================================
 echo.
 echo Starting server on port 3000...

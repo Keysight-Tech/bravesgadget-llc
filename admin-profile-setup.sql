@@ -1,5 +1,5 @@
 -- =====================================================
--- FORDIPS TECH - Admin Profile System Database Setup
+-- BRAVESGADGET LLC - Admin Profile System Database Setup
 -- Run this script in your Supabase SQL Editor
 -- =====================================================
 

@@ -1,6 +1,6 @@
 # 🤖 AI CHAT ASSISTANT - USER GUIDE
 
-**Fordips Tech AI Shopping Assistant**
+**BravesGadget LLC AI Shopping Assistant**
 **Status**: ✅ **FULLY INTEGRATED & ACTIVE**
 
 ---
@@ -244,7 +244,7 @@ Tracks:
 ## 🎨 DESIGN HIGHLIGHTS
 
 ### **Visual Design**:
-- 🔵 **Blue gradient** theme (matches Fordips Tech branding)
+- 🔵 **Blue gradient** theme (matches BravesGadget LLC branding)
 - ⚪ **White messages** for AI (clean, professional)
 - 🔵 **Blue messages** for user (visual distinction)
 - 💫 **Smooth animations** (slide-in, fade, pulse)
@@ -447,7 +447,7 @@ The AI Chat is now:
 
 ## 🎊 CONGRATULATIONS!
 
-Your Fordips Tech site now has a **world-class AI shopping assistant** that can:
+Your BravesGadget LLC site now has a **world-class AI shopping assistant** that can:
 - Help customers find products
 - Answer questions instantly
 - Add items to cart via chat
@@ -460,7 +460,7 @@ Your Fordips Tech site now has a **world-class AI shopping assistant** that can:
 ---
 
 *Built with 🤖 by Claude Code*
-*Fordips Tech - AI-Powered Shopping Experience*
+*BravesGadget LLC - AI-Powered Shopping Experience*
 
 **Status**: ✅ **PRODUCTION READY**
 **Next**: Test it live on your site!

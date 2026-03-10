@@ -227,7 +227,7 @@ Potential improvements for production:
 ## Support
 
 For questions or issues:
-- Email: fordipstechllc@gmail.com
+- Email: bravesgadgetllc@gmail.com
 - Location: Behind Express Exchange, Molyko, Buea, Cameroon
 
 ---

@@ -22,7 +22,7 @@
    - Copy ALL contents (Ctrl+A, Ctrl+C)
    - Paste into Supabase SQL Editor
    - Click **Run** (or press Ctrl+Enter)
-   - Wait for: "Fordips Tech database schema created successfully!"
+   - Wait for: "BravesGadget LLC database schema created successfully!"
 
 ### Step 2: Seed Products (1 minute)
 
@@ -40,7 +40,7 @@
 
 ## ✅ Done! Now Test Your Website
 
-1. Visit: **https://keysight-tech.github.io/fordips-tech/**
+1. Visit: **https://keysight-tech.github.io/bravesgadget-llc/**
 
 2. You should see:
    - ✅ 75 products loaded
@@ -66,7 +66,7 @@
    - Replace `your@email.com` with YOUR actual email
 
 3. **Access Admin Panel**
-   - Go to: https://keysight-tech.github.io/fordips-tech/admin.html
+   - Go to: https://keysight-tech.github.io/bravesgadget-llc/admin.html
    - Login with your account
    - You now have full admin access!
 
@@ -82,7 +82,7 @@ Your e-commerce website is now fully deployed with:
 - ✅ Shopping cart
 - ✅ Order management
 
-**Live Website**: https://keysight-tech.github.io/fordips-tech/
+**Live Website**: https://keysight-tech.github.io/bravesgadget-llc/
 
 ---
 
@@ -108,18 +108,18 @@ Your e-commerce website is now fully deployed with:
 
 ## File Locations
 
-- **Migration**: `D:\Projects\Figma\outputs\websites\fordips-tech\supabase-migration.sql`
-- **Seed Data**: `D:\Projects\Figma\outputs\websites\fordips-tech\seed-products.sql`
-- **Website Files**: `D:\Projects\Figma\outputs\websites\fordips-tech\`
+- **Migration**: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\supabase-migration.sql`
+- **Seed Data**: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\seed-products.sql`
+- **Website Files**: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\`
 
 ---
 
 ## Quick Links
 
-- 🌐 **Live Website**: https://keysight-tech.github.io/fordips-tech/
-- 🎛️ **Admin Panel**: https://keysight-tech.github.io/fordips-tech/admin.html
+- 🌐 **Live Website**: https://keysight-tech.github.io/bravesgadget-llc/
+- 🎛️ **Admin Panel**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
 - 🗄️ **Supabase Dashboard**: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw
-- 📦 **GitHub Repo**: https://github.com/Keysight-Tech/fordips-tech
+- 📦 **GitHub Repo**: https://github.com/Keysight-Tech/bravesgadget-llc
 
 ---
 

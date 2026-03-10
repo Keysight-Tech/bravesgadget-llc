@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - VERIFICATION SCRIPT
+ * BRAVESGADGET LLC - VERIFICATION SCRIPT
  * Run this to check if everything is set up correctly
  */
 
@@ -332,7 +332,7 @@ BEGIN
         RAISE NOTICE '      Dashboard → Authentication → Providers → Email';
         RAISE NOTICE '';
         RAISE NOTICE '   2. Test your site:';
-        RAISE NOTICE '      https://keysight-tech.github.io/fordips-tech/';
+        RAISE NOTICE '      https://keysight-tech.github.io/bravesgadget-llc/';
         RAISE NOTICE '';
         RAISE NOTICE '   3. Test features:';
         RAISE NOTICE '      ✓ Product search (search bar)';

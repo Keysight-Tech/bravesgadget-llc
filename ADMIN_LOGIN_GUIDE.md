@@ -13,7 +13,7 @@ Once you:
 
 ### Step 1: Create Your Admin Account
 
-1. **Go to your website**: https://keysight-tech.github.io/fordips-tech/
+1. **Go to your website**: https://keysight-tech.github.io/bravesgadget-llc/
 
 2. **Click "Account"** in the top navigation bar
 
@@ -88,7 +88,7 @@ Your account exists, but you need to make it an ADMIN account.
 ### Step 3: Access the Admin Panel
 
 1. **Go to the Admin Panel**:
-   https://keysight-tech.github.io/fordips-tech/admin.html
+   https://keysight-tech.github.io/bravesgadget-llc/admin.html
 
 2. **You should see the admin dashboard!** 🎉
 
@@ -103,7 +103,7 @@ Your account exists, but you need to make it an ADMIN account.
 
 ### Step 1: Access Products Section
 
-1. **Go to**: https://keysight-tech.github.io/fordips-tech/admin.html
+1. **Go to**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
 
 2. **Click the "Products" tab** (on the left or top menu)
 
@@ -127,7 +127,7 @@ Your account exists, but you need to make it an ADMIN account.
 
 ### Step 3: Verify Product Shows on Website
 
-1. **Open your website**: https://keysight-tech.github.io/fordips-tech/
+1. **Open your website**: https://keysight-tech.github.io/bravesgadget-llc/
 
 2. **Scroll to the products section**
 
@@ -255,8 +255,8 @@ If you're stuck:
 ---
 
 **Quick Links:**
-- 🌐 Website: https://keysight-tech.github.io/fordips-tech/
-- 👨‍💼 Admin Panel: https://keysight-tech.github.io/fordips-tech/admin.html
+- 🌐 Website: https://keysight-tech.github.io/bravesgadget-llc/
+- 👨‍💼 Admin Panel: https://keysight-tech.github.io/bravesgadget-llc/admin.html
 - 🔧 Supabase Dashboard: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw
 - 📊 Table Editor: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw/editor
 - 💾 SQL Editor: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw/sql

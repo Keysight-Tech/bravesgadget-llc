@@ -1,5 +1,5 @@
 -- ═══════════════════════════════════════════════════════════════════════════════
--- 🚀 FORDIPS TECH - WORLD-CLASS DATABASE PERFORMANCE OPTIMIZATION (FIXED)
+-- 🚀 BRAVESGADGET LLC - WORLD-CLASS DATABASE PERFORMANCE OPTIMIZATION (FIXED)
 -- ═══════════════════════════════════════════════════════════════════════════════
 --
 -- 🎯 PURPOSE: Dramatically improve query performance by creating materialized views,
@@ -24,7 +24,7 @@
 --    3. Check for success messages
 --    4. Run VERIFY_PRODUCTS_DISPLAY_FIXED.sql to verify
 --
--- 👨‍💻 Created by: World-Class DBA for Fordips Tech
+-- 👨‍💻 Created by: World-Class DBA for BravesGadget LLC
 -- 📅 Date: 2025-10-24
 -- ═══════════════════════════════════════════════════════════════════════════════
 

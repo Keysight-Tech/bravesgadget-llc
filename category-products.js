@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Category-Based Product Display System
+ * BRAVESGADGET LLC - Category-Based Product Display System
  * Organizes products by category with pagination and search
  */
 

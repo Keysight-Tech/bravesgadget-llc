@@ -1,4 +1,4 @@
-# ⚡ Quick Fix Guide - Fordips Tech
+# ⚡ Quick Fix Guide - BravesGadget LLC
 
 **Last Updated:** October 23, 2025
 
@@ -6,7 +6,7 @@
 
 ### Quick Diagnosis
 Open your website and check if products are visible:
-- **URL:** https://keysight-tech.github.io/fordips-tech/
+- **URL:** https://keysight-tech.github.io/bravesgadget-llc/
 - **Expected:** Product grid showing iPhones, Samsung, Laptops, etc.
 - **If empty:** Follow fixes below
 
@@ -121,7 +121,7 @@ SELECT email, is_admin FROM profiles WHERE is_admin = true;
 4. Hard refresh: **Ctrl + F5**
 
 ### Test the website:
-1. Go to: https://keysight-tech.github.io/fordips-tech/
+1. Go to: https://keysight-tech.github.io/bravesgadget-llc/
 2. Open browser console: **F12**
 3. Check for errors (red text)
 4. Look for: "✅ Supabase integration ready!"
@@ -136,11 +136,11 @@ SELECT email, is_admin FROM profiles WHERE is_admin = true;
 console.log('Supabase loaded?', !!window.supabase);
 
 // Test 2: Check if integration ready
-console.log('Integration ready?', !!window.fordipsTech);
+console.log('Integration ready?', !!window.bravesGadget);
 
 // Test 3: Try to load products
-if (window.fordipsTech?.loadProducts) {
-    window.fordipsTech.loadProducts().then(products => {
+if (window.bravesGadget?.loadProducts) {
+    window.bravesGadget.loadProducts().then(products => {
         console.log('✅ Products loaded:', products.length);
         console.log('First 3:', products.slice(0, 3));
     }).catch(error => {
@@ -155,7 +155,7 @@ if (window.fordipsTech?.loadProducts) {
 
 ### 1. Website Accessible?
 ```bash
-curl -I https://keysight-tech.github.io/fordips-tech/
+curl -I https://keysight-tech.github.io/bravesgadget-llc/
 ```
 **Expected:** HTTP/1.1 200 OK
 
@@ -250,9 +250,9 @@ DROP TABLE IF EXISTS profiles CASCADE;
 - **Troubleshooting:** TROUBLESHOOTING.md
 
 ### Live URLs:
-- **Website:** https://keysight-tech.github.io/fordips-tech/
+- **Website:** https://keysight-tech.github.io/bravesgadget-llc/
 - **Supabase:** https://supabase.com/dashboard/project/loutcbvftzojsioahtdw
-- **GitHub Repo:** https://github.com/Keysight-Tech/fordips-tech
+- **GitHub Repo:** https://github.com/Keysight-Tech/bravesgadget-llc
 
 ---
 

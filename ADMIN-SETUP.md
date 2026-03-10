@@ -1,4 +1,4 @@
-# Fordips Tech - Admin Panel Setup Guide
+# BravesGadget LLC - Admin Panel Setup Guide
 
 ## 🔐 Admin Access Setup
 
@@ -6,7 +6,7 @@ The admin panel requires a user account with admin privileges set in the Supabas
 
 ### Step 1: Create Admin Account
 
-1. Go to the main website: https://keysight-tech.github.io/fordips-tech/
+1. Go to the main website: https://keysight-tech.github.io/bravesgadget-llc/
 2. Click the **Account** button in the navigation
 3. Click **Sign Up** tab
 4. Create an account with:
@@ -51,8 +51,8 @@ SELECT * FROM profiles WHERE is_admin = true;
 
 After setting admin privileges:
 
-1. **GitHub Pages URL**: https://keysight-tech.github.io/fordips-tech/admin.html
-2. **Custom Domain URL**: https://fordipstech.com/admin.html (once DNS is configured)
+1. **GitHub Pages URL**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
+2. **Custom Domain URL**: https://bravesgadget.com/admin.html (once DNS is configured)
 
 The admin panel will automatically:
 - Check if you're logged in
@@ -103,16 +103,16 @@ Once logged in as admin, you can:
 ## 🌐 Website URLs
 
 ### Main Site
-- **GitHub Pages**: https://keysight-tech.github.io/fordips-tech/
-- **Custom Domain**: https://fordipstech.com/ (once DNS configured)
+- **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/
+- **Custom Domain**: https://bravesgadget.com/ (once DNS configured)
 
 ### Admin Panel
-- **GitHub Pages**: https://keysight-tech.github.io/fordips-tech/admin.html
-- **Custom Domain**: https://fordipstech.com/admin.html
+- **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
+- **Custom Domain**: https://bravesgadget.com/admin.html
 
 ### My Account (User Dashboard)
-- **GitHub Pages**: https://keysight-tech.github.io/fordips-tech/my-account.html
-- **Custom Domain**: https://fordipstech.com/my-account.html
+- **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/my-account.html
+- **Custom Domain**: https://bravesgadget.com/my-account.html
 
 ## ✅ Testing Checklist
 

@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════════════════
- * FORDIPS TECH - ADVANCED REAL-TIME PRODUCT SEARCH SYSTEM
+ * BRAVESGADGET LLC - ADVANCED REAL-TIME PRODUCT SEARCH SYSTEM
  * ═══════════════════════════════════════════════════════════════════════════
  *
  * Search products with instant results as you type
@@ -44,7 +44,7 @@ class ProductSearchSystem {
     }
 
     init() {
-        window.FORDIPS_CONFIG?.logger.log('🔍 Product Search System initializing...');
+        window.BRAVESGADGET_CONFIG?.logger.log('🔍 Product Search System initializing...');
         this.createSearchUI();
         this.setupEventListeners();
     }
@@ -210,7 +210,7 @@ class ProductSearchSystem {
     }
 
     async performSearch(query) {
-        window.FORDIPS_CONFIG?.logger.log('🔍 Searching for:', query);
+        window.BRAVESGADGET_CONFIG?.logger.log('🔍 Searching for:', query);
 
         try {
             // Show loading state
@@ -227,7 +227,7 @@ class ProductSearchSystem {
             this.showResults();
 
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Search error:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Search error:', error);
             this.showErrorState();
         }
     }
@@ -304,8 +304,8 @@ class ProductSearchSystem {
         }
 
         // Fallback: Search in Supabase
-        if (window.fordipsTech && typeof window.fordipsTech.searchProducts === 'function') {
-            return await window.fordipsTech.searchProducts(query);
+        if (window.bravesGadget && typeof window.bravesGadget.searchProducts === 'function') {
+            return await window.bravesGadget.searchProducts(query);
         }
 
         return [];
@@ -482,7 +482,7 @@ class ProductSearchSystem {
     }
 
     selectProduct(productId) {
-        window.FORDIPS_CONFIG?.logger.log('📦 Product selected:', productId);
+        window.BRAVESGADGET_CONFIG?.logger.log('📦 Product selected:', productId);
 
         // Hide search results
         this.hideResults();
@@ -509,7 +509,7 @@ class ProductSearchSystem {
     }
 
     viewAllResults(query) {
-        window.FORDIPS_CONFIG?.logger.log('🔍 View all results for:', query);
+        window.BRAVESGADGET_CONFIG?.logger.log('🔍 View all results for:', query);
 
         // Hide search dropdown
         this.hideResults();
@@ -569,5 +569,5 @@ class ProductSearchSystem {
 // Initialize search system when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     window.productSearch = new ProductSearchSystem();
-    window.FORDIPS_CONFIG?.logger.log('✅ Product Search System ready');
+    window.BRAVESGADGET_CONFIG?.logger.log('✅ Product Search System ready');
 });

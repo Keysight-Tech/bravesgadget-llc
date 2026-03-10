@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Support & Legal Content
+ * BRAVESGADGET LLC - Support & Legal Content
  * Comprehensive content for FAQs, Shipping, Warranty, Privacy Policy, Terms & Conditions
  */
 
@@ -21,7 +21,7 @@ window.supportContent = {
                     },
                     {
                         q: 'Can I change or cancel my order?',
-                        a: 'You can modify or cancel your order within 1 hour of placement. After that, please contact our support team immediately at support@fordipstech.com or call (667) 256-3680.'
+                        a: 'You can modify or cancel your order within 1 hour of placement. After that, please contact our support team immediately at support@bravesgadget.com or call (667) 256-3680.'
                     },
                     {
                         q: 'Do you offer installment payment plans?',
@@ -76,7 +76,7 @@ window.supportContent = {
                     },
                     {
                         q: 'How do I initiate a return?',
-                        a: 'Contact our support team at support@fordipstech.com with your order number. We will provide you with a return authorization and prepaid shipping label.'
+                        a: 'Contact our support team at support@bravesgadget.com with your order number. We will provide you with a return authorization and prepaid shipping label.'
                     },
                     {
                         q: 'When will I receive my refund?',
@@ -161,7 +161,7 @@ window.supportContent = {
 
                 <h4>How to Return</h4>
                 <ol>
-                    <li>Contact us at support@fordipstech.com or call (667) 256-3680</li>
+                    <li>Contact us at support@bravesgadget.com or call (667) 256-3680</li>
                     <li>Provide your order number and reason for return</li>
                     <li>Receive your Return Authorization (RA) number and prepaid shipping label</li>
                     <li>Package item securely with all original contents</li>
@@ -185,7 +185,7 @@ window.supportContent = {
 
                 <div class="contact-info-box">
                     <h4>Questions?</h4>
-                    <p><strong>Email:</strong> support@fordipstech.com<br>
+                    <p><strong>Email:</strong> support@bravesgadget.com<br>
                     <strong>Phone:</strong> (667) 256-3680<br>
                     <strong>Hours:</strong> Monday-Friday, 9 AM - 6 PM EST</p>
                 </div>
@@ -200,7 +200,7 @@ window.supportContent = {
                 <h3>Product Warranty Coverage</h3>
 
                 <h4>Manufacturer's Warranty</h4>
-                <p>All brand-new products purchased from Fordips Tech LLC come with the full manufacturer's standard warranty. Coverage terms vary by manufacturer:</p>
+                <p>All brand-new products purchased from BravesGadget LLC come with the full manufacturer's standard warranty. Coverage terms vary by manufacturer:</p>
                 <ul>
                     <li><strong>Apple Products:</strong> 1-year limited warranty + 90 days complimentary phone support</li>
                     <li><strong>Samsung Products:</strong> 1-year limited warranty</li>
@@ -209,7 +209,7 @@ window.supportContent = {
                 </ul>
 
                 <h4>Certified Refurbished Warranty</h4>
-                <p>Certified refurbished products include our exclusive <strong>90-day Fordips Tech warranty</strong> covering:</p>
+                <p>Certified refurbished products include our exclusive <strong>90-day BravesGadget LLC warranty</strong> covering:</p>
                 <ul>
                     <li>Manufacturing defects</li>
                     <li>Hardware malfunctions</li>
@@ -248,7 +248,7 @@ window.supportContent = {
 
                 <h4>How to File a Warranty Claim</h4>
                 <ol>
-                    <li><strong>Contact Us:</strong> Email support@fordipstech.com or call (667) 256-3680</li>
+                    <li><strong>Contact Us:</strong> Email support@bravesgadget.com or call (667) 256-3680</li>
                     <li><strong>Provide Details:</strong> Order number, product serial number, description of issue</li>
                     <li><strong>Diagnostic:</strong> Our team may request photos/videos or remote diagnostic session</li>
                     <li><strong>Authorization:</strong> If approved, receive Return Authorization and shipping instructions</li>
@@ -256,7 +256,7 @@ window.supportContent = {
                 </ol>
 
                 <h4>Warranty Transfer</h4>
-                <p>Manufacturer warranties are typically non-transferable. Fordips Tech extended warranties may be transferred to a new owner with proof of purchase and transfer fee.</p>
+                <p>Manufacturer warranties are typically non-transferable. BravesGadget LLC extended warranties may be transferred to a new owner with proof of purchase and transfer fee.</p>
 
                 <h4>AppleCare+ & Samsung Care+</h4>
                 <p>We can help you enroll in manufacturer extended protection plans:</p>
@@ -271,7 +271,7 @@ window.supportContent = {
 
                 <div class="contact-info-box">
                     <h4>Warranty Support</h4>
-                    <p><strong>Email:</strong> warranty@fordipstech.com<br>
+                    <p><strong>Email:</strong> warranty@bravesgadget.com<br>
                     <strong>Phone:</strong> (667) 256-3680<br>
                     <strong>Hours:</strong> Monday-Friday, 9 AM - 6 PM EST<br>
                     <strong>Claims Processing:</strong> 24-48 hours</p>
@@ -288,7 +288,7 @@ window.supportContent = {
                 <p><strong>Last Updated:</strong> January 1, 2024</p>
 
                 <h3>1. Introduction</h3>
-                <p>Fordips Tech LLC ("we," "us," or "our") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, disclose, and safeguard your information when you visit our website or make a purchase.</p>
+                <p>BravesGadget LLC ("we," "us," or "our") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, disclose, and safeguard your information when you visit our website or make a purchase.</p>
 
                 <h3>2. Information We Collect</h3>
 
@@ -361,7 +361,7 @@ window.supportContent = {
                     <li><strong>Opt-Out:</strong> Unsubscribe from marketing emails</li>
                     <li><strong>Data Portability:</strong> Receive your data in a structured format</li>
                 </ul>
-                <p>To exercise these rights, contact us at privacy@fordipstech.com</p>
+                <p>To exercise these rights, contact us at privacy@bravesgadget.com</p>
 
                 <h3>8. Children's Privacy</h3>
                 <p>Our services are not directed to individuals under 18. We do not knowingly collect personal information from children.</p>
@@ -377,14 +377,14 @@ window.supportContent = {
 
                 <h3>12. Contact Us</h3>
                 <div class="contact-info-box">
-                    <p><strong>Fordips Tech LLC</strong><br>
+                    <p><strong>BravesGadget LLC</strong><br>
                     15706 Dorset Rd<br>
                     Laurel, MD 20707<br>
                     United States</p>
 
-                    <p><strong>Email:</strong> privacy@fordipstech.com<br>
+                    <p><strong>Email:</strong> privacy@bravesgadget.com<br>
                     <strong>Phone:</strong> (667) 256-3680<br>
-                    <strong>Data Protection Officer:</strong> dpo@fordipstech.com</p>
+                    <strong>Data Protection Officer:</strong> dpo@bravesgadget.com</p>
                 </div>
             </div>
         `
@@ -398,12 +398,12 @@ window.supportContent = {
                 <p><strong>Last Updated:</strong> January 1, 2024</p>
 
                 <h3>1. Acceptance of Terms</h3>
-                <p>By accessing and using the Fordips Tech LLC website ("Website"), you accept and agree to be bound by these Terms and Conditions. If you do not agree, please do not use our Website.</p>
+                <p>By accessing and using the BravesGadget LLC website ("Website"), you accept and agree to be bound by these Terms and Conditions. If you do not agree, please do not use our Website.</p>
 
                 <h3>2. Company Information</h3>
-                <p><strong>Legal Name:</strong> Fordips Tech LLC<br>
+                <p><strong>Legal Name:</strong> BravesGadget LLC<br>
                 <strong>Address:</strong> 15706 Dorset Rd, Laurel, MD 20707, United States<br>
-                <strong>Email:</strong> legal@fordipstech.com<br>
+                <strong>Email:</strong> legal@bravesgadget.com<br>
                 <strong>Phone:</strong> (667) 256-3680</p>
 
                 <h3>3. Use of Website</h3>
@@ -472,7 +472,7 @@ window.supportContent = {
                 <p>TO THE EXTENT PERMITTED BY LAW, THIS WEBSITE AND PRODUCTS ARE PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.</p>
 
                 <h3>9. Limitation of Liability</h3>
-                <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, FORDIPS TECH LLC SHALL NOT BE LIABLE FOR:</p>
+                <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, BRAVESGADGET LLC SHALL NOT BE LIABLE FOR:</p>
                 <ul>
                     <li>Indirect, incidental, or consequential damages</li>
                     <li>Loss of profits, data, or business</li>
@@ -480,7 +480,7 @@ window.supportContent = {
                 </ul>
 
                 <h3>10. Intellectual Property</h3>
-                <p>All content on this Website, including text, graphics, logos, images, and software, is owned by Fordips Tech LLC or licensed to us and protected by copyright and trademark laws.</p>
+                <p>All content on this Website, including text, graphics, logos, images, and software, is owned by BravesGadget LLC or licensed to us and protected by copyright and trademark laws.</p>
                 <p>You may not:</p>
                 <ul>
                     <li>Reproduce, distribute, or create derivative works</li>
@@ -501,7 +501,7 @@ window.supportContent = {
                 <p>We use third-party services (payment processors, shipping carriers, etc.). We are not responsible for their actions or policies.</p>
 
                 <h3>13. Indemnification</h3>
-                <p>You agree to indemnify and hold Fordips Tech LLC harmless from any claims, losses, or damages arising from your use of the Website or violation of these Terms.</p>
+                <p>You agree to indemnify and hold BravesGadget LLC harmless from any claims, losses, or damages arising from your use of the Website or violation of these Terms.</p>
 
                 <h3>14. Dispute Resolution</h3>
                 <h4>Governing Law</h4>
@@ -528,14 +528,14 @@ window.supportContent = {
                 <p>If any provision of these Terms is found invalid, the remaining provisions shall remain in effect.</p>
 
                 <h3>18. Entire Agreement</h3>
-                <p>These Terms constitute the entire agreement between you and Fordips Tech LLC regarding use of the Website.</p>
+                <p>These Terms constitute the entire agreement between you and BravesGadget LLC regarding use of the Website.</p>
 
                 <h3>19. Contact Information</h3>
                 <div class="contact-info-box">
                     <p>For questions about these Terms:<br>
-                    <strong>Email:</strong> legal@fordipstech.com<br>
+                    <strong>Email:</strong> legal@bravesgadget.com<br>
                     <strong>Phone:</strong> (667) 256-3680<br>
-                    <strong>Mail:</strong> Fordips Tech LLC, Legal Department<br>
+                    <strong>Mail:</strong> BravesGadget LLC, Legal Department<br>
                     15706 Dorset Rd, Laurel, MD 20707, United States</p>
                 </div>
 

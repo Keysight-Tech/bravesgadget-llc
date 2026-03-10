@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Checkout Enhancements
+ * BRAVESGADGET LLC - Checkout Enhancements
  * Currency selector and Help Me Pay integration
  */
 

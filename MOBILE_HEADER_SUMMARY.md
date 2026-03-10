@@ -277,7 +277,7 @@ Complete (400ms) - Ready to use!
 To test the improvements:
 
 1. **Open website on mobile device**
-   - URL: https://keysight-tech.github.io/fordips-tech/
+   - URL: https://keysight-tech.github.io/bravesgadget-llc/
 
 2. **Test hamburger menu**
    - [ ] Tap hamburger icon
@@ -365,7 +365,7 @@ After:
 ✅ **Pushed to GitHub**
 ✅ **Live on GitHub Pages in ~2 minutes**
 
-**Live URL:** https://keysight-tech.github.io/fordips-tech/
+**Live URL:** https://keysight-tech.github.io/bravesgadget-llc/
 
 ---
 

@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - COMPLETE ALL-IN-ONE MIGRATION
+ * BRAVESGADGET LLC - COMPLETE ALL-IN-ONE MIGRATION
  * Run this SINGLE file to set up everything
  *
  * This script handles all edge cases:
@@ -271,7 +271,7 @@ DECLARE
     payment_link TEXT;
 BEGIN
     request_id := gen_random_uuid();
-    payment_link := 'https://keysight-tech.github.io/fordips-tech/help-me-pay.html?request=' || request_id::TEXT;
+    payment_link := 'https://keysight-tech.github.io/bravesgadget-llc/help-me-pay.html?request=' || request_id::TEXT;
 
     INSERT INTO help_me_pay_requests (
         id, requester_user_id, requester_name, requester_email, requester_phone,
@@ -494,7 +494,7 @@ BEGIN
     RAISE NOTICE '   ✓ Users can only access their own data';
     RAISE NOTICE '   ✓ Payment links work for helpers (public access)';
     RAISE NOTICE '';
-    RAISE NOTICE '🚀 Your Fordips Tech Platform Features:';
+    RAISE NOTICE '🚀 Your BravesGadget LLC Platform Features:';
     RAISE NOTICE '   ✓ Real-time product search';
     RAISE NOTICE '   ✓ User notifications system';
     RAISE NOTICE '   ✓ Help Me Pay (payment requests)';
@@ -506,7 +506,7 @@ BEGIN
     RAISE NOTICE '   2. Test account creation on your site';
     RAISE NOTICE '   3. Test all features (search, notifications, help-me-pay)';
     RAISE NOTICE '';
-    RAISE NOTICE '🌐 Live Site: https://keysight-tech.github.io/fordips-tech/';
+    RAISE NOTICE '🌐 Live Site: https://keysight-tech.github.io/bravesgadget-llc/';
     RAISE NOTICE '═══════════════════════════════════════════════════';
     RAISE NOTICE '';
 END $$;

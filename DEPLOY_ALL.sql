@@ -1,5 +1,5 @@
 -- ============================================
--- FORDIPS TECH - COMPLETE DATABASE DEPLOYMENT
+-- BRAVESGADGET LLC - COMPLETE DATABASE DEPLOYMENT
 -- ONE-CLICK SETUP - Run this file ONCE in Supabase SQL Editor
 -- ============================================
 
@@ -421,7 +421,7 @@ ORDER BY c.name;
 
 DO $$
 BEGIN
-    RAISE NOTICE '🎉 FORDIPS TECH DATABASE DEPLOYED SUCCESSFULLY!';
+    RAISE NOTICE '🎉 BRAVESGADGET LLC DATABASE DEPLOYED SUCCESSFULLY!';
     RAISE NOTICE '';
     RAISE NOTICE 'Your database includes:';
     RAISE NOTICE '- 8 product categories';
@@ -431,10 +431,10 @@ BEGIN
     RAISE NOTICE '- User authentication ready';
     RAISE NOTICE '';
     RAISE NOTICE 'Next steps:';
-    RAISE NOTICE '1. Visit your website: https://keysight-tech.github.io/fordips-tech/';
+    RAISE NOTICE '1. Visit your website: https://keysight-tech.github.io/bravesgadget-llc/';
     RAISE NOTICE '2. Create your admin account by signing up';
     RAISE NOTICE '3. Run: UPDATE profiles SET is_admin = true WHERE email = ''your@email.com'';';
-    RAISE NOTICE '4. Access admin panel: https://keysight-tech.github.io/fordips-tech/admin.html';
+    RAISE NOTICE '4. Access admin panel: https://keysight-tech.github.io/bravesgadget-llc/admin.html';
     RAISE NOTICE '';
     RAISE NOTICE '✨ Your e-commerce website is now live!';
 END $$;

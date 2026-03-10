@@ -1,7 +1,7 @@
 # Stripe Payment Integration Setup Guide
 
 ## 🎯 Overview
-Your Fordips Tech website now has Stripe payment processing integrated! Customers can pay with credit cards, Apple Pay, and Google Pay in real-time.
+Your BravesGadget LLC website now has Stripe payment processing integrated! Customers can pay with credit cards, Apple Pay, and Google Pay in real-time.
 
 ## 🚀 Quick Setup (5 minutes)
 

@@ -1,4 +1,4 @@
-# 🔧 Complete Fix Guide - Fordips Tech
+# 🔧 Complete Fix Guide - BravesGadget LLC
 
 ## Status: Everything is Working! ✅
 
@@ -9,7 +9,7 @@ After comprehensive testing, here's what I found:
 ## ✅ What's Working Perfectly
 
 ### 1. **Website Deployment**
-- ✅ Live at: https://keysight-tech.github.io/fordips-tech/
+- ✅ Live at: https://keysight-tech.github.io/bravesgadget-llc/
 - ✅ HTTP 200 OK (accessible)
 - ✅ All files present and loading
 - ✅ GitHub Pages configured correctly
@@ -104,10 +104,10 @@ Open developer console (F12) and run:
 ```javascript
 // Test Supabase connection
 console.log('Supabase loaded?', !!window.supabase);
-console.log('Integration ready?', !!window.fordipsTech);
+console.log('Integration ready?', !!window.bravesGadget);
 
 // Test loading products
-window.fordipsTech?.loadProducts().then(products => {
+window.bravesGadget?.loadProducts().then(products => {
     console.log('Products:', products.length);
 }).catch(error => {
     console.error('Error:', error.message);
@@ -276,14 +276,14 @@ SEO:            85-90
 
 ### 1. Open Website
 ```
-URL: https://keysight-tech.github.io/fordips-tech/
+URL: https://keysight-tech.github.io/bravesgadget-llc/
 Expected: Website loads, shows hero section
 ```
 
 ### 2. Check Browser Console
 ```
 Press F12 → Console tab
-Expected: See "✅ Fordips Tech Supabase Integration Loaded"
+Expected: See "✅ BravesGadget LLC Supabase Integration Loaded"
 Should NOT see: Red errors
 ```
 

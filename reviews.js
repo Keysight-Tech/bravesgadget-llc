@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Product Reviews & Ratings System
+ * BRAVESGADGET LLC - Product Reviews & Ratings System
  * Handles customer reviews, ratings, and display
  */
 
@@ -27,7 +27,7 @@ async function loadProductReviews(productId) {
 
 // Get reviews from localStorage (fallback)
 function getReviewsFromLocalStorage(productId) {
-    const allReviews = JSON.parse(localStorage.getItem('fordips_reviews') || '[]');
+    const allReviews = JSON.parse(localStorage.getItem('bravesgadget_reviews') || '[]');
     return allReviews.filter(r => r.product_id === productId && r.status === 'approved');
 }
 
@@ -72,13 +72,13 @@ async function submitReview(productId, productName, rating, reviewText, customer
 
 // Save review to localStorage (fallback)
 function saveReviewToLocalStorage(reviewData) {
-    const reviews = JSON.parse(localStorage.getItem('fordips_reviews') || '[]');
+    const reviews = JSON.parse(localStorage.getItem('bravesgadget_reviews') || '[]');
     const newReview = {
         ...reviewData,
         id: 'REV-' + Date.now()
     };
     reviews.push(newReview);
-    localStorage.setItem('fordips_reviews', JSON.stringify(reviews));
+    localStorage.setItem('bravesgadget_reviews', JSON.stringify(reviews));
     return newReview;
 }
 

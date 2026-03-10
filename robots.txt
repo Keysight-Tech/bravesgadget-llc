@@ -1,4 +1,4 @@
-# Fordips Tech - Robots.txt
+# BravesGadget LLC - Robots.txt
 # Allow all search engines to crawl the site
 
 User-agent: *
@@ -14,7 +14,7 @@ Disallow: /TEST_INTEGRATION.html
 Disallow: /AUTOMATED_TEST.html
 
 # Sitemap location
-Sitemap: https://keysight-tech.github.io/fordips-tech/sitemap.xml
+Sitemap: https://keysight-tech.github.io/bravesgadget-llc/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1

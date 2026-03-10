@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Account - Fordips Tech</title>
+    <title>My Account - BravesGadget LLC</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="modern-header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -322,8 +322,8 @@
         <div class="container">
             <div class="nav-wrapper" style="display: flex; justify-content: space-between; align-items: center;">
                 <a href="index.html" class="brand-logo" style="text-decoration: none; display: flex; align-items: center; gap: 1rem;">
-                    <img src="https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/fordips%20logo.png" alt="Fordips Tech" class="logo-img">
-                    <span class="brand-name">FORDIPS TECH</span>
+                    <img src="https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/bravesgadget%20logo.png" alt="BravesGadget LLC" class="logo-img">
+                    <span class="brand-name">BRAVESGADGET LLC</span>
                 </a>
 
                 <ul class="nav-menu" id="navMenu" style="display: flex; gap: 2rem; list-style: none; margin: 0; align-items: center;">
@@ -437,7 +437,7 @@
         async function handleLogout() {
             if (confirm('Are you sure you want to logout?')) {
                 try {
-                    await window.fordipsTech.signOut();
+                    await window.bravesGadget.signOut();
                     // Show success notification
                     if (typeof showNotification === 'function') {
                         showNotification('Logged out successfully!', 'success');
@@ -456,7 +456,7 @@
 
         // Load user data
         async function loadUserData() {
-            const user = await window.fordipsTech.getCurrentUser();
+            const user = await window.bravesGadget.getCurrentUser();
 
             if (!user) {
                 window.location.href = 'index.html';
@@ -477,7 +477,7 @@
         // Load orders
         async function loadOrders() {
             const ordersList = document.getElementById('ordersList');
-            const orders = await window.fordipsTech.getUserOrders();
+            const orders = await window.bravesGadget.getUserOrders();
 
             if (orders.length === 0) {
                 ordersList.innerHTML = `

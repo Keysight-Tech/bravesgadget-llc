@@ -21,7 +21,7 @@ The Row Level Security (RLS) policies in `DEPLOY_ALL.sql` have a circular depend
 2. Click **"New Query"**
 
 ### Step 2: Run the Fix
-1. Open the file: `D:\Projects\Figma\outputs\websites\fordips-tech\FIX_RLS_POLICIES.sql`
+1. Open the file: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\FIX_RLS_POLICIES.sql`
 2. Copy ALL the contents
 3. Paste into the Supabase SQL Editor
 4. Click **"Run"** (or press Ctrl+Enter)
@@ -35,7 +35,7 @@ SELECT * FROM products WHERE is_active = true ORDER BY created_at DESC LIMIT 5;
 If you see products (or an empty result without errors), the fix worked! ✅
 
 ### Step 4: Refresh Your Website
-1. Open your website: https://keysight-tech.github.io/fordips-tech/
+1. Open your website: https://keysight-tech.github.io/bravesgadget-llc/
 2. Open the browser console (F12)
 3. Refresh the page (Ctrl+R)
 4. The error should be gone!
@@ -110,4 +110,4 @@ GROUP BY tablename;
 **Quick Links:**
 - 🔗 Supabase Dashboard: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw
 - 🔗 SQL Editor: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw/sql
-- 📁 Fix File: `D:\Projects\Figma\outputs\websites\fordips-tech\FIX_RLS_POLICIES.sql`
+- 📁 Fix File: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\FIX_RLS_POLICIES.sql`

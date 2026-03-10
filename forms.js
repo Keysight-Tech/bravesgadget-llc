@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Forms & Modals JavaScript
+ * BRAVESGADGET LLC - Forms & Modals JavaScript
  * Handles all form submissions and modal interactions
  */
 
@@ -66,7 +66,7 @@ document.getElementById('newsletterForm')?.addEventListener('submit', async func
     formStatus.style.color = 'white';
 
     // Submit to Supabase
-    const result = await window.fordipsTech.subscribeNewsletter(email);
+    const result = await window.bravesGadget.subscribeNewsletter(email);
 
     if (result.success) {
         formStatus.textContent = 'Successfully subscribed! Check your email for confirmation.';
@@ -87,8 +87,8 @@ document.getElementById('newsletterForm')?.addEventListener('submit', async func
 // ===================================
 async function openAccountModal() {
     // Check if user is logged in
-    if (window.fordipsTech && window.fordipsTech.getCurrentUser) {
-        const user = await window.fordipsTech.getCurrentUser();
+    if (window.bravesGadget && window.bravesGadget.getCurrentUser) {
+        const user = await window.bravesGadget.getCurrentUser();
         if (user) {
             // User is logged in, redirect to my-account page
             window.location.href = 'my-account.html';
@@ -136,7 +136,7 @@ document.getElementById('loginForm')?.addEventListener('submit', async function(
     formStatus.style.display = 'block';
 
     // Sign in with Supabase
-    const result = await window.fordipsTech.signIn(email, password);
+    const result = await window.bravesGadget.signIn(email, password);
 
     if (result.success) {
         formStatus.textContent = 'Login successful! Welcome back.';
@@ -187,7 +187,7 @@ document.getElementById('signupForm')?.addEventListener('submit', async function
     formStatus.style.display = 'block';
 
     // Sign up with Supabase
-    const result = await window.fordipsTech.signUp(email, password, name);
+    const result = await window.bravesGadget.signUp(email, password, name);
 
     if (result.success) {
         formStatus.textContent = 'Account created successfully! Please check your email to verify.';
@@ -227,8 +227,8 @@ function updateUserUI(user) {
 
 // Check for existing session on page load
 document.addEventListener('DOMContentLoaded', async function() {
-    if (window.fordipsTech && window.fordipsTech.getCurrentUser) {
-        const user = await window.fordipsTech.getCurrentUser();
+    if (window.bravesGadget && window.bravesGadget.getCurrentUser) {
+        const user = await window.bravesGadget.getCurrentUser();
         if (user) {
             updateUserUI(user);
         }
@@ -288,14 +288,14 @@ const supportContent = {
                 <li>Refunds are processed within 5-7 business days</li>
             </ul>
 
-            <p>To initiate a return, please contact our support team at <strong>support@fordipstech.com</strong></p>
+            <p>To initiate a return, please contact our support team at <strong>support@bravesgadget.com</strong></p>
         `
     },
     warranty: {
         title: 'Warranty Information',
         content: `
             <h3>Product Warranty</h3>
-            <p>All products sold by Fordips Tech come with a manufacturer's warranty. Warranty terms vary by product and manufacturer.</p>
+            <p>All products sold by BravesGadget LLC come with a manufacturer's warranty. Warranty terms vary by product and manufacturer.</p>
 
             <h3>Standard Warranty Coverage</h3>
             <ul>
@@ -312,7 +312,7 @@ const supportContent = {
             <h3>Warranty Claims</h3>
             <p>To file a warranty claim:</p>
             <ul>
-                <li>Contact us at <strong>warranty@fordipstech.com</strong></li>
+                <li>Contact us at <strong>warranty@bravesgadget.com</strong></li>
                 <li>Provide proof of purchase and product details</li>
                 <li>Describe the issue you're experiencing</li>
                 <li>Our team will guide you through the claim process</li>
@@ -327,7 +327,7 @@ const supportContent = {
 
             <h3>Contact Methods</h3>
             <ul>
-                <li><strong>Email:</strong> support@fordipstech.com (24-hour response time)</li>
+                <li><strong>Email:</strong> support@bravesgadget.com (24-hour response time)</li>
                 <li><strong>Phone:</strong> (667) 256-3680 (Mon-Fri, 9AM-6PM EST)</li>
                 <li><strong>Live Chat:</strong> Available on our website during business hours</li>
             </ul>
@@ -385,7 +385,7 @@ const legalContent = {
             <p><em>Last updated: ${new Date().toLocaleDateString()}</em></p>
 
             <h3>Introduction</h3>
-            <p>Fordips Tech LLC ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information.</p>
+            <p>BravesGadget LLC ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information.</p>
 
             <h3>Information We Collect</h3>
             <p>We collect information that you provide directly to us, including:</p>
@@ -420,7 +420,7 @@ const legalContent = {
             </ul>
 
             <h3>Contact Us</h3>
-            <p>If you have questions about this Privacy Policy, please contact us at <strong>privacy@fordipstech.com</strong></p>
+            <p>If you have questions about this Privacy Policy, please contact us at <strong>privacy@bravesgadget.com</strong></p>
         `
     },
     terms: {
@@ -446,16 +446,16 @@ const legalContent = {
             </ul>
 
             <h3>Intellectual Property</h3>
-            <p>All content on this website, including text, graphics, logos, and images, is the property of Fordips Tech LLC and protected by copyright laws.</p>
+            <p>All content on this website, including text, graphics, logos, and images, is the property of BravesGadget LLC and protected by copyright laws.</p>
 
             <h3>Limitation of Liability</h3>
-            <p>To the fullest extent permitted by law, Fordips Tech LLC shall not be liable for any indirect, incidental, special, or consequential damages.</p>
+            <p>To the fullest extent permitted by law, BravesGadget LLC shall not be liable for any indirect, incidental, special, or consequential damages.</p>
 
             <h3>Governing Law</h3>
             <p>These Terms and Conditions are governed by the laws of the United States and the State of Maryland.</p>
 
             <h3>Contact</h3>
-            <p>For questions about these Terms, contact us at <strong>legal@fordipstech.com</strong></p>
+            <p>For questions about these Terms, contact us at <strong>legal@bravesgadget.com</strong></p>
         `
     }
 };
@@ -522,7 +522,7 @@ document.getElementById('checkoutForm')?.addEventListener('submit', async functi
     formStatus.style.display = 'block';
 
     // Place order with Supabase
-    const result = await window.fordipsTech.placeOrder({
+    const result = await window.bravesGadget.placeOrder({
         ...formData,
         total: total
     });

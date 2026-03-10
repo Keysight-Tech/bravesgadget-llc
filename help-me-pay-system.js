@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - HELP ME PAY & MULTI-CURRENCY SYSTEM
+ * BRAVESGADGET LLC - HELP ME PAY & MULTI-CURRENCY SYSTEM
  * Allow customers to request payment help from others with multi-currency support
  */
 
@@ -28,7 +28,7 @@ class HelpMePaySystem {
     }
 
     init() {
-        window.FORDIPS_CONFIG?.logger.log('💰 Help Me Pay & Currency System initializing...');
+        window.BRAVESGADGET_CONFIG?.logger.log('💰 Help Me Pay & Currency System initializing...');
         this.addCurrencySelector();
         this.addHelpMePayOption();
     }
@@ -89,7 +89,7 @@ class HelpMePaySystem {
     addHelpMePayOption() {
         // This will be added to checkout page
         // We'll modify the checkout form to include Help Me Pay option
-        window.FORDIPS_CONFIG?.logger.log('Help Me Pay option ready');
+        window.BRAVESGADGET_CONFIG?.logger.log('Help Me Pay option ready');
     }
 
     selectCurrency(currencyCode) {
@@ -109,7 +109,7 @@ class HelpMePaySystem {
         // Save to localStorage
         localStorage.setItem('selectedCurrency', currencyCode);
 
-        window.FORDIPS_CONFIG?.logger.log('Currency changed to:', currencyCode);
+        window.BRAVESGADGET_CONFIG?.logger.log('Currency changed to:', currencyCode);
     }
 
     filterCurrencies(query) {
@@ -335,7 +335,7 @@ class HelpMePaySystem {
             };
 
             // Create help-me-pay request in database
-            const result = await window.fordipsTech.createHelpMePayRequest(requestData);
+            const result = await window.bravesGadget.createHelpMePayRequest(requestData);
 
             if (result.success) {
                 // Send notification to helper
@@ -350,7 +350,7 @@ class HelpMePaySystem {
             throw new Error(result.error || 'Failed to create help-me-pay request');
 
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Help Me Pay Error:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Help Me Pay Error:', error);
             throw error;
         }
     }
@@ -381,7 +381,7 @@ class HelpMePaySystem {
             };
 
             // Send email notification
-            await window.fordipsTech.sendEmail(emailData);
+            await window.bravesGadget.sendEmail(emailData);
 
             // If phone number provided, send SMS
             if (helperInfo.phone) {
@@ -390,13 +390,13 @@ class HelpMePaySystem {
                     message: `${orderData.customer_name} sent you a payment request for ${this.convertPrice(orderData.total_amount)} ${this.selectedCurrency}. View details: ${paymentLink}`
                 };
 
-                await window.fordipsTech.sendSMS(smsData);
+                await window.bravesGadget.sendSMS(smsData);
             }
 
-            window.FORDIPS_CONFIG?.logger.log('Help Me Pay notification sent successfully');
+            window.BRAVESGADGET_CONFIG?.logger.log('Help Me Pay notification sent successfully');
 
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Error sending notification:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error sending notification:', error);
             // Don't throw error here - the request was created successfully
         }
     }
@@ -440,5 +440,5 @@ document.addEventListener('DOMContentLoaded', () => {
         window.helpMePay.createHelpMePayUI();
     }
 
-    window.FORDIPS_CONFIG?.logger.log('✅ Help Me Pay & Currency System ready');
+    window.BRAVESGADGET_CONFIG?.logger.log('✅ Help Me Pay & Currency System ready');
 });

@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Enhanced Checkout System
+ * BRAVESGADGET LLC - Enhanced Checkout System
  * Handles order placement, Supabase integration, and notifications
  */
 
@@ -143,11 +143,11 @@ function saveOrderToLocalStorage(orderData, orderItems) {
     };
 
     // Get existing orders
-    const orders = JSON.parse(localStorage.getItem('fordips_orders') || '[]');
+    const orders = JSON.parse(localStorage.getItem('bravesgadget_orders') || '[]');
     orders.push(order);
 
     // Save to localStorage
-    localStorage.setItem('fordips_orders', JSON.stringify(orders));
+    localStorage.setItem('bravesgadget_orders', JSON.stringify(orders));
 
     return orderId;
 }
@@ -189,7 +189,7 @@ async function sendOrderNotifications(orderId, orderData, orderItems) {
         // For now, console log the notifications
 
         // Store notifications in localStorage for demo
-        const allNotifications = JSON.parse(localStorage.getItem('fordips_notifications') || '[]');
+        const allNotifications = JSON.parse(localStorage.getItem('bravesgadget_notifications') || '[]');
         allNotifications.push({
             orderId,
             customerEmail: orderData.customer_email,
@@ -198,7 +198,7 @@ async function sendOrderNotifications(orderId, orderData, orderItems) {
             customerMessage,
             adminMessage
         });
-        localStorage.setItem('fordips_notifications', JSON.stringify(allNotifications));
+        localStorage.setItem('bravesgadget_notifications', JSON.stringify(allNotifications));
 
         return true;
     } catch (error) {
@@ -219,7 +219,7 @@ function createCustomerNotification(orderId, orderData, orderItems) {
     return `
 Dear ${orderData.customer_name},
 
-Thank you for your order at Fordips Tech!
+Thank you for your order at BravesGadget LLC!
 
 Order ID: ${orderId}
 Order Date: ${new Date().toLocaleDateString()}
@@ -242,8 +242,8 @@ We'll send you another email when your order ships.
 Thank you for shopping with us!
 
 Best regards,
-Fordips Tech Team
-support@fordipstech.com
+BravesGadget LLC Team
+support@bravesgadget.com
 (667) 256 3680
     `.trim();
 }
@@ -435,11 +435,11 @@ function closeThankYouMessage() {
 
 // Helper functions for cart operations
 function getCartItems() {
-    return JSON.parse(localStorage.getItem('fordips_cart') || '[]');
+    return JSON.parse(localStorage.getItem('bravesgadget_cart') || '[]');
 }
 
 function clearCart() {
-    localStorage.removeItem('fordips_cart');
+    localStorage.removeItem('bravesgadget_cart');
 
     // Update cart UI
     const cartCount = document.getElementById('cartCount');

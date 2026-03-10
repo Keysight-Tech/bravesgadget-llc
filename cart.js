@@ -1,8 +1,8 @@
 /**
- * FORDIPS TECH - Shopping Cart System
+ * BRAVESGADGET LLC - Shopping Cart System
  */
 
-let cart = JSON.parse(localStorage.getItem('fordipsTechCart')) || [];
+let cart = JSON.parse(localStorage.getItem('bravesGadgetCart')) || [];
 
 function addToCart(product) {
     // Check if exact same product with same variants exists
@@ -72,7 +72,7 @@ function updateQuantityByIndex(index, change) {
 }
 
 function saveCart() {
-    localStorage.setItem('fordipsTechCart', JSON.stringify(cart));
+    localStorage.setItem('bravesGadgetCart', JSON.stringify(cart));
 }
 
 function getCartTotal() {

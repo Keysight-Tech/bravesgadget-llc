@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Currency System
+ * BRAVESGADGET LLC - Currency System
  * Multi-currency support with real-time conversion
  */
 
@@ -101,7 +101,7 @@ function updateAllPrices() {
  * Update cart currency
  */
 function updateCartCurrency() {
-    const cart = JSON.parse(localStorage.getItem('fordipsTechCart')) || [];
+    const cart = JSON.parse(localStorage.getItem('bravesGadgetCart')) || [];
     const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
 
     const totalElement = document.getElementById('totalAmount');
@@ -115,7 +115,7 @@ function updateCartCurrency() {
  * Update checkout currency
  */
 function updateCheckoutCurrency() {
-    const cart = JSON.parse(localStorage.getItem('fordipsTechCart')) || [];
+    const cart = JSON.parse(localStorage.getItem('bravesGadgetCart')) || [];
     const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
 
     const checkoutSubtotal = document.getElementById('checkoutSubtotal');

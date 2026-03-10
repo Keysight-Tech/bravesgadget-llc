@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Supabase Integration
+ * BRAVESGADGET LLC - Supabase Integration
  * Complete E-commerce Database Integration
  *
  * Configuration is now managed in config.js for better security
@@ -8,8 +8,8 @@
 // ============================================
 // CONFIGURATION - Now loaded from config.js
 // ============================================
-const SUPABASE_URL = window.FORDIPS_CONFIG?.SUPABASE_CONFIG?.url || 'https://loutcbvftzojsioahtdw.supabase.co';
-const SUPABASE_ANON_KEY = window.FORDIPS_CONFIG?.SUPABASE_CONFIG?.anonKey || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxvdXRjYnZmdHpvanNpb2FodGR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEyNDc5NjMsImV4cCI6MjA3NjgyMzk2M30.u49fBtuF99IsEAr8iYLo_3SnHAOqTR-Y7WPXnkGVKOs';
+const SUPABASE_URL = window.BRAVESGADGET_CONFIG?.SUPABASE_CONFIG?.url || 'https://loutcbvftzojsioahtdw.supabase.co';
+const SUPABASE_ANON_KEY = window.BRAVESGADGET_CONFIG?.SUPABASE_CONFIG?.anonKey || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxvdXRjYnZmdHpvanNpb2FodGR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEyNDc5NjMsImV4cCI6MjA3NjgyMzk2M30.u49fBtuF99IsEAr8iYLo_3SnHAOqTR-Y7WPXnkGVKOs';
 
 // ============================================
 // INITIALIZE SUPABASE CLIENT
@@ -20,7 +20,7 @@ const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 window.supabaseClient = supabase;
 
 // Log initialization
-window.FORDIPS_CONFIG?.logger.info('✅ Supabase client initialized', {
+window.BRAVESGADGET_CONFIG?.logger.info('✅ Supabase client initialized', {
     url: SUPABASE_URL,
     timestamp: new Date().toISOString()
 });
@@ -79,7 +79,7 @@ async function signUp(email, password, fullName) {
 
         return { success: true, user: data.user };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Signup error:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Signup error:', error);
         return { success: false, error: error.message };
     }
 }
@@ -113,7 +113,7 @@ async function signIn(email, password) {
 
         return { success: true, user: data.user };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Login error:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Login error:', error);
         return { success: false, error: error.message };
     }
 }
@@ -195,7 +195,7 @@ async function loadProducts(category = null) {
         console.warn('   3. Network connectivity issue');
         console.warn('   Dashboard: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw');
 
-        window.FORDIPS_CONFIG?.logger.error('Error loading products from Supabase:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading products from Supabase:', error);
 
         // Fall back to local products
         return getLocalProducts(category);
@@ -313,7 +313,7 @@ async function loadUserCart() {
 
         updateCartDisplay();
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error loading cart:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading cart:', error);
     }
 }
 
@@ -359,14 +359,14 @@ async function addToCart(productId, productName, productPrice, productImage) {
         await loadUserCart();
         showNotification('Added to cart!', 'success');
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error adding to cart:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error adding to cart:', error);
         showNotification('Error adding to cart', 'error');
     }
 }
 
 // Guest cart functions (localStorage)
 function addToLocalCart(productId, productName, productPrice, productImage) {
-    const cart = JSON.parse(localStorage.getItem('fordipstech_cart') || '[]');
+    const cart = JSON.parse(localStorage.getItem('bravesgadgetllc_cart') || '[]');
     const existing = cart.find(item => item.id == productId);
 
     if (existing) {
@@ -381,7 +381,7 @@ function addToLocalCart(productId, productName, productPrice, productImage) {
         });
     }
 
-    localStorage.setItem('fordipstech_cart', JSON.stringify(cart));
+    localStorage.setItem('bravesgadgetllc_cart', JSON.stringify(cart));
     currentCart = cart;
     updateCartDisplay();
     showNotification('Added to cart!', 'success');
@@ -484,7 +484,7 @@ async function placeOrder(orderData) {
 
         return { success: true, orderNumber: order.order_number };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error placing order:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error placing order:', error);
         return { success: false, error: error.message };
     }
 }
@@ -508,7 +508,7 @@ async function getUserOrders() {
         if (error) throw error;
         return data || [];
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error loading orders:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading orders:', error);
         return [];
     }
 }
@@ -532,7 +532,7 @@ async function submitContactForm(formData) {
         if (error) throw error;
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error submitting contact form:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error submitting contact form:', error);
         return { success: false, error: error.message };
     }
 }
@@ -553,7 +553,7 @@ async function subscribeNewsletter(email) {
 
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error subscribing to newsletter:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error subscribing to newsletter:', error);
         return { success: false, error: error.message };
     }
 }
@@ -576,7 +576,7 @@ async function isAdmin() {
         if (error) throw error;
         return data?.is_admin || false;
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error checking admin status:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error checking admin status:', error);
         return false;
     }
 }
@@ -596,7 +596,7 @@ async function getAllOrders() {
         if (error) throw error;
         return data || [];
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error loading all orders:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading all orders:', error);
         return [];
     }
 }
@@ -612,7 +612,7 @@ async function updateOrderStatus(orderId, newStatus) {
         if (error) throw error;
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error updating order status:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error updating order status:', error);
         return { success: false, error: error.message };
     }
 }
@@ -629,7 +629,7 @@ async function addProduct(productData) {
         if (error) throw error;
         return { success: true, product: data };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error adding product:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error adding product:', error);
         return { success: false, error: error.message };
     }
 }
@@ -645,7 +645,7 @@ async function updateProduct(productId, productData) {
         if (error) throw error;
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error updating product:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error updating product:', error);
         return { success: false, error: error.message };
     }
 }
@@ -661,7 +661,7 @@ async function deleteProduct(productId) {
         if (error) throw error;
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error deleting product:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error deleting product:', error);
         return { success: false, error: error.message };
     }
 }
@@ -677,7 +677,7 @@ async function getOrderItems(orderId) {
         if (error) throw error;
         return data || [];
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error loading order items:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading order items:', error);
         return [];
     }
 }
@@ -693,7 +693,7 @@ async function getAllContactSubmissions() {
         if (error) throw error;
         return data || [];
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error loading contact submissions:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading contact submissions:', error);
         return [];
     }
 }
@@ -709,7 +709,7 @@ async function updateContactStatus(contactId, newStatus) {
         if (error) throw error;
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error updating contact status:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error updating contact status:', error);
         return { success: false, error: error.message };
     }
 }
@@ -725,7 +725,7 @@ async function getAllNewsletterSubscribers() {
         if (error) throw error;
         return data || [];
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error loading newsletter subscribers:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading newsletter subscribers:', error);
         return [];
     }
 }
@@ -835,7 +835,7 @@ function attachCartListeners() {
 // ============================================
 
 document.addEventListener('DOMContentLoaded', async () => {
-    window.FORDIPS_CONFIG?.logger.log('🔵 Initializing Supabase integration...');
+    window.BRAVESGADGET_CONFIG?.logger.log('🔵 Initializing Supabase integration...');
 
     // Check authentication
     await checkAuth();
@@ -845,7 +845,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (dbProducts && dbProducts.length > 0) {
         // Use database products if available
-        window.FORDIPS_CONFIG?.logger.log('✅ Loading products from database');
+        window.BRAVESGADGET_CONFIG?.logger.log('✅ Loading products from database');
         await renderProductsFromDB();
 
         // Set up product filters to use database
@@ -861,17 +861,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     } else {
         // Fallback to static products if database is empty
-        window.FORDIPS_CONFIG?.logger.log('⚠️ No products in database, using static products');
+        window.BRAVESGADGET_CONFIG?.logger.log('⚠️ No products in database, using static products');
         if (typeof initializeProductsWithFilters === 'function') {
             initializeProductsWithFilters();
         } else if (typeof initializeProducts === 'function') {
             initializeProducts();
         } else {
-            window.FORDIPS_CONFIG?.logger.error('❌ Static products not available');
+            window.BRAVESGADGET_CONFIG?.logger.error('❌ Static products not available');
         }
     }
 
-    window.FORDIPS_CONFIG?.logger.log('✅ Supabase integration ready!');
+    window.BRAVESGADGET_CONFIG?.logger.log('✅ Supabase integration ready!');
 });
 
 // ============================================
@@ -885,7 +885,7 @@ async function searchProducts(query) {
         if (error) throw error;
         return data || [];
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Search error:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Search error:', error);
         return [];
     }
 }
@@ -904,7 +904,7 @@ async function getUserNotifications(userId, limit = 50) {
         if (error) throw error;
         return data || [];
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error loading notifications:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading notifications:', error);
         return [];
     }
 }
@@ -923,7 +923,7 @@ async function createNotification(notificationData) {
         if (error) throw error;
         return { success: true, id: data };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error creating notification:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error creating notification:', error);
         return { success: false, error: error.message };
     }
 }
@@ -938,7 +938,7 @@ async function markNotificationAsRead(notificationId) {
         if (error) throw error;
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error marking notification as read:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error marking notification as read:', error);
         return { success: false, error: error.message };
     }
 }
@@ -953,7 +953,7 @@ async function markAllNotificationsAsRead(userId) {
         if (error) throw error;
         return { success: true, count: data };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error marking all notifications as read:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error marking all notifications as read:', error);
         return { success: false, error: error.message };
     }
 }
@@ -981,7 +981,7 @@ async function createHelpMePayRequest(requestData) {
         if (error) throw error;
         return { success: true, requestId: data };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error creating help me pay request:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error creating help me pay request:', error);
         return { success: false, error: error.message };
     }
 }
@@ -996,7 +996,7 @@ async function getHelpMePayRequest(requestId) {
         if (error) throw error;
         return data && data.length > 0 ? data[0] : null;
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error loading help me pay request:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error loading help me pay request:', error);
         return null;
     }
 }
@@ -1013,7 +1013,7 @@ async function updateHelpMePayStatus(requestId, status, orderId = null) {
         if (error) throw error;
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error updating help me pay status:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error updating help me pay status:', error);
         return { success: false, error: error.message };
     }
 }
@@ -1025,7 +1025,7 @@ async function sendEmail(emailData) {
     try {
         // This would integrate with your email service (SendGrid, AWS SES, etc.)
         // For now, we'll log it
-        window.FORDIPS_CONFIG?.logger.log('Email would be sent:', emailData);
+        window.BRAVESGADGET_CONFIG?.logger.log('Email would be sent:', emailData);
 
         // In production, you would call your edge function or email service
         // const { data, error } = await supabase.functions.invoke('send-email', {
@@ -1034,7 +1034,7 @@ async function sendEmail(emailData) {
 
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error sending email:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error sending email:', error);
         return { success: false, error: error.message };
     }
 }
@@ -1042,7 +1042,7 @@ async function sendEmail(emailData) {
 async function sendSMS(smsData) {
     try {
         // This would integrate with your SMS service (Twilio, AWS SNS, etc.)
-        window.FORDIPS_CONFIG?.logger.log('SMS would be sent:', smsData);
+        window.BRAVESGADGET_CONFIG?.logger.log('SMS would be sent:', smsData);
 
         // In production, you would call your SMS service
         // const { data, error } = await supabase.functions.invoke('send-sms', {
@@ -1051,13 +1051,13 @@ async function sendSMS(smsData) {
 
         return { success: true };
     } catch (error) {
-        window.FORDIPS_CONFIG?.logger.error('Error sending SMS:', error);
+        window.BRAVESGADGET_CONFIG?.logger.error('Error sending SMS:', error);
         return { success: false, error: error.message };
     }
 }
 
 // Export functions for use in other scripts
-window.fordipsTech = {
+window.bravesGadget = {
     checkAuth,
     signUp,
     signIn,
@@ -1097,4 +1097,4 @@ window.fordipsTech = {
     currentCart: () => currentCart
 };
 
-window.FORDIPS_CONFIG?.logger.log('✅ Fordips Tech Supabase Integration Loaded');
+window.BRAVESGADGET_CONFIG?.logger.log('✅ BravesGadget LLC Supabase Integration Loaded');

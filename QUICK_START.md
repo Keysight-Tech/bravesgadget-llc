@@ -1,4 +1,4 @@
-# Quick Start Guide - Fordips Tech
+# Quick Start Guide - BravesGadget LLC
 
 ## Your Supabase Credentials (Already Configured!)
 

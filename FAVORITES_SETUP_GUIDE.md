@@ -171,7 +171,7 @@ Verify these files exist in your project:
 - Cache: In-memory for instant UI updates
 
 **User Identification:**
-- Uses localStorage key: `fordipsTechUserIdentifier`
+- Uses localStorage key: `bravesGadgetUserIdentifier`
 - Format: `guest_TIMESTAMP_RANDOMID`
 - Persists across browser sessions
 

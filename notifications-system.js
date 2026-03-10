@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - NOTIFICATIONS SYSTEM
+ * BRAVESGADGET LLC - NOTIFICATIONS SYSTEM
  * Real-time notifications for customers with accounts
  */
 
@@ -13,12 +13,12 @@ class NotificationsSystem {
     }
 
     async init() {
-        window.FORDIPS_CONFIG?.logger.log('🔔 Notifications System initializing...');
+        window.BRAVESGADGET_CONFIG?.logger.log('🔔 Notifications System initializing...');
 
         // Check if user is logged in
-        const user = await window.fordipsTech?.getCurrentUser();
+        const user = await window.bravesGadget?.getCurrentUser();
         if (!user) {
-            window.FORDIPS_CONFIG?.logger.log('No user logged in, notifications disabled');
+            window.BRAVESGADGET_CONFIG?.logger.log('No user logged in, notifications disabled');
             return;
         }
 
@@ -105,18 +105,18 @@ class NotificationsSystem {
 
     async loadNotifications() {
         try {
-            const user = await window.fordipsTech?.getCurrentUser();
+            const user = await window.bravesGadget?.getCurrentUser();
             if (!user) return;
 
             // Load from Supabase
-            const notifications = await window.fordipsTech.getUserNotifications(user.id);
+            const notifications = await window.bravesGadget.getUserNotifications(user.id);
 
             this.notifications = notifications || [];
             this.updateUnreadCount();
             this.renderNotifications();
 
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Error loading notifications:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error loading notifications:', error);
         }
     }
 
@@ -250,7 +250,7 @@ class NotificationsSystem {
     async markAsRead(notificationId) {
         try {
             // Update in database
-            await window.fordipsTech.markNotificationAsRead(notificationId);
+            await window.bravesGadget.markNotificationAsRead(notificationId);
 
             // Update local state
             const notification = this.notifications.find(n => n.id === notificationId);
@@ -263,17 +263,17 @@ class NotificationsSystem {
             this.renderNotifications();
 
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Error marking notification as read:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error marking notification as read:', error);
         }
     }
 
     async markAllAsRead() {
         try {
-            const user = await window.fordipsTech?.getCurrentUser();
+            const user = await window.bravesGadget?.getCurrentUser();
             if (!user) return;
 
             // Update all in database
-            await window.fordipsTech.markAllNotificationsAsRead(user.id);
+            await window.bravesGadget.markAllNotificationsAsRead(user.id);
 
             // Update local state
             this.notifications.forEach(n => n.is_read = true);
@@ -283,13 +283,13 @@ class NotificationsSystem {
             this.renderNotifications();
 
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Error marking all as read:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error marking all as read:', error);
         }
     }
 
     async addNotification(type, title, message, metadata = {}) {
         try {
-            const user = await window.fordipsTech?.getCurrentUser();
+            const user = await window.bravesGadget?.getCurrentUser();
             if (!user) return;
 
             const notification = {
@@ -303,7 +303,7 @@ class NotificationsSystem {
             };
 
             // Add to database
-            const result = await window.fordipsTech.createNotification(notification);
+            const result = await window.bravesGadget.createNotification(notification);
 
             // Add to local state
             if (result) {
@@ -316,13 +316,13 @@ class NotificationsSystem {
             }
 
         } catch (error) {
-            window.FORDIPS_CONFIG?.logger.error('Error creating notification:', error);
+            window.BRAVESGADGET_CONFIG?.logger.error('Error creating notification:', error);
         }
     }
 
     showBrowserNotification(title, message) {
         if ('Notification' in window && Notification.permission === 'granted') {
-            new Notification(`Fordips Tech - ${title}`, {
+            new Notification(`BravesGadget LLC - ${title}`, {
                 body: message,
                 icon: '/favicon.ico',
                 badge: '/favicon.ico'
@@ -333,7 +333,7 @@ class NotificationsSystem {
     async requestNotificationPermission() {
         if ('Notification' in window && Notification.permission === 'default') {
             const permission = await Notification.requestPermission();
-            window.FORDIPS_CONFIG?.logger.log('Notification permission:', permission);
+            window.BRAVESGADGET_CONFIG?.logger.log('Notification permission:', permission);
         }
     }
 
@@ -353,7 +353,7 @@ class NotificationsSystem {
 
     viewAll() {
         // Navigate to notifications page (if exists) or show all in modal
-        window.FORDIPS_CONFIG?.logger.log('View all notifications');
+        window.BRAVESGADGET_CONFIG?.logger.log('View all notifications');
         this.closeDropdown();
         // TODO: Implement full notifications page
     }
@@ -369,10 +369,10 @@ class NotificationsSystem {
 document.addEventListener('DOMContentLoaded', async () => {
     // Wait a bit for user authentication to complete
     setTimeout(async () => {
-        const user = await window.fordipsTech?.getCurrentUser();
+        const user = await window.bravesGadget?.getCurrentUser();
         if (user) {
             window.notificationSystem = new NotificationsSystem();
-            window.FORDIPS_CONFIG?.logger.log('✅ Notifications System ready');
+            window.BRAVESGADGET_CONFIG?.logger.log('✅ Notifications System ready');
         }
     }, 1000);
 });

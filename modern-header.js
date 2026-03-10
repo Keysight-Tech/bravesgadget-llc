@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Modern Header JavaScript
+ * BRAVESGADGET LLC - Modern Header JavaScript
  * Handles search, cart sync, and header interactions
  */
 

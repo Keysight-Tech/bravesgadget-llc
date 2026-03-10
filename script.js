@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Main Script
+ * BRAVESGADGET LLC - Main Script
  * Navigation, Animations & Interactions
  */
 

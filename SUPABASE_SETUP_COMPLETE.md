@@ -18,7 +18,7 @@ You're getting: `ERROR: 42703: column "user_id" does not exist`
 
 ### STEP 1: CLEANUP (Remove old objects)
 1. Open **Supabase Dashboard** → https://supabase.com/dashboard
-2. Select your **fordips-tech** project
+2. Select your **bravesgadget-llc** project
 3. Click **SQL Editor** (left sidebar)
 4. Click **New query**
 5. Open: `STEP_1_CLEANUP.sql`
@@ -71,7 +71,7 @@ You should also see a table showing:
 🔒 RLS Policies: Enabled on all tables
 ✨ Triggers: Auto-update timestamps
 
-🚀 Your Fordips Tech platform is ready!
+🚀 Your BravesGadget LLC platform is ready!
 👤 Account creation should now work properly
 ```
 
@@ -111,7 +111,7 @@ After running the migrations, you need to enable Email Auth in Supabase:
    - Password reset email
 
 ### Test Account Creation:
-1. Open your site: https://keysight-tech.github.io/fordips-tech/
+1. Open your site: https://keysight-tech.github.io/bravesgadget-llc/
 2. Click **Account** (top right)
 3. Click **Sign Up**
 4. Enter:
@@ -274,7 +274,7 @@ After successful migration:
 
 ## 🎉 YOU'RE DONE!
 
-Your Fordips Tech e-commerce platform now has:
+Your BravesGadget LLC e-commerce platform now has:
 - ✅ Real-time product search
 - ✅ User notifications system
 - ✅ Help Me Pay feature
@@ -283,6 +283,6 @@ Your Fordips Tech e-commerce platform now has:
 - ✅ AI chat assistants
 - ✅ Full Supabase integration
 
-**Live Site**: https://keysight-tech.github.io/fordips-tech/
+**Live Site**: https://keysight-tech.github.io/bravesgadget-llc/
 
 Enjoy your powerful e-commerce platform! 🚀

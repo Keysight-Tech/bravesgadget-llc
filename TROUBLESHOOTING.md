@@ -13,7 +13,7 @@
 
 3. **Open and copy FIX_PRODUCTS.sql**:
    ```
-   Location: D:\Projects\Figma\outputs\websites\fordips-tech\FIX_PRODUCTS.sql
+   Location: D:\Projects\Figma\outputs\websites\bravesgadget-llc\FIX_PRODUCTS.sql
    ```
 
 4. **Paste and Run** (Ctrl+Enter)
@@ -26,7 +26,7 @@
 
 1. **Open your website**:
    ```
-   https://keysight-tech.github.io/fordips-tech/
+   https://keysight-tech.github.io/bravesgadget-llc/
    ```
 
 2. **Press F12** to open Developer Tools
@@ -50,19 +50,19 @@ console.log('Supabase client exists?', !!window.supabase);
 // Test 2: Check configuration
 console.log('Supabase config:', {
     url: 'https://loutcbvftzojsioahtdw.supabase.co',
-    hasKey: !!window.fordipsTech
+    hasKey: !!window.bravesGadget
 });
 
 // Test 3: Try to fetch products directly
-if (window.fordipsTech && window.fordipsTech.loadProducts) {
-    window.fordipsTech.loadProducts().then(products => {
+if (window.bravesGadget && window.bravesGadget.loadProducts) {
+    window.bravesGadget.loadProducts().then(products => {
         console.log('✅ Products loaded:', products.length);
         console.log('First 3 products:', products.slice(0, 3));
     }).catch(error => {
         console.error('❌ Error loading products:', error);
     });
 } else {
-    console.error('❌ fordipsTech not initialized');
+    console.error('❌ bravesGadget not initialized');
 }
 ```
 
@@ -268,7 +268,7 @@ fetch('https://loutcbvftzojsioahtdw.supabase.co/rest/v1/products?select=*&is_act
 
 ### 3. Website Check
 ```
-1. Go to: https://keysight-tech.github.io/fordips-tech/
+1. Go to: https://keysight-tech.github.io/bravesgadget-llc/
 2. Wait 5 seconds
 3. Products should appear
 4. If not, check F12 console for errors
@@ -306,7 +306,7 @@ fetch('https://loutcbvftzojsioahtdw.supabase.co/rest/v1/products?select=*&is_act
 
 Test these directly in your browser:
 
-1. **Website**: https://keysight-tech.github.io/fordips-tech/
+1. **Website**: https://keysight-tech.github.io/bravesgadget-llc/
 2. **Supabase Dashboard**: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw
 3. **SQL Editor**: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw/sql
 4. **Table Editor**: https://supabase.com/dashboard/project/loutcbvftzojsioahtdw/editor
@@ -318,7 +318,7 @@ Test these directly in your browser:
 When everything works:
 
 ✅ Supabase shows 75+ products in table editor
-✅ Browser console shows "✅ Fordips Tech Supabase Integration Loaded"
+✅ Browser console shows "✅ BravesGadget LLC Supabase Integration Loaded"
 ✅ Website displays products in grid
 ✅ No errors in F12 console
 ✅ Products can be added to cart
@@ -327,9 +327,9 @@ When everything works:
 
 ## File Locations
 
-- **Fix Script**: `D:\Projects\Figma\outputs\websites\fordips-tech\FIX_PRODUCTS.sql`
-- **Deploy Script**: `D:\Projects\Figma\outputs\websites\fordips-tech\DEPLOY_ALL.sql`
-- **Config File**: `D:\Projects\Figma\outputs\websites\fordips-tech\supabase-integration.js`
+- **Fix Script**: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\FIX_PRODUCTS.sql`
+- **Deploy Script**: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\DEPLOY_ALL.sql`
+- **Config File**: `D:\Projects\Figma\outputs\websites\bravesgadget-llc\supabase-integration.js`
 
 ---
 

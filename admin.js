@@ -1,5 +1,5 @@
 /**
- * FORDIPS TECH - Admin Panel JavaScript
+ * BRAVESGADGET LLC - Admin Panel JavaScript
  * Handles all admin panel functionality
  */
 
@@ -15,7 +15,7 @@ let currentEditingProduct = null;
 // INITIALIZATION
 // ===================================
 document.addEventListener('DOMContentLoaded', async function() {
-    window.FORDIPS_CONFIG?.logger.log('Admin panel loading...');
+    window.BRAVESGADGET_CONFIG?.logger.log('Admin panel loading...');
 
     // Check if user is authenticated and is admin
     await checkAdminAccess();
@@ -43,7 +43,7 @@ async function checkAdminAccess() {
     showLoadingSpinner('Checking admin access...');
 
     try {
-        currentUser = await window.fordipsTech.getCurrentUser();
+        currentUser = await window.bravesGadget.getCurrentUser();
 
         if (!currentUser) {
             showNotification('Please log in to access the admin panel', 'warning');
@@ -52,7 +52,7 @@ async function checkAdminAccess() {
         }
 
         // Check if user is admin
-        const isAdmin = await window.fordipsTech.isAdmin();
+        const isAdmin = await window.bravesGadget.isAdmin();
 
         if (!isAdmin) {
             showNotification('You do not have admin privileges', 'error');
@@ -82,7 +82,7 @@ async function handleLogout() {
 
     if (confirmed) {
         showLoadingSpinner('Logging out...');
-        await window.fordipsTech.signOut();
+        await window.bravesGadget.signOut();
         window.location.href = 'index.html';
     }
 }
@@ -135,9 +135,9 @@ async function loadDashboard() {
 
     try {
         // Load all data
-        allProducts = await window.fordipsTech.loadProducts();
-        allOrders = await window.fordipsTech.getAllOrders();
-        allContacts = await window.fordipsTech.getAllContactSubmissions();
+        allProducts = await window.bravesGadget.loadProducts();
+        allOrders = await window.bravesGadget.getAllOrders();
+        allContacts = await window.bravesGadget.getAllContactSubmissions();
 
         // Calculate stats
         const totalRevenue = allOrders.reduce((sum, order) => sum + parseFloat(order.total_amount || 0), 0);
@@ -208,7 +208,7 @@ async function loadProducts() {
     showLoadingSpinner('Loading products...');
 
     try {
-        allProducts = await window.fordipsTech.loadProducts();
+        allProducts = await window.bravesGadget.loadProducts();
         displayProducts(allProducts);
     } catch (error) {
         showNotification('Error loading products', 'error');
@@ -350,7 +350,7 @@ async function deleteProduct(productId, productName) {
     showLoadingSpinner('Deleting product...');
 
     try {
-        const result = await window.fordipsTech.deleteProduct(productId);
+        const result = await window.bravesGadget.deleteProduct(productId);
 
         if (result.success) {
             showNotification('Product deleted successfully!', 'success');
@@ -389,10 +389,10 @@ async function handleProductSubmit(e) {
 
         if (productId) {
             // Update existing product
-            result = await window.fordipsTech.updateProduct(productId, formData);
+            result = await window.bravesGadget.updateProduct(productId, formData);
         } else {
             // Add new product
-            result = await window.fordipsTech.addProduct(formData);
+            result = await window.bravesGadget.addProduct(formData);
         }
 
         if (result.success) {
@@ -440,7 +440,7 @@ async function loadOrders() {
     showLoadingSpinner('Loading orders...');
 
     try {
-        allOrders = await window.fordipsTech.getAllOrders();
+        allOrders = await window.bravesGadget.getAllOrders();
         displayOrders(allOrders);
     } catch (error) {
         showNotification('Error loading orders', 'error');
@@ -537,7 +537,7 @@ async function updateOrderStatus(orderId, newStatus) {
     showLoadingSpinner('Updating order status...');
 
     try {
-        const result = await window.fordipsTech.updateOrderStatus(orderId, newStatus);
+        const result = await window.bravesGadget.updateOrderStatus(orderId, newStatus);
 
         if (result.success) {
             // Update local state
@@ -562,7 +562,7 @@ async function viewOrderDetails(orderId) {
     showLoadingSpinner('Loading order details...');
 
     try {
-        const orderItems = await window.fordipsTech.getOrderItems(orderId);
+        const orderItems = await window.bravesGadget.getOrderItems(orderId);
         const order = allOrders.find(o => o.id === orderId);
 
         if (!order) return;
@@ -630,7 +630,7 @@ async function loadContacts() {
     showLoadingSpinner('Loading contact submissions...');
 
     try {
-        allContacts = await window.fordipsTech.getAllContactSubmissions();
+        allContacts = await window.bravesGadget.getAllContactSubmissions();
         displayContacts(allContacts);
 
         // Update notification badge
@@ -712,7 +712,7 @@ async function updateContactStatus(contactId, newStatus) {
     showLoadingSpinner('Updating contact status...');
 
     try {
-        const result = await window.fordipsTech.updateContactStatus(contactId, newStatus);
+        const result = await window.bravesGadget.updateContactStatus(contactId, newStatus);
 
         if (result.success) {
             const contact = allContacts.find(c => c.id === contactId);
@@ -743,7 +743,7 @@ async function loadNewsletter() {
     showLoadingSpinner('Loading newsletter subscribers...');
 
     try {
-        allSubscribers = await window.fordipsTech.getAllNewsletterSubscribers();
+        allSubscribers = await window.bravesGadget.getAllNewsletterSubscribers();
         displayNewsletter(allSubscribers);
     } catch (error) {
         showNotification('Error loading newsletter subscribers', 'error');

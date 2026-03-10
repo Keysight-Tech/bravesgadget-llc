@@ -1,5 +1,5 @@
 ========================================
-FORDIPS TECH - How to Start Local Server
+BRAVESGADGET LLC - How to Start Local Server
 ========================================
 
 OPTION 1: Double-Click the Batch File (Easiest!)
@@ -13,7 +13,7 @@ OPTION 2: Use Command Line
 ---------------------------
 1. Open Command Prompt (cmd)
 2. Navigate to this folder:
-   cd D:\Projects\Figma\outputs\websites\fordips-tech
+   cd D:\Projects\Figma\outputs\websites\bravesgadget-llc
 
 3. Run:
    python -m http.server 3000
@@ -25,7 +25,7 @@ OPTION 3: Use PowerShell
 -------------------------
 1. Open PowerShell
 2. Navigate to this folder:
-   cd D:\Projects\Figma\outputs\websites\fordips-tech
+   cd D:\Projects\Figma\outputs\websites\bravesgadget-llc
 
 3. Run:
    python -m http.server 3000

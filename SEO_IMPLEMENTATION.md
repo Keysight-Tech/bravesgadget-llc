@@ -97,7 +97,7 @@ Add this JSON-LD script before `</head>`:
   "logo": "https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/bravesgadget%20logo.png",
   "image": "https://loutcbvftzojsioahtdw.supabase.co/storage/v1/object/public/images/17%20promax.webp",
   "telephone": "+1-667-256-3680",
-  "email": "support@keysight-tech.github.io/fordips-tech",
+  "email": "support@keysight-tech.github.io/bravesgadget-llc",
   "address": [
     {
       "@type": "PostalAddress",
@@ -187,7 +187,7 @@ Add this JSON-LD script before `</head>`:
     "@type": "ContactPoint",
     "telephone": "+1-667-256-3680",
     "contactType": "customer service",
-    "email": "support@keysight-tech.github.io/fordips-tech",
+    "email": "support@keysight-tech.github.io/bravesgadget-llc",
     "availableLanguage": ["en", "fr"]
   },
   "sameAs": [

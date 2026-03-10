@@ -4,15 +4,15 @@
 
 ### Main Website
 - **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/
-- **Custom Domain**: https://keysight-tech.github.io/fordips-tech/ (requires DNS setup)
+- **Custom Domain**: https://keysight-tech.github.io/bravesgadget-llc/ (requires DNS setup)
 
 ### Admin Panel
 - **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
-- **Custom Domain**: https://keysight-tech.github.io/fordips-tech/admin.html
+- **Custom Domain**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
 
 ### User Account Dashboard
 - **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/my-account.html
-- **Custom Domain**: https://keysight-tech.github.io/fordips-tech/my-account.html
+- **Custom Domain**: https://keysight-tech.github.io/bravesgadget-llc/my-account.html
 
 ---
 

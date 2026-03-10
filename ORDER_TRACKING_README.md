@@ -257,7 +257,7 @@ Tracking Number: FT-20241023-123456
 Carrier: FedEx
 Estimated Delivery: October 25, 2024
 
-Track your order: https://keysight-tech.github.io/fordips-tech/track/FT2024102312345
+Track your order: https://keysight-tech.github.io/bravesgadget-llc/track/FT2024102312345
 ```
 
 **To Admin:**
@@ -276,7 +276,7 @@ Total Amount: $1,299.00
 
 ⚠️ ACTION REQUIRED: New order - Please confirm and process
 
-Manage order: https://keysight-tech.github.io/fordips-tech/admin/orders/[order-id]
+Manage order: https://keysight-tech.github.io/bravesgadget-llc/admin/orders/[order-id]
 ```
 
 ---
@@ -481,7 +481,7 @@ Add SMS alerts for critical updates:
 ## 📞 Support
 
 For issues or questions:
-- **Email:** support@keysight-tech.github.io/fordips-tech
+- **Email:** support@keysight-tech.github.io/bravesgadget-llc
 - **Phone:** (667) 256-3680
 - **Admin:** brineketum@gmail.com
 

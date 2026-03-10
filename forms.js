@@ -288,7 +288,7 @@ const supportContent = {
                 <li>Refunds are processed within 5-7 business days</li>
             </ul>
 
-            <p>To initiate a return, please contact our support team at <strong>support@keysight-tech.github.io/fordips-tech</strong></p>
+            <p>To initiate a return, please contact our support team at <strong>support@keysight-tech.github.io/bravesgadget-llc</strong></p>
         `
     },
     warranty: {
@@ -312,7 +312,7 @@ const supportContent = {
             <h3>Warranty Claims</h3>
             <p>To file a warranty claim:</p>
             <ul>
-                <li>Contact us at <strong>warranty@keysight-tech.github.io/fordips-tech</strong></li>
+                <li>Contact us at <strong>warranty@keysight-tech.github.io/bravesgadget-llc</strong></li>
                 <li>Provide proof of purchase and product details</li>
                 <li>Describe the issue you're experiencing</li>
                 <li>Our team will guide you through the claim process</li>
@@ -327,7 +327,7 @@ const supportContent = {
 
             <h3>Contact Methods</h3>
             <ul>
-                <li><strong>Email:</strong> support@keysight-tech.github.io/fordips-tech (24-hour response time)</li>
+                <li><strong>Email:</strong> support@keysight-tech.github.io/bravesgadget-llc (24-hour response time)</li>
                 <li><strong>Phone:</strong> (667) 256-3680 (Mon-Fri, 9AM-6PM EST)</li>
                 <li><strong>Live Chat:</strong> Available on our website during business hours</li>
             </ul>
@@ -420,7 +420,7 @@ const legalContent = {
             </ul>
 
             <h3>Contact Us</h3>
-            <p>If you have questions about this Privacy Policy, please contact us at <strong>privacy@keysight-tech.github.io/fordips-tech</strong></p>
+            <p>If you have questions about this Privacy Policy, please contact us at <strong>privacy@keysight-tech.github.io/bravesgadget-llc</strong></p>
         `
     },
     terms: {
@@ -455,7 +455,7 @@ const legalContent = {
             <p>These Terms and Conditions are governed by the laws of the United States and the State of Maryland.</p>
 
             <h3>Contact</h3>
-            <p>For questions about these Terms, contact us at <strong>legal@keysight-tech.github.io/fordips-tech</strong></p>
+            <p>For questions about these Terms, contact us at <strong>legal@keysight-tech.github.io/bravesgadget-llc</strong></p>
         `
     }
 };

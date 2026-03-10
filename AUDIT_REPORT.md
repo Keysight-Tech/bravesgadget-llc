@@ -718,7 +718,7 @@ python -m http.server 8000
 2. ✅ **Create Admin User**
    ```sql
    -- Sign up via website first, then:
-   UPDATE profiles SET is_admin = true WHERE email = 'admin@keysight-tech.github.io/fordips-tech';
+   UPDATE profiles SET is_admin = true WHERE email = 'admin@keysight-tech.github.io/bravesgadget-llc';
    ```
 
 3. ✅ **Verify Integration**

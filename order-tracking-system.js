@@ -150,7 +150,7 @@ async function createCustomerOrderTracking(order, itemsCount) {
                 status: order.status,
                 total_amount: order.total_amount,
                 items_count: itemsCount,
-                tracking_url: `https://keysight-tech.github.io/fordips-tech/track/${order.order_number}`
+                tracking_url: `https://keysight-tech.github.io/bravesgadget-llc/track/${order.order_number}`
             });
     } catch (error) {
         window.BRAVESGADGET_CONFIG?.logger.error('Error creating tracking entry:', error);
@@ -370,9 +370,9 @@ SHIPPING ADDRESS:
 ${order.shipping_address}
 ${order.shipping_city}, ${order.shipping_zip}
 
-Track your order: https://keysight-tech.github.io/fordips-tech/track/${order.order_number}
+Track your order: https://keysight-tech.github.io/bravesgadget-llc/track/${order.order_number}
 
-Need help? Contact us at support@keysight-tech.github.io/fordips-tech or call (667) 256-3680
+Need help? Contact us at support@keysight-tech.github.io/bravesgadget-llc or call (667) 256-3680
 
 Thank you for shopping with BravesGadget LLC!
 
@@ -436,7 +436,7 @@ ${status === 'shipped' ? '✅ Monitor delivery status' : ''}
 Order placed: ${new Date(order.created_at).toLocaleString()}
 Last updated: ${new Date(order.last_status_update).toLocaleString()}
 
-Manage order: https://keysight-tech.github.io/fordips-tech/admin/orders/${order.id}
+Manage order: https://keysight-tech.github.io/bravesgadget-llc/admin/orders/${order.id}
     `.trim();
 }
 

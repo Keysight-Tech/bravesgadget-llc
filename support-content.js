@@ -21,7 +21,7 @@ window.supportContent = {
                     },
                     {
                         q: 'Can I change or cancel my order?',
-                        a: 'You can modify or cancel your order within 1 hour of placement. After that, please contact our support team immediately at support@keysight-tech.github.io/fordips-tech or call (667) 256-3680.'
+                        a: 'You can modify or cancel your order within 1 hour of placement. After that, please contact our support team immediately at support@keysight-tech.github.io/bravesgadget-llc or call (667) 256-3680.'
                     },
                     {
                         q: 'Do you offer installment payment plans?',
@@ -76,7 +76,7 @@ window.supportContent = {
                     },
                     {
                         q: 'How do I initiate a return?',
-                        a: 'Contact our support team at support@keysight-tech.github.io/fordips-tech with your order number. We will provide you with a return authorization and prepaid shipping label.'
+                        a: 'Contact our support team at support@keysight-tech.github.io/bravesgadget-llc with your order number. We will provide you with a return authorization and prepaid shipping label.'
                     },
                     {
                         q: 'When will I receive my refund?',
@@ -161,7 +161,7 @@ window.supportContent = {
 
                 <h4>How to Return</h4>
                 <ol>
-                    <li>Contact us at support@keysight-tech.github.io/fordips-tech or call (667) 256-3680</li>
+                    <li>Contact us at support@keysight-tech.github.io/bravesgadget-llc or call (667) 256-3680</li>
                     <li>Provide your order number and reason for return</li>
                     <li>Receive your Return Authorization (RA) number and prepaid shipping label</li>
                     <li>Package item securely with all original contents</li>
@@ -185,7 +185,7 @@ window.supportContent = {
 
                 <div class="contact-info-box">
                     <h4>Questions?</h4>
-                    <p><strong>Email:</strong> support@keysight-tech.github.io/fordips-tech<br>
+                    <p><strong>Email:</strong> support@keysight-tech.github.io/bravesgadget-llc<br>
                     <strong>Phone:</strong> (667) 256-3680<br>
                     <strong>Hours:</strong> Monday-Friday, 9 AM - 6 PM EST</p>
                 </div>
@@ -248,7 +248,7 @@ window.supportContent = {
 
                 <h4>How to File a Warranty Claim</h4>
                 <ol>
-                    <li><strong>Contact Us:</strong> Email support@keysight-tech.github.io/fordips-tech or call (667) 256-3680</li>
+                    <li><strong>Contact Us:</strong> Email support@keysight-tech.github.io/bravesgadget-llc or call (667) 256-3680</li>
                     <li><strong>Provide Details:</strong> Order number, product serial number, description of issue</li>
                     <li><strong>Diagnostic:</strong> Our team may request photos/videos or remote diagnostic session</li>
                     <li><strong>Authorization:</strong> If approved, receive Return Authorization and shipping instructions</li>
@@ -271,7 +271,7 @@ window.supportContent = {
 
                 <div class="contact-info-box">
                     <h4>Warranty Support</h4>
-                    <p><strong>Email:</strong> warranty@keysight-tech.github.io/fordips-tech<br>
+                    <p><strong>Email:</strong> warranty@keysight-tech.github.io/bravesgadget-llc<br>
                     <strong>Phone:</strong> (667) 256-3680<br>
                     <strong>Hours:</strong> Monday-Friday, 9 AM - 6 PM EST<br>
                     <strong>Claims Processing:</strong> 24-48 hours</p>
@@ -361,7 +361,7 @@ window.supportContent = {
                     <li><strong>Opt-Out:</strong> Unsubscribe from marketing emails</li>
                     <li><strong>Data Portability:</strong> Receive your data in a structured format</li>
                 </ul>
-                <p>To exercise these rights, contact us at privacy@keysight-tech.github.io/fordips-tech</p>
+                <p>To exercise these rights, contact us at privacy@keysight-tech.github.io/bravesgadget-llc</p>
 
                 <h3>8. Children's Privacy</h3>
                 <p>Our services are not directed to individuals under 18. We do not knowingly collect personal information from children.</p>
@@ -382,9 +382,9 @@ window.supportContent = {
                     Laurel, MD 20707<br>
                     United States</p>
 
-                    <p><strong>Email:</strong> privacy@keysight-tech.github.io/fordips-tech<br>
+                    <p><strong>Email:</strong> privacy@keysight-tech.github.io/bravesgadget-llc<br>
                     <strong>Phone:</strong> (667) 256-3680<br>
-                    <strong>Data Protection Officer:</strong> dpo@keysight-tech.github.io/fordips-tech</p>
+                    <strong>Data Protection Officer:</strong> dpo@keysight-tech.github.io/bravesgadget-llc</p>
                 </div>
             </div>
         `
@@ -403,7 +403,7 @@ window.supportContent = {
                 <h3>2. Company Information</h3>
                 <p><strong>Legal Name:</strong> BravesGadget LLC<br>
                 <strong>Address:</strong> 15706 Dorset Rd, Laurel, MD 20707, United States<br>
-                <strong>Email:</strong> legal@keysight-tech.github.io/fordips-tech<br>
+                <strong>Email:</strong> legal@keysight-tech.github.io/bravesgadget-llc<br>
                 <strong>Phone:</strong> (667) 256-3680</p>
 
                 <h3>3. Use of Website</h3>
@@ -533,7 +533,7 @@ window.supportContent = {
                 <h3>19. Contact Information</h3>
                 <div class="contact-info-box">
                     <p>For questions about these Terms:<br>
-                    <strong>Email:</strong> legal@keysight-tech.github.io/fordips-tech<br>
+                    <strong>Email:</strong> legal@keysight-tech.github.io/bravesgadget-llc<br>
                     <strong>Phone:</strong> (667) 256-3680<br>
                     <strong>Mail:</strong> BravesGadget LLC, Legal Department<br>
                     15706 Dorset Rd, Laurel, MD 20707, United States</p>

@@ -243,7 +243,7 @@ Thank you for shopping with us!
 
 Best regards,
 BravesGadget LLC Team
-support@keysight-tech.github.io/fordips-tech
+support@keysight-tech.github.io/bravesgadget-llc
 (667) 256 3680
     `.trim();
 }

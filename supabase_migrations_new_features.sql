@@ -223,7 +223,7 @@ BEGIN
     request_id := gen_random_uuid();
 
     -- Create payment link
-    payment_link := 'https://keysight-tech.github.io/fordips-tech/help-me-pay.html?request=' || request_id::TEXT;
+    payment_link := 'https://keysight-tech.github.io/bravesgadget-llc/help-me-pay.html?request=' || request_id::TEXT;
 
     -- Insert request
     INSERT INTO help_me_pay_requests (

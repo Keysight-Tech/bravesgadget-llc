@@ -302,7 +302,7 @@ To build an admin dashboard for managing messages:
 ## Support
 
 For issues or questions:
-- Email: support@bravesgadget.com
+- Email: support@keysight-tech.github.io/fordips-tech
 - Check browser console for errors
 - Verify Supabase connection
 - Review SQL execution logs

@@ -76,7 +76,7 @@ async function sendContactNotifications(contactMessage) {
                 Sent at: ${new Date(contactMessage.created_at).toLocaleString()}
                 IP Address: ${contactMessage.ip_address || 'Unknown'}
 
-                View all messages: https://bravesgadget.com/admin/contacts
+                View all messages: https://keysight-tech.github.io/fordips-tech/admin/contacts
             `,
             status: 'pending'
         };
@@ -106,7 +106,7 @@ async function sendContactNotifications(contactMessage) {
                 Best regards,
                 BravesGadget LLC Support Team
 
-                Email: support@bravesgadget.com
+                Email: support@keysight-tech.github.io/fordips-tech
                 Phone: (667) 256-3680
             `,
             status: 'pending'

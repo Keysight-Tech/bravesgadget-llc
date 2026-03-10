@@ -1,4 +1,4 @@
-# DNS Configuration Guide for bravesgadget.com
+# DNS Configuration Guide for keysight-tech.github.io/fordips-tech
 
 ## IONOS DNS Settings Configuration
 
@@ -7,14 +7,14 @@
 - Login with your email: brineketum@gmail.com
 
 ### Step 2: Select Your Domain
-- Click on **bravesgadget.com**
+- Click on **keysight-tech.github.io/fordips-tech**
 - Go to **DNS Settings** or **DNS Management**
 
 ---
 
 ## DNS Records to Add
 
-### For Main Website (bravesgadget.com)
+### For Main Website (keysight-tech.github.io/fordips-tech)
 
 Add these **A Records**:
 
@@ -29,11 +29,11 @@ Add this **CNAME Record** for www:
 
 | Type | Host | Value | TTL |
 |------|------|-------|-----|
-| CNAME | www | bravesgadget.com | 3600 |
+| CNAME | www | keysight-tech.github.io/fordips-tech | 3600 |
 
 ---
 
-## For Admin Subdomain (admin.bravesgadget.com)
+## For Admin Subdomain (admin.keysight-tech.github.io/fordips-tech)
 
 Add this **CNAME Record**:
 
@@ -48,8 +48,8 @@ Add this **CNAME Record**:
 After adding the DNS records:
 
 1. **Wait 10-30 minutes** for DNS propagation
-2. **Test your main site**: https://bravesgadget.com
-3. **Test admin panel**: https://admin.bravesgadget.com/admin.html
+2. **Test your main site**: https://keysight-tech.github.io/fordips-tech
+3. **Test admin panel**: https://admin.keysight-tech.github.io/fordips-tech/admin.html
 
 ---
 
@@ -57,7 +57,7 @@ After adding the DNS records:
 
 1. Go to your GitHub repository: https://github.com/Keysight-Tech/bravesgadget-llc
 2. Click **Settings** → **Pages**
-3. Under "Custom domain", enter: **bravesgadget.com**
+3. Under "Custom domain", enter: **keysight-tech.github.io/fordips-tech**
 4. Wait for DNS check to complete (green checkmark)
 5. Check **"Enforce HTTPS"**
 
@@ -73,15 +73,15 @@ After adding the DNS records:
 
 ### If admin subdomain doesn't work:
 1. Verify the CNAME record for `admin` is correct
-2. Try accessing: https://admin.bravesgadget.com/admin.html
+2. Try accessing: https://admin.keysight-tech.github.io/fordips-tech/admin.html
 3. Check that the admin.html file exists in the repository
 
 ---
 
 ## Quick Reference URLs
 
-- **Main Site**: https://bravesgadget.com
-- **Admin Panel**: https://admin.bravesgadget.com/admin.html
+- **Main Site**: https://keysight-tech.github.io/fordips-tech
+- **Admin Panel**: https://admin.keysight-tech.github.io/fordips-tech/admin.html
 - **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/
 - **IONOS Dashboard**: https://my.ionos.com/domains
 

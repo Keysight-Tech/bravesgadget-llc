@@ -6,7 +6,7 @@
 // Environment detection
 const ENV = {
     isDevelopment: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1',
-    isProduction: window.location.hostname.includes('github.io') || window.location.hostname.includes('bravesgadget.com')
+    isProduction: window.location.hostname.includes('github.io') || window.location.hostname.includes('keysight-tech.github.io/fordips-tech')
 };
 
 // Supabase Configuration
@@ -23,7 +23,7 @@ const APP_CONFIG = {
     version: '1.0.0',
     email: {
         admin: 'brineketum@gmail.com',
-        support: 'support@bravesgadget.com'
+        support: 'support@keysight-tech.github.io/fordips-tech'
     },
     phone: {
         us: '(667) 256-3680',

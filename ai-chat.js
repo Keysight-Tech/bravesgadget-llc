@@ -1049,7 +1049,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleOrderCancellation() {
         return {
-            message: `To cancel an order:\n\n📧 **If not shipped yet:**\n• Email: support@bravesgadget.com\n• Call: (667) 256-3680 (USA)\n• Include your order number\n\n⚠️ **If already shipped:**\n• You can refuse delivery\n• Or initiate a return once received\n\nWe typically ship within 24 hours, so please contact us quickly!\n\nNeed help with anything else?`,
+            message: `To cancel an order:\n\n📧 **If not shipped yet:**\n• Email: support@keysight-tech.github.io/fordips-tech\n• Call: (667) 256-3680 (USA)\n• Include your order number\n\n⚠️ **If already shipped:**\n• You can refuse delivery\n• Or initiate a return once received\n\nWe typically ship within 24 hours, so please contact us quickly!\n\nNeed help with anything else?`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '📦 Track Order', action: 'track-order' }
@@ -1111,7 +1111,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleWarrantyInquiry() {
         return {
-            message: `🛡️ **Warranty & Return Policy:**\n\n**Manufacturer Warranty:**\n• All products include original manufacturer warranty\n• Apple: 1 year limited warranty\n• Samsung: 1 year limited warranty\n• Other brands: As specified by manufacturer\n\n**Our Guarantee:**\n✅ 30-day return policy\n✅ Products must be unused and in original packaging\n✅ Full refund if defective on arrival\n✅ Free return shipping for defective items\n\n**How to Return:**\n1. Email support@bravesgadget.com within 30 days\n2. Include order number and reason\n3. We'll provide return instructions\n\nQuestions about a specific product warranty?`,
+            message: `🛡️ **Warranty & Return Policy:**\n\n**Manufacturer Warranty:**\n• All products include original manufacturer warranty\n• Apple: 1 year limited warranty\n• Samsung: 1 year limited warranty\n• Other brands: As specified by manufacturer\n\n**Our Guarantee:**\n✅ 30-day return policy\n✅ Products must be unused and in original packaging\n✅ Full refund if defective on arrival\n✅ Free return shipping for defective items\n\n**How to Return:**\n1. Email support@keysight-tech.github.io/fordips-tech within 30 days\n2. Include order number and reason\n3. We'll provide return instructions\n\nQuestions about a specific product warranty?`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '🛍️ Browse Products', action: 'browse' }
@@ -1145,7 +1145,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleRefundInquiry() {
         return {
-            message: `💰 **Refund Policy:**\n\n**When You Get a Refund:**\n✅ Product defective on arrival\n✅ Wrong item shipped\n✅ Item not as described\n✅ Return within 30 days (unused)\n\n**Refund Process:**\n1. Contact us: support@bravesgadget.com\n2. Provide order number and reason\n3. Return the item (we cover shipping for defects)\n4. Refund processed within 5-7 business days\n\n**Refund Method:**\n• Returned to original payment method\n• Mobile Money refunds: within 24 hours\n• Credit card refunds: 5-7 business days\n\nNeed to request a refund?`,
+            message: `💰 **Refund Policy:**\n\n**When You Get a Refund:**\n✅ Product defective on arrival\n✅ Wrong item shipped\n✅ Item not as described\n✅ Return within 30 days (unused)\n\n**Refund Process:**\n1. Contact us: support@keysight-tech.github.io/fordips-tech\n2. Provide order number and reason\n3. Return the item (we cover shipping for defects)\n4. Refund processed within 5-7 business days\n\n**Refund Method:**\n• Returned to original payment method\n• Mobile Money refunds: within 24 hours\n• Credit card refunds: 5-7 business days\n\nNeed to request a refund?`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '📦 Track Order', action: 'track-order' }
@@ -1172,7 +1172,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleBusinessHours() {
         return {
-            message: `🕐 **Business Hours:**\n\n**Online Store:**\n🌐 Open 24/7 - Shop anytime!\n\n**Customer Support:**\n📞 Monday - Saturday\n🕐 9:00 AM - 6:00 PM EST (USA)\n🕐 3:00 PM - 12:00 AM WAT (Cameroon)\n\n**Sunday:**\n📧 Email only: support@bravesgadget.com\n\n**Response Times:**\n• Live Chat: Instant (during hours)\n• Email: Within 24 hours\n• Phone: Immediate (during hours)\n\nNeed help now?`,
+            message: `🕐 **Business Hours:**\n\n**Online Store:**\n🌐 Open 24/7 - Shop anytime!\n\n**Customer Support:**\n📞 Monday - Saturday\n🕐 9:00 AM - 6:00 PM EST (USA)\n🕐 3:00 PM - 12:00 AM WAT (Cameroon)\n\n**Sunday:**\n📧 Email only: support@keysight-tech.github.io/fordips-tech\n\n**Response Times:**\n• Live Chat: Instant (during hours)\n• Email: Within 24 hours\n• Phone: Immediate (during hours)\n\nNeed help now?`,
             actions: [
                 { label: '📞 Contact Us', action: 'contact' },
                 { label: '🛍️ Browse Products', action: 'browse' }
@@ -1182,7 +1182,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleTechnicalSupport() {
         return {
-            message: `🔧 **Technical Support:**\n\nI'm sorry you're experiencing issues! Let's fix it:\n\n**Common Issues:**\n1️⃣ **Can't add to cart** - Try refreshing the page\n2️⃣ **Checkout not working** - Clear browser cache\n3️⃣ **Payment failed** - Check card details or try different method\n4️⃣ **Images not loading** - Check internet connection\n\n**Need More Help?**\n📧 Email: support@bravesgadget.com\n📞 Call: (667) 256-3680 (USA)\n📞 Call: +237 678 123 456 (Cameroon)\n\nPlease describe your issue and I'll help you solve it!`,
+            message: `🔧 **Technical Support:**\n\nI'm sorry you're experiencing issues! Let's fix it:\n\n**Common Issues:**\n1️⃣ **Can't add to cart** - Try refreshing the page\n2️⃣ **Checkout not working** - Clear browser cache\n3️⃣ **Payment failed** - Check card details or try different method\n4️⃣ **Images not loading** - Check internet connection\n\n**Need More Help?**\n📧 Email: support@keysight-tech.github.io/fordips-tech\n📞 Call: (667) 256-3680 (USA)\n📞 Call: +237 678 123 456 (Cameroon)\n\nPlease describe your issue and I'll help you solve it!`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '🔄 Refresh Page', action: 'refresh' }
@@ -1192,7 +1192,7 @@ Please enter your order number (format: FT123456789) and I'll look it up for you
 
     handleComplaint() {
         return {
-            message: `😔 **We're Sorry!**\n\nYour satisfaction is our priority. I want to help resolve your concern immediately.\n\n**How to Report:**\n📧 Email: support@bravesgadget.com\n📞 Phone: (667) 256-3680 (USA)\n📞 Phone: +237 678 123 456 (Cameroon)\n\n**Please Include:**\n• Your order number (if applicable)\n• Description of the issue\n• Any photos (if relevant)\n\n**We Promise:**\n✅ Response within 24 hours\n✅ Fair resolution\n✅ Your satisfaction guaranteed\n\nWhat specific issue would you like to report?`,
+            message: `😔 **We're Sorry!**\n\nYour satisfaction is our priority. I want to help resolve your concern immediately.\n\n**How to Report:**\n📧 Email: support@keysight-tech.github.io/fordips-tech\n📞 Phone: (667) 256-3680 (USA)\n📞 Phone: +237 678 123 456 (Cameroon)\n\n**Please Include:**\n• Your order number (if applicable)\n• Description of the issue\n• Any photos (if relevant)\n\n**We Promise:**\n✅ Response within 24 hours\n✅ Fair resolution\n✅ Your satisfaction guaranteed\n\nWhat specific issue would you like to report?`,
             actions: [
                 { label: '📞 Contact Support', action: 'contact' },
                 { label: '📦 Check My Order', action: 'track-order' }
@@ -1343,7 +1343,7 @@ Buea, South West Region
 📞 +237 678 123 456
 
 🌐 **Online Store:** Open 24/7
-📧 Email: support@bravesgadget.com
+📧 Email: support@keysight-tech.github.io/fordips-tech
 
 We offer FREE worldwide shipping! 🚚`,
             actions: [
@@ -1363,7 +1363,7 @@ We offer FREE worldwide shipping! 🚚`,
 • Cameroon: +237 678 123 456
 
 **Email:**
-• support@bravesgadget.com
+• support@keysight-tech.github.io/fordips-tech
 
 **Social Media:**
 • Facebook: BravesGadget LLC

@@ -136,7 +136,7 @@ Visit these pages on your live site:
 
 ### 3. Configure Domain (Optional)
 
-If you have a custom domain (e.g., bravesgadget.com):
+If you have a custom domain (e.g., keysight-tech.github.io/fordips-tech):
 
 **For GitHub Pages:**
 1. In repository Settings → Pages

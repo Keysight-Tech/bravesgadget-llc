@@ -52,7 +52,7 @@ SELECT * FROM profiles WHERE is_admin = true;
 After setting admin privileges:
 
 1. **GitHub Pages URL**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
-2. **Custom Domain URL**: https://bravesgadget.com/admin.html (once DNS is configured)
+2. **Custom Domain URL**: https://keysight-tech.github.io/fordips-tech/admin.html (once DNS is configured)
 
 The admin panel will automatically:
 - Check if you're logged in
@@ -104,15 +104,15 @@ Once logged in as admin, you can:
 
 ### Main Site
 - **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/
-- **Custom Domain**: https://bravesgadget.com/ (once DNS configured)
+- **Custom Domain**: https://keysight-tech.github.io/fordips-tech/ (once DNS configured)
 
 ### Admin Panel
 - **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/admin.html
-- **Custom Domain**: https://bravesgadget.com/admin.html
+- **Custom Domain**: https://keysight-tech.github.io/fordips-tech/admin.html
 
 ### My Account (User Dashboard)
 - **GitHub Pages**: https://keysight-tech.github.io/bravesgadget-llc/my-account.html
-- **Custom Domain**: https://bravesgadget.com/my-account.html
+- **Custom Domain**: https://keysight-tech.github.io/fordips-tech/my-account.html
 
 ## ✅ Testing Checklist
 

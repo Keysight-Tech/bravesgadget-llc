@@ -25,7 +25,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'WELCOME TO',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Innovating the Future of Technology',
         heroBadge: 'NEW ARRIVAL',
         heroTitle1: 'iPhone 17',
@@ -385,7 +385,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'مرحباً بك في',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'ابتكار مستقبل التكنولوجيا',
         heroBadge: 'وصول جديد',
         heroTitle1: 'iPhone 17',
@@ -713,7 +713,7 @@ const translations = {
 
         // Hero
         heroWelcome: '欢迎来到',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: '创新科技未来',
         heroBadge: '新品上市',
         heroTitle1: 'iPhone 17',
@@ -1041,7 +1041,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'BIENVENUE CHEZ',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Innover l\'avenir de la technologie',
         heroBadge: 'NOUVELLE ARRIVÉE',
         heroTitle1: 'iPhone 17',
@@ -1369,7 +1369,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'BIENVENIDO A',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Innovando el futuro de la tecnología',
         heroBadge: 'NUEVA LLEGADA',
         heroTitle1: 'iPhone 17',
@@ -1697,7 +1697,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'में आपका स्वागत है',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'प्रौद्योगिकी के भविष्य को नया रूप देना',
         heroBadge: 'नया आगमन',
         heroTitle1: 'iPhone 17',
@@ -2025,7 +2025,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'WELCOME TO',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'We Dey Make Technology Future Better',
         heroBadge: 'NEW THING WEY DON LAND',
         heroTitle1: 'iPhone 17',
@@ -2353,7 +2353,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'MIYƐMBƐ NÁ',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Ké yà kɛ technologie ya efúl esúsú',
         heroBadge: 'EFÚL ESÚ',
         heroTitle1: 'iPhone 17',
@@ -2613,7 +2613,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'NJÌNƏ̀ Á',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Kɨ́làŋ technology yi kibàŋ kimòòsɨ́',
         heroBadge: 'WIRI WISÚÙ',
         heroTitle1: 'iPhone 17',
@@ -2905,7 +2905,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'MIYƐ́MBƐ́ NÁ',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Kɛ́ɛ̀ làŋ technology i nsúú',
         heroBadge: 'IKƐT I NSÚÚ',
         heroTitle1: 'iPhone 17',
@@ -3197,7 +3197,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'LÓNGÓNÍ NÁ',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Kɛ́ làngò technology i súsú',
         heroBadge: 'LWÁLÒ LWÁ SÚSÚ',
         heroTitle1: 'iPhone 17',
@@ -3489,7 +3489,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'NJƐ̀MBƐ́ NÁ',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Kɛ́ làng technology i súsú',
         heroBadge: 'BÌKƐ̀T BÌ SÚSÚ',
         heroTitle1: 'iPhone 17',
@@ -3781,7 +3781,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'NJƐ̀MBƐ́ NÁ',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Kɛ́ làŋ technology i súsú',
         heroBadge: 'ÌKƐ̀T Ì SÚSÚ',
         heroTitle1: 'iPhone 17',
@@ -4073,7 +4073,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'WILLKOMMEN BEI',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Innovation der Zukunft der Technologie',
         heroBadge: 'NEU EINGETROFFEN',
         heroTitle1: 'iPhone 17',
@@ -4433,7 +4433,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'BENVENUTO IN',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Innovare il futuro della tecnologia',
         heroBadge: 'NUOVO ARRIVO',
         heroTitle1: 'iPhone 17',
@@ -4725,7 +4725,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'SIYAKWAMUKELA KU',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Ukusungula ikusasa lobuchwepheshe',
         heroBadge: 'OKUFIKE OKUSHA',
         heroTitle1: 'iPhone 17',
@@ -5017,7 +5017,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'BEM-VINDO AO',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Inovando o Futuro da Tecnologia',
         heroBadge: 'NOVA CHEGADA',
         heroTitle1: 'iPhone 17',
@@ -5272,7 +5272,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'ようこそ',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'テクノロジーの未来を革新する',
         heroBadge: '新着',
         heroTitle1: 'iPhone 17',
@@ -5527,7 +5527,7 @@ const translations = {
 
         // Hero
         heroWelcome: '환영합니다',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: '기술의 미래를 혁신하다',
         heroBadge: '신제품',
         heroTitle1: 'iPhone 17',
@@ -5800,7 +5800,7 @@ const translations = {
 
         // Hero
         heroWelcome: 'ДОБРО ПОЖАЛОВАТЬ В',
-        heroBrand: "FORDIP'S TECH LLC",
+        heroBrand: "BRAVESGADGET LLC",
         heroSubtitle: 'Инновации будущего технологий',
         heroBadge: 'НОВИНКА',
         heroTitle1: 'iPhone 17',
